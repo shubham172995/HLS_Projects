@@ -1,0 +1,226 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../.settings/test.cpp in debug mode
+   Compiling ../../../.settings/custom.cpp in debug mode
+   Generating csim.exe
+
+        SystemC 2.3.1-Accellera --- Mar  5 2018 14:23:08
+        Copyright (c) 1996-2014 by all Contributors,
+        ALL RIGHTS RESERVED
+
+Info: (I804) /IEEE_Std_1666/deprecated: 
+    sc_clock(const char*, double, double, double, bool)
+    is deprecated use a form that includes sc_time or
+    sc_time_unit
+Second Counter 2 ns -> Counter Value = 1
+First Counter 4 ns -> Counter Value = 1
+Second Counter 4 ns -> Counter Value = 2
+Second Counter 6 ns -> Counter Value = 3
+First Counter 8 ns -> Counter Value = 2
+Second Counter 8 ns -> Counter Value = 4
+Second Counter 10 ns -> Counter Value = 5
+First Counter 12 ns -> Counter Value = 3
+Second Counter 12 ns -> Counter Value = 6
+Second Counter 14 ns -> Counter Value = 7
+First Counter 16 ns -> Counter Value = 4
+Second Counter 16 ns -> Counter Value = 8
+Second Counter 18 ns -> Counter Value = 9
+First Counter 20 ns -> Counter Value = 5
+Second Counter 20 ns -> Counter Value = 10
+Second Counter 22 ns -> Counter Value = 11
+First Counter 24 ns -> Counter Value = 6
+Second Counter 24 ns -> Counter Value = 12
+Second Counter 26 ns -> Counter Value = 13
+First Counter 28 ns -> Counter Value = 7
+Second Counter 28 ns -> Counter Value = 14
+Second Counter 30 ns -> Counter Value = 15
+First Counter 32 ns -> Counter Value = 8
+Second Counter 32 ns -> Counter Value = 0
+Second Counter 34 ns -> Counter Value = 1
+First Counter 36 ns -> Counter Value = 9
+Second Counter 36 ns -> Counter Value = 2
+Second Counter 38 ns -> Counter Value = 3
+First Counter 40 ns -> Counter Value = 10
+Second Counter 40 ns -> Counter Value = 4
+Second Counter 42 ns -> Counter Value = 5
+First Counter 44 ns -> Counter Value = 11
+Second Counter 44 ns -> Counter Value = 6
+Second Counter 46 ns -> Counter Value = 7
+First Counter 48 ns -> Counter Value = 12
+Second Counter 48 ns -> Counter Value = 8
+Second Counter 50 ns -> Counter Value = 9
+First Counter 52 ns -> Counter Value = 13
+Second Counter 52 ns -> Counter Value = 10
+Second Counter 54 ns -> Counter Value = 11
+First Counter 56 ns -> Counter Value = 14
+Second Counter 56 ns -> Counter Value = 12
+Second Counter 58 ns -> Counter Value = 13
+First Counter 60 ns -> Counter Value = 15
+Second Counter 60 ns -> Counter Value = 14
+Second Counter 62 ns -> Counter Value = 15
+First Counter 64 ns -> Counter Value = 0
+Second Counter 64 ns -> Counter Value = 0
+Second Counter 66 ns -> Counter Value = 1
+First Counter 68 ns -> Counter Value = 1
+Second Counter 68 ns -> Counter Value = 2
+Second Counter 70 ns -> Counter Value = 3
+First Counter 72 ns -> Counter Value = 2
+Second Counter 72 ns -> Counter Value = 4
+Second Counter 74 ns -> Counter Value = 5
+First Counter 76 ns -> Counter Value = 3
+Second Counter 76 ns -> Counter Value = 6
+Second Counter 78 ns -> Counter Value = 7
+First Counter 80 ns -> Counter Value = 4
+Second Counter 80 ns -> Counter Value = 8
+Second Counter 82 ns -> Counter Value = 9
+First Counter 84 ns -> Counter Value = 5
+Second Counter 84 ns -> Counter Value = 10
+Second Counter 86 ns -> Counter Value = 11
+First Counter 88 ns -> Counter Value = 6
+Second Counter 88 ns -> Counter Value = 12
+Second Counter 90 ns -> Counter Value = 13
+First Counter 92 ns -> Counter Value = 7
+Second Counter 92 ns -> Counter Value = 14
+Second Counter 94 ns -> Counter Value = 15
+First Counter 96 ns -> Counter Value = 8
+Second Counter 96 ns -> Counter Value = 0
+Second Counter 98 ns -> Counter Value = 1
+First Counter 100 ns -> Counter Value = 9
+Second Counter 100 ns -> Counter Value = 2
+Second Counter 102 ns -> Counter Value = 3
+First Counter 104 ns -> Counter Value = 10
+Second Counter 104 ns -> Counter Value = 4
+Second Counter 106 ns -> Counter Value = 5
+First Counter 108 ns -> Counter Value = 11
+Second Counter 108 ns -> Counter Value = 6
+Second Counter 110 ns -> Counter Value = 7
+First Counter 112 ns -> Counter Value = 12
+Second Counter 112 ns -> Counter Value = 8
+Second Counter 114 ns -> Counter Value = 9
+First Counter 116 ns -> Counter Value = 13
+Second Counter 116 ns -> Counter Value = 10
+Second Counter 118 ns -> Counter Value = 11
+First Counter 120 ns -> Counter Value = 14
+Second Counter 120 ns -> Counter Value = 12
+Second Counter 122 ns -> Counter Value = 13
+First Counter 124 ns -> Counter Value = 15
+Second Counter 124 ns -> Counter Value = 14
+Second Counter 126 ns -> Counter Value = 15
+First Counter 128 ns -> Counter Value = 0
+Second Counter 128 ns -> Counter Value = 0
+Second Counter 130 ns -> Counter Value = 1
+First Counter 132 ns -> Counter Value = 1
+Second Counter 132 ns -> Counter Value = 2
+Second Counter 134 ns -> Counter Value = 3
+First Counter 136 ns -> Counter Value = 2
+Second Counter 136 ns -> Counter Value = 4
+Second Counter 138 ns -> Counter Value = 5
+First Counter 140 ns -> Counter Value = 3
+Second Counter 140 ns -> Counter Value = 6
+Second Counter 142 ns -> Counter Value = 7
+First Counter 144 ns -> Counter Value = 4
+Second Counter 144 ns -> Counter Value = 8
+Second Counter 146 ns -> Counter Value = 9
+First Counter 148 ns -> Counter Value = 5
+Second Counter 148 ns -> Counter Value = 10
+Second Counter 150 ns -> Counter Value = 11
+First Counter 152 ns -> Counter Value = 6
+Second Counter 152 ns -> Counter Value = 12
+Second Counter 154 ns -> Counter Value = 13
+First Counter 156 ns -> Counter Value = 7
+Second Counter 156 ns -> Counter Value = 14
+Second Counter 158 ns -> Counter Value = 15
+First Counter 160 ns -> Counter Value = 8
+Second Counter 160 ns -> Counter Value = 0
+Second Counter 162 ns -> Counter Value = 1
+First Counter 164 ns -> Counter Value = 9
+Second Counter 164 ns -> Counter Value = 2
+Second Counter 166 ns -> Counter Value = 3
+First Counter 168 ns -> Counter Value = 10
+Second Counter 168 ns -> Counter Value = 4
+Second Counter 170 ns -> Counter Value = 5
+First Counter 172 ns -> Counter Value = 11
+Second Counter 172 ns -> Counter Value = 6
+Second Counter 174 ns -> Counter Value = 7
+First Counter 176 ns -> Counter Value = 12
+Second Counter 176 ns -> Counter Value = 8
+Second Counter 178 ns -> Counter Value = 9
+First Counter 180 ns -> Counter Value = 13
+Second Counter 180 ns -> Counter Value = 10
+Second Counter 182 ns -> Counter Value = 11
+First Counter 184 ns -> Counter Value = 14
+Second Counter 184 ns -> Counter Value = 12
+Second Counter 186 ns -> Counter Value = 13
+First Counter 188 ns -> Counter Value = 15
+Second Counter 188 ns -> Counter Value = 14
+Second Counter 190 ns -> Counter Value = 15
+First Counter 192 ns -> Counter Value = 0
+Second Counter 192 ns -> Counter Value = 0
+Second Counter 194 ns -> Counter Value = 1
+First Counter 196 ns -> Counter Value = 1
+Second Counter 196 ns -> Counter Value = 2
+Second Counter 198 ns -> Counter Value = 3
+First Counter 200 ns -> Counter Value = 2
+Second Counter 200 ns -> Counter Value = 4
+Second Counter 202 ns -> Counter Value = 5
+First Counter 204 ns -> Counter Value = 3
+First Counter 208 ns -> Counter Value = 4
+First Counter 212 ns -> Counter Value = 5
+First Counter 216 ns -> Counter Value = 6
+First Counter 220 ns -> Counter Value = 7
+First Counter 224 ns -> Counter Value = 8
+First Counter 228 ns -> Counter Value = 9
+First Counter 232 ns -> Counter Value = 10
+First Counter 236 ns -> Counter Value = 11
+First Counter 240 ns -> Counter Value = 12
+First Counter 244 ns -> Counter Value = 13
+First Counter 248 ns -> Counter Value = 14
+First Counter 252 ns -> Counter Value = 15
+First Counter 256 ns -> Counter Value = 0
+First Counter 260 ns -> Counter Value = 1
+First Counter 264 ns -> Counter Value = 2
+First Counter 268 ns -> Counter Value = 3
+First Counter 272 ns -> Counter Value = 4
+First Counter 276 ns -> Counter Value = 5
+First Counter 280 ns -> Counter Value = 6
+First Counter 284 ns -> Counter Value = 7
+First Counter 288 ns -> Counter Value = 8
+First Counter 292 ns -> Counter Value = 9
+First Counter 296 ns -> Counter Value = 10
+First Counter 300 ns -> Counter Value = 11
+First Counter 304 ns -> Counter Value = 12
+First Counter 308 ns -> Counter Value = 13
+First Counter 312 ns -> Counter Value = 14
+First Counter 316 ns -> Counter Value = 15
+First Counter 320 ns -> Counter Value = 0
+First Counter 324 ns -> Counter Value = 1
+First Counter 328 ns -> Counter Value = 2
+First Counter 332 ns -> Counter Value = 3
+First Counter 336 ns -> Counter Value = 4
+First Counter 340 ns -> Counter Value = 5
+First Counter 344 ns -> Counter Value = 6
+First Counter 348 ns -> Counter Value = 7
+First Counter 352 ns -> Counter Value = 8
+First Counter 356 ns -> Counter Value = 9
+First Counter 360 ns -> Counter Value = 10
+First Counter 364 ns -> Counter Value = 11
+First Counter 368 ns -> Counter Value = 12
+First Counter 372 ns -> Counter Value = 13
+First Counter 376 ns -> Counter Value = 14
+First Counter 380 ns -> Counter Value = 15
+First Counter 384 ns -> Counter Value = 0
+First Counter 388 ns -> Counter Value = 1
+First Counter 392 ns -> Counter Value = 2
+First Counter 396 ns -> Counter Value = 3
+First Counter 400 ns -> Counter Value = 4
+First Counter 404 ns -> Counter Value = 5
+
+Info: (I804) /IEEE_Std_1666/deprecated: You can turn off warnings about
+             IEEE 1666 deprecated features by placing this method call
+             as the first statement in your sc_main() function:
+
+  sc_core::sc_report_handler::set_actions( "/IEEE_Std_1666/deprecated",
+                                           sc_core::SC_DO_NOTHING );
+
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

@@ -1,0 +1,5 @@
+   Build using "/home/shubham/Xilinx2018.3/Vivado/2018.3/tps/lnx64/gcc-6.2.0/bin/g++"
+   Compiling apatb_PutValue.cpp
+   Compiling axilitepolar.cpp_pre.cpp.tb.cpp
+   Compiling test_core.cpp_pre.cpp.tb.cpp
+   Generating cosim.tv.exe

@@ -1,0 +1,144 @@
+
+
+================================================================
+== Vivado HLS Report for 'first_counter_increment'
+================================================================
+* Date:           Tue Jan 28 15:33:10 2020
+
+* Version:        2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)
+* Project:        CustomClocks2
+* Solution:       solution1
+* Product family: zynquplus
+* Target device:  xczu9eg-ffvb1156-2-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|     0.797|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+---------+
+    |  Latency  |  Interval | Pipeline|
+    | min | max | min | max |   Type  |
+    +-----+-----+-----+-----+---------+
+    |    2|    2|    2|    2|   none  |
+    +-----+-----+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+        |          |  Latency  | Iteration|  Initiation Interval  | Trip |          |
+        | Loop Name| min | max |  Latency |  achieved |   target  | Count| Pipelined|
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+        |- Loop 1  |    1|    1|         1|          -|          -|  inf |    no    |
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 0
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 2
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+	2  / true
+2 --> 
+	2  / true
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 0.00>
+ST_1 : Operation 3 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i1* %clock), !map !187"   --->   Operation 3 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 4 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i1* %reset), !map !191"   --->   Operation 4 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 5 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i1* %enable), !map !195"   --->   Operation 5 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i4* %out_counter), !map !199"   --->   Operation 6 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i4* %first_counter_count_V), !map !203"   --->   Operation 7 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecPort([14 x i8]* @p_str17, i32 3, [5 x i8]* @p_str20, [6 x i8]* @p_str19, i32 0, i32 0, i1* %clock) nounwind" [/home/shubham/HLS_Exercises/CustomClocks2/counter1.h:13]   --->   Operation 8 'specport' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecPort([14 x i8]* @p_str17, i32 0, [7 x i8]* @p_str6, [6 x i8]* @p_str9, i32 0, i32 0, i1* %reset) nounwind" [/home/shubham/HLS_Exercises/CustomClocks2/counter1.h:14]   --->   Operation 9 'specport' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecPort([14 x i8]* @p_str17, i32 0, [7 x i8]* @p_str6, [7 x i8]* @p_str10, i32 0, i32 0, i1* %enable) nounwind" [/home/shubham/HLS_Exercises/CustomClocks2/counter1.h:15]   --->   Operation 10 'specport' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecPort([14 x i8]* @p_str17, i32 1, [13 x i8]* @p_str11, [12 x i8]* @p_str21, i32 0, i32 0, i4* %out_counter) nounwind" [/home/shubham/HLS_Exercises/CustomClocks2/counter1.h:16]   --->   Operation 11 'specport' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecProcessDef([14 x i8]* @p_str17, i32 2, [10 x i8]* @p_str18) nounwind" [/home/shubham/HLS_Exercises/CustomClocks2/counter1.h:17]   --->   Operation 12 'specprocessdef' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%tmp_1 = call i32 (...)* @_ssdm_op_SpecRegionBegin([15 x i8]* @p_str23)" [/home/shubham/HLS_Exercises/CustomClocks2/counter1.h:17]   --->   Operation 13 'specregionbegin' 'tmp_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecProtocol(i32 1, [1 x i8]* @p_str24) nounwind" [/home/shubham/HLS_Exercises/CustomClocks2/counter1.h:17]   --->   Operation 14 'specprotocol' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%p_ssdm_reset_v = call i32 (...)* @_ssdm_op_SpecStateBegin(i32 0, i32 0, i32 1) nounwind" [/home/shubham/HLS_Exercises/CustomClocks2/counter1.h:17]   --->   Operation 15 'specstatebegin' 'p_ssdm_reset_v' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 16 [1/1] (0.00ns)   --->   "%empty = call i32 (...)* @_ssdm_op_SpecStateEnd(i32 %p_ssdm_reset_v) nounwind" [/home/shubham/HLS_Exercises/CustomClocks2/counter1.h:23]   --->   Operation 16 'specstateend' 'empty' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%empty_2 = call i32 (...)* @_ssdm_op_SpecRegionEnd([15 x i8]* @p_str23, i32 %tmp_1)" [/home/shubham/HLS_Exercises/CustomClocks2/counter1.h:23]   --->   Operation 17 'specregionend' 'empty_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 18 [1/1] (0.00ns)   --->   "br label %_ZN7_ap_sc_7sc_core4waitEi.exit" [/home/shubham/HLS_Exercises/CustomClocks2/counter1.h:23]   --->   Operation 18 'br' <Predicate = true> <Delay = 0.00>
+
+State 2 <SV = 1> <Delay = 0.79>
+ST_2 : Operation 19 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_Wait(i32 1) nounwind" [/home/shubham/HLS_Exercises/CustomClocks2/counter1.h:18]   --->   Operation 19 'wait' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 20 [1/1] (0.00ns)   --->   "%tmp = call i1 @_ssdm_op_Read.ap_auto.volatile.i1P(i1* %enable)" [/home/shubham/HLS_Exercises/CustomClocks2/counter1.h:24]   --->   Operation 20 'read' 'tmp' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 21 [1/1] (0.00ns)   --->   "br i1 %tmp, label %1, label %_ZN7_ap_sc_7sc_core4waitEi.exit._crit_edge" [/home/shubham/HLS_Exercises/CustomClocks2/counter1.h:24]   --->   Operation 21 'br' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 22 [1/1] (0.00ns)   --->   "%first_counter_count_s = call i4 @_ssdm_op_Read.ap_auto.i4P(i4* %first_counter_count_V)" [/home/shubham/HLS_Exercises/CustomClocks2/counter1.h:25]   --->   Operation 22 'read' 'first_counter_count_s' <Predicate = (tmp)> <Delay = 0.00>
+ST_2 : Operation 23 [1/1] (0.79ns)   --->   "%v_V = add i4 %first_counter_count_s, 1" [/home/shubham/HLS_Exercises/CustomClocks2/counter1.h:25]   --->   Operation 23 'add' 'v_V' <Predicate = (tmp)> <Delay = 0.79> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.79> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 24 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i4P(i4* %first_counter_count_V, i4 %v_V)" [/home/shubham/HLS_Exercises/CustomClocks2/counter1.h:25]   --->   Operation 24 'write' <Predicate = (tmp)> <Delay = 0.00>
+ST_2 : Operation 25 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.volatile.i4P(i4* %out_counter, i4 %v_V)" [/home/shubham/HLS_Exercises/CustomClocks2/counter1.h:26]   --->   Operation 25 'write' <Predicate = (tmp)> <Delay = 0.00>
+ST_2 : Operation 26 [1/1] (0.00ns)   --->   "br label %_ZN7_ap_sc_7sc_core4waitEi.exit._crit_edge" [/home/shubham/HLS_Exercises/CustomClocks2/counter1.h:27]   --->   Operation 26 'br' <Predicate = (tmp)> <Delay = 0.00>
+ST_2 : Operation 27 [1/1] (0.00ns)   --->   "br label %_ZN7_ap_sc_7sc_core4waitEi.exit" [/home/shubham/HLS_Exercises/CustomClocks2/counter1.h:28]   --->   Operation 27 'br' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 1.25ns.
+
+ <State 1>: 0ns
+The critical path consists of the following:
+
+ <State 2>: 0.797ns
+The critical path consists of the following:
+	wire read on port 'first_counter_count_V' (/home/shubham/HLS_Exercises/CustomClocks2/counter1.h:25) [27]  (0 ns)
+	'add' operation ('v.V', /home/shubham/HLS_Exercises/CustomClocks2/counter1.h:25) [28]  (0.797 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Reset signal 'reset' was already created" projectName="CustomClocks2" solutionName="solution1" date="2020-01-28T15:33:11.136+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Reset signal 'reset' was already created" projectName="CustomClocks2" solutionName="solution1" date="2020-01-28T15:33:11.133+0530" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Found reading to uninitialized signal/variable 'first_counter_count_V'('first_counter_count_s', /home/shubham/HLS_Exercises/CustomClocks2/counter1.h:25), the signal/variable should be written or reset firstly, or it may introduce RTL simulation mismatch." projectName="CustomClocks2" solutionName="solution1" date="2020-01-28T15:33:10.712+0530" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'first_counter_count_V' has no reset." projectName="CustomClocks2" solutionName="solution1" date="2020-01-28T15:33:10.709+0530" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Port 'out_counter' has no reset." projectName="CustomClocks2" solutionName="solution1" date="2020-01-28T15:33:10.707+0530" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Found a duplicated SystemC module 'first_counter'." projectName="CustomClocks2" solutionName="solution1" date="2020-01-28T15:33:10.705+0530" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-561] 'Loop-1' (/home/shubham/HLS_Exercises/CustomClocks2/counter1.h:24:7) in function 'first_counter::increment' is an infinite loop." projectName="CustomClocks2" solutionName="solution1" date="2020-01-28T15:33:10.700+0530" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

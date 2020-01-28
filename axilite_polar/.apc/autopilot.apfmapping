@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="axilitepolar.cpp" path="/home/shubham/HLS_Exercises/axilite_polar/.settings/axilitepolar.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="test_core.cpp" path="/home/shubham/HLS_Exercises/axilite_polar/test_core.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

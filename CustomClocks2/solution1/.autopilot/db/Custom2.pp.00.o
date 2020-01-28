@@ -1,0 +1,252 @@
+	.file	"CustomClocks2/.settings/Custom2.cpp"
+	.section	.text.startup,"ax",@progbits
+	.align	16, 0x90
+	.type	__cxx_global_var_init,@function
+__cxx_global_var_init:                  # @__cxx_global_var_init
+	.cfi_startproc
+# BB#0:
+	pushq	%rbp
+.Ltmp2:
+	.cfi_def_cfa_offset 16
+.Ltmp3:
+	.cfi_offset %rbp, -16
+	movq	%rsp, %rbp
+.Ltmp4:
+	.cfi_def_cfa_register %rbp
+	subq	$16, %rsp
+	leaq	_ZStL8__ioinit, %rdi
+	callq	_ZNSt8ios_base4InitC1Ev
+	leaq	_ZNSt8ios_base4InitD1Ev, %rdi
+	leaq	_ZStL8__ioinit, %rax
+	leaq	__dso_handle, %rdx
+	movq	%rax, %rsi
+	callq	__cxa_atexit
+	movl	%eax, -4(%rbp)          # 4-byte Spill
+	addq	$16, %rsp
+	popq	%rbp
+	ret
+.Ltmp5:
+	.size	__cxx_global_var_init, .Ltmp5-__cxx_global_var_init
+	.cfi_endproc
+
+	.section	.text._ZN7sc_core18sc_process_monitor6signalEPNS_17sc_thread_processEi,"axG",@progbits,_ZN7sc_core18sc_process_monitor6signalEPNS_17sc_thread_processEi,comdat
+	.weak	_ZN7sc_core18sc_process_monitor6signalEPNS_17sc_thread_processEi
+	.align	16, 0x90
+	.type	_ZN7sc_core18sc_process_monitor6signalEPNS_17sc_thread_processEi,@function
+_ZN7sc_core18sc_process_monitor6signalEPNS_17sc_thread_processEi: # @_ZN7sc_core18sc_process_monitor6signalEPNS_17sc_thread_processEi
+	.cfi_startproc
+# BB#0:
+	movq	%rdi, -8(%rsp)
+	movq	%rsi, -16(%rsp)
+	movl	%edx, -20(%rsp)
+	ret
+.Ltmp6:
+	.size	_ZN7sc_core18sc_process_monitor6signalEPNS_17sc_thread_processEi, .Ltmp6-_ZN7sc_core18sc_process_monitor6signalEPNS_17sc_thread_processEi
+	.cfi_endproc
+
+	.section	.text.startup,"ax",@progbits
+	.align	16, 0x90
+	.type	__cxx_global_var_init1,@function
+__cxx_global_var_init1:                 # @__cxx_global_var_init1
+	.cfi_startproc
+# BB#0:
+	pushq	%rbp
+.Ltmp9:
+	.cfi_def_cfa_offset 16
+.Ltmp10:
+	.cfi_offset %rbp, -16
+	movq	%rsp, %rbp
+.Ltmp11:
+	.cfi_def_cfa_register %rbp
+	subq	$16, %rsp
+	leaq	_ZN7sc_coreL17api_version_checkE, %rax
+	xorl	%esi, %esi
+	movl	$_ZN7sc_coreL17api_version_checkE, %edi
+	movq	%rax, -8(%rbp)          # 8-byte Spill
+	callq	_ZN7sc_core20sc_api_version_2_3_1IXadL_ZNS_34SC_DISABLE_VIRTUAL_BIND_UNDEFINED_EEEEC1ENS_16sc_writer_policyE
+	addq	$16, %rsp
+	popq	%rbp
+	ret
+.Ltmp12:
+	.size	__cxx_global_var_init1, .Ltmp12-__cxx_global_var_init1
+	.cfi_endproc
+
+	.section	.text._ZN7sc_core18sc_process_monitorD1Ev,"axG",@progbits,_ZN7sc_core18sc_process_monitorD1Ev,comdat
+	.weak	_ZN7sc_core18sc_process_monitorD1Ev
+	.align	16, 0x90
+	.type	_ZN7sc_core18sc_process_monitorD1Ev,@function
+_ZN7sc_core18sc_process_monitorD1Ev:    # @_ZN7sc_core18sc_process_monitorD1Ev
+	.cfi_startproc
+# BB#0:
+	pushq	%rbp
+.Ltmp15:
+	.cfi_def_cfa_offset 16
+.Ltmp16:
+	.cfi_offset %rbp, -16
+	movq	%rsp, %rbp
+.Ltmp17:
+	.cfi_def_cfa_register %rbp
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rdi
+	callq	_ZN7sc_core18sc_process_monitorD2Ev
+	addq	$16, %rsp
+	popq	%rbp
+	ret
+.Ltmp18:
+	.size	_ZN7sc_core18sc_process_monitorD1Ev, .Ltmp18-_ZN7sc_core18sc_process_monitorD1Ev
+	.cfi_endproc
+
+	.section	.text._ZN7sc_core18sc_process_monitorD0Ev,"axG",@progbits,_ZN7sc_core18sc_process_monitorD0Ev,comdat
+	.weak	_ZN7sc_core18sc_process_monitorD0Ev
+	.align	16, 0x90
+	.type	_ZN7sc_core18sc_process_monitorD0Ev,@function
+_ZN7sc_core18sc_process_monitorD0Ev:    # @_ZN7sc_core18sc_process_monitorD0Ev
+	.cfi_startproc
+	.cfi_personality 3, __gxx_personality_v0
+.Leh_func_begin4:
+	.cfi_lsda 3, .Lexception4
+# BB#0:
+	pushq	%rbp
+.Ltmp24:
+	.cfi_def_cfa_offset 16
+.Ltmp25:
+	.cfi_offset %rbp, -16
+	movq	%rsp, %rbp
+.Ltmp26:
+	.cfi_def_cfa_register %rbp
+	subq	$32, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	%rdi, %rax
+.Ltmp19:
+	movq	%rax, -32(%rbp)         # 8-byte Spill
+	callq	_ZN7sc_core18sc_process_monitorD1Ev
+.Ltmp20:
+	jmp	.LBB4_1
+.LBB4_1:
+	movq	-32(%rbp), %rax         # 8-byte Reload
+	movq	%rax, %rdi
+	callq	_ZdlPv
+	addq	$32, %rsp
+	popq	%rbp
+	ret
+.LBB4_2:
+.Ltmp21:
+	movl	%edx, %ecx
+	movq	%rax, -16(%rbp)
+	movl	%ecx, -20(%rbp)
+	movq	-32(%rbp), %rax         # 8-byte Reload
+	movq	%rax, %rdi
+	callq	_ZdlPv
+# BB#3:
+	movq	-16(%rbp), %rdi
+	callq	_Unwind_Resume
+.Ltmp27:
+	.size	_ZN7sc_core18sc_process_monitorD0Ev, .Ltmp27-_ZN7sc_core18sc_process_monitorD0Ev
+	.cfi_endproc
+.Leh_func_end4:
+	.section	.gcc_except_table,"a",@progbits
+	.align	4
+GCC_except_table4:
+.Lexception4:
+	.byte	255                     # @LPStart Encoding = omit
+	.byte	3                       # @TType Encoding = udata4
+	.asciz	 "\234"                 # @TType base offset
+	.byte	3                       # Call site Encoding = udata4
+	.byte	26                      # Call site table length
+.Lset0 = .Ltmp19-.Leh_func_begin4       # >> Call Site 1 <<
+	.long	.Lset0
+.Lset1 = .Ltmp20-.Ltmp19                #   Call between .Ltmp19 and .Ltmp20
+	.long	.Lset1
+.Lset2 = .Ltmp21-.Leh_func_begin4       #     jumps to .Ltmp21
+	.long	.Lset2
+	.byte	0                       #   On action: cleanup
+.Lset3 = .Ltmp20-.Leh_func_begin4       # >> Call Site 2 <<
+	.long	.Lset3
+.Lset4 = .Leh_func_end4-.Ltmp20         #   Call between .Ltmp20 and .Leh_func_end4
+	.long	.Lset4
+	.long	0                       #     has no landing pad
+	.byte	0                       #   On action: cleanup
+	.align	4
+
+	.section	.text._ZN7sc_core18sc_process_monitorD2Ev,"axG",@progbits,_ZN7sc_core18sc_process_monitorD2Ev,comdat
+	.weak	_ZN7sc_core18sc_process_monitorD2Ev
+	.align	16, 0x90
+	.type	_ZN7sc_core18sc_process_monitorD2Ev,@function
+_ZN7sc_core18sc_process_monitorD2Ev:    # @_ZN7sc_core18sc_process_monitorD2Ev
+	.cfi_startproc
+# BB#0:
+	movq	%rdi, -8(%rsp)
+	ret
+.Ltmp28:
+	.size	_ZN7sc_core18sc_process_monitorD2Ev, .Ltmp28-_ZN7sc_core18sc_process_monitorD2Ev
+	.cfi_endproc
+
+	.section	.text.startup,"ax",@progbits
+	.align	16, 0x90
+	.type	_GLOBAL__I_a,@function
+_GLOBAL__I_a:                           # @_GLOBAL__I_a
+	.cfi_startproc
+# BB#0:
+	pushq	%rbp
+.Ltmp31:
+	.cfi_def_cfa_offset 16
+.Ltmp32:
+	.cfi_offset %rbp, -16
+	movq	%rsp, %rbp
+.Ltmp33:
+	.cfi_def_cfa_register %rbp
+	callq	__cxx_global_var_init
+	callq	__cxx_global_var_init1
+	popq	%rbp
+	ret
+.Ltmp34:
+	.size	_GLOBAL__I_a, .Ltmp34-_GLOBAL__I_a
+	.cfi_endproc
+
+	.type	_ZStL8__ioinit,@object  # @_ZStL8__ioinit
+	.local	_ZStL8__ioinit
+	.comm	_ZStL8__ioinit,1,1
+	.type	_ZN7sc_coreL26PHASH_DEFAULT_REORDER_FLAGE,@object # @_ZN7sc_coreL26PHASH_DEFAULT_REORDER_FLAGE
+	.section	.rodata,"a",@progbits
+_ZN7sc_coreL26PHASH_DEFAULT_REORDER_FLAGE:
+	.byte	1                       # 0x1
+	.size	_ZN7sc_coreL26PHASH_DEFAULT_REORDER_FLAGE, 1
+
+	.type	_ZN7sc_coreL17api_version_checkE,@object # @_ZN7sc_coreL17api_version_checkE
+	.local	_ZN7sc_coreL17api_version_checkE
+	.comm	_ZN7sc_coreL17api_version_checkE,1,1
+	.type	_ZTVN7sc_core18sc_process_monitorE,@object # @_ZTVN7sc_core18sc_process_monitorE
+	.section	.rodata._ZTVN7sc_core18sc_process_monitorE,"aG",@progbits,_ZTVN7sc_core18sc_process_monitorE,comdat
+	.weak	_ZTVN7sc_core18sc_process_monitorE
+	.align	16
+_ZTVN7sc_core18sc_process_monitorE:
+	.quad	0
+	.quad	_ZTIN7sc_core18sc_process_monitorE
+	.quad	_ZN7sc_core18sc_process_monitorD1Ev
+	.quad	_ZN7sc_core18sc_process_monitorD0Ev
+	.quad	_ZN7sc_core18sc_process_monitor6signalEPNS_17sc_thread_processEi
+	.size	_ZTVN7sc_core18sc_process_monitorE, 40
+
+	.type	_ZTSN7sc_core18sc_process_monitorE,@object # @_ZTSN7sc_core18sc_process_monitorE
+	.section	.rodata._ZTSN7sc_core18sc_process_monitorE,"aG",@progbits,_ZTSN7sc_core18sc_process_monitorE,comdat
+	.weak	_ZTSN7sc_core18sc_process_monitorE
+	.align	16
+_ZTSN7sc_core18sc_process_monitorE:
+	.asciz	 "N7sc_core18sc_process_monitorE"
+	.size	_ZTSN7sc_core18sc_process_monitorE, 31
+
+	.type	_ZTIN7sc_core18sc_process_monitorE,@object # @_ZTIN7sc_core18sc_process_monitorE
+	.section	.rodata._ZTIN7sc_core18sc_process_monitorE,"aG",@progbits,_ZTIN7sc_core18sc_process_monitorE,comdat
+	.weak	_ZTIN7sc_core18sc_process_monitorE
+	.align	8
+_ZTIN7sc_core18sc_process_monitorE:
+	.quad	_ZTVN10__cxxabiv117__class_type_infoE+16
+	.quad	_ZTSN7sc_core18sc_process_monitorE
+	.size	_ZTIN7sc_core18sc_process_monitorE, 16
+
+	.section	.ctors,"aw",@progbits
+	.align	8
+	.quad	_GLOBAL__I_a
+
+	.section	".note.GNU-stack","",@progbits

@@ -1,0 +1,6 @@
+<annotationInfo>
+<item  id="28" filename="/home/shubham/HLS_Exercises/CustomClocks2/counter1.h" linenumber="25" name="v_V" contextFuncName="increment" moduleName="first_counter::increment" rtlName="v_V_fu_94_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="12" fileDirectory="/home/shubham/HLS_Exercises"&gt;&lt;\/item&gt;
+<item  id="25" filename="/home/shubham/HLS_Exercises/CustomClocks2/counter1.h" linenumber="41" name="" contextFuncName="first_counter" moduleName="first_counter" rtlName="grp_first_counter_increment_fu_50" latency="1" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="/home/shubham/HLS_Exercises"&gt;&lt;\/item&gt;
+<item  id="38" filename="/home/shubham/HLS_Exercises/CustomClocks2/counter1.h" linenumber="49" name="" contextFuncName="first_counter" moduleName="custom2" rtlName="grp_first_counter_fu_70" latency="1" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="/home/shubham/HLS_Exercises"><\/item>
+<item  id="39" filename="/home/shubham/HLS_Exercises/CustomClocks2/counter1.h" linenumber="49" name="" contextFuncName="first_counter" moduleName="custom2" rtlName="grp_first_counter_fu_86" latency="1" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="/home/shubham/HLS_Exercises"><\/item>
+</annotationInfo>

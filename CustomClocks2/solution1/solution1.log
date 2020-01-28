@@ -1,0 +1,181 @@
+==============================================================
+File generated on Tue Jan 28 13:49:24 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Tue Jan 28 13:50:11 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Tue Jan 28 13:51:07 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Tue Jan 28 13:52:02 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Tue Jan 28 13:53:15 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Tue Jan 28 13:55:25 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Tue Jan 28 14:07:14 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Tue Jan 28 14:11:13 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Tue Jan 28 15:22:16 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Tue Jan 28 15:26:33 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Tue Jan 28 15:32:48 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu9eg-ffvb1156-2-e'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'CustomClocks2/.settings/Custom2.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:55 ; elapsed = 00:00:22 . Memory (MB): peak = 437.957 ; gain = 0.090 ; free physical = 665 ; free virtual = 5274
+INFO: [HLS 200-10] Validating synthesis directives ...
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:55 ; elapsed = 00:00:22 . Memory (MB): peak = 437.957 ; gain = 0.090 ; free physical = 665 ; free virtual = 5274
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:55 ; elapsed = 00:00:22 . Memory (MB): peak = 438.125 ; gain = 0.258 ; free physical = 656 ; free virtual = 5267
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:55 ; elapsed = 00:00:22 . Memory (MB): peak = 438.125 ; gain = 0.258 ; free physical = 652 ; free virtual = 5263
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:56 ; elapsed = 00:00:23 . Memory (MB): peak = 565.867 ; gain = 128.000 ; free physical = 628 ; free virtual = 5240
+WARNING: [XFORM 203-561] 'Loop-1' (/home/shubham/HLS_Exercises/CustomClocks2/counter1.h:24:7) in function 'first_counter::increment' is an infinite loop.
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:56 ; elapsed = 00:00:23 . Memory (MB): peak = 565.867 ; gain = 128.000 ; free physical = 617 ; free virtual = 5229
+INFO: [HLS 200-10] Starting hardware synthesis ...
+WARNING: [SCA 200-202] Found a duplicated SystemC module 'first_counter'.
+INFO: [SCA 200-201] Elaborating SystemC module 'first_counter'.
+INFO: [SCA 200-201] Performing SystemC synthesis linting.
+INFO: [SCA 200-201] Analyzing ports and processes.
+INFO: [SCA 200-201] Found the clock port of process 'first_counter::increment': 'clock'.
+INFO: [SCA 200-201] Found the reset port of process 'first_counter::increment': 'reset'.
+WARNING: [SCA 200-202] Port 'out_counter' has no reset.
+WARNING: [SCA 200-202] Signal 'first_counter_count_V' has no reset.
+WARNING: [SCA 200-202] Found reading to uninitialized signal/variable 'first_counter_count_V'('first_counter_count_s', /home/shubham/HLS_Exercises/CustomClocks2/counter1.h:25), the signal/variable should be written or reset firstly, or it may introduce RTL simulation mismatch.
+INFO: [SCA 200-201] Elaborating SystemC module 'custom2'.
+INFO: [SCA 200-201] Analyzing the module hierarchy:
+INFO: [SCA 200-201] Contains sub-module: 'first_counter'
+INFO: [SCA 200-201] Contains sub-module: 'first_counter'
+INFO: [SCA 200-201] Performing SystemC synthesis linting.
+INFO: [SCA 200-201] Analyzing ports and processes.
+INFO: [HLS 200-10] Synthesizing SystemC module 'first_counter'
+INFO: [HLS 200-10] Found SystemC process: 'first_counter_increment' 
+INFO: [HLS 200-10] Synthesizing 'first_counter_increment' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'first_counter_increment' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 22.91 seconds; current allocated memory: 96.755 MB.
+INFO: [HLS 200-434] Only 0 loops out of a total 1 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.06 seconds; current allocated memory: 96.959 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'first_counter_increment' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'first_counter_increment'.
+INFO: [HLS 200-111]  Elapsed time: 0.03 seconds; current allocated memory: 97.127 MB.
+INFO: [HLS 200-10] Synthesizing 'first_counter' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'first_counter' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.05 seconds; current allocated memory: 97.519 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.01 seconds; current allocated memory: 97.585 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'first_counter' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'first_counter/clock' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'first_counter/reset' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'first_counter/enable' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'first_counter/out_counter' to 'ap_vld'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'first_counter'.
+INFO: [HLS 200-111]  Elapsed time: 0 seconds; current allocated memory: 97.681 MB.
+INFO: [HLS 200-10] Synthesizing SystemC module 'custom2'
+INFO: [HLS 200-10] Synthesizing 'custom2' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'custom2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.04 seconds; current allocated memory: 97.970 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.01 seconds; current allocated memory: 98.080 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'custom2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'custom2/clock1' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'custom2/clock2' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'custom2/reset' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'custom2/enable' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'custom2/out_counter1' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'custom2/out_counter2' to 'ap_vld'.
+WARNING: [RTGEN 206-101] Reset signal 'reset' was already created
+WARNING: [RTGEN 206-101] Reset signal 'reset' was already created
+INFO: [RTGEN 206-100] Finished creating RTL model for 'custom2'.
+INFO: [HLS 200-111]  Elapsed time: 0.02 seconds; current allocated memory: 98.212 MB.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:56 ; elapsed = 00:00:24 . Memory (MB): peak = 565.867 ; gain = 128.000 ; free physical = 591 ; free virtual = 5220
+INFO: [SYSC 207-301] Generating SystemC RTL for custom2.
+INFO: [VHDL 208-304] Generating VHDL RTL for custom2.
+INFO: [VLOG 209-307] Generating Verilog RTL for custom2.

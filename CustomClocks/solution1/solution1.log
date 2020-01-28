@@ -1,0 +1,2549 @@
+==============================================================
+File generated on Sat Jan 25 15:23:51 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 15:24:40 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 15:26:30 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 15:28:16 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 15:32:15 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 15:37:06 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 15:40:14 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 15:42:24 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 15:53:23 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 15:57:44 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 16:04:33 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 16:12:19 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 16:15:57 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 16:17:43 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 16:24:48 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 16:26:22 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 16:27:13 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 16:28:40 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 16:34:48 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 16:41:34 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 16:42:32 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 16:44:09 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 17:17:11 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 17:18:02 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 17:18:26 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 17:18:57 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 17:21:58 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 17:22:20 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 17:23:00 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 17:23:33 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 17:32:21 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 17:34:08 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 17:36:21 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu9eg-ffvb1156-2-e'
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'CustomClocks/.settings/custom.cpp' ... 
+ERROR: [HLS 200-70] Compilation errors found: In file included from CustomClocks/.settings/custom.cpp:1:
+CustomClocks/.settings/custom.cpp:83:2: error: use of undeclared identifier 'sc_clock'
+ sc_clock clock1("clock1", 4, 0.5);
+ ^
+CustomClocks/.settings/custom.cpp:84:2: error: use of undeclared identifier 'sc_clock'
+ sc_clock clock2("clock2", 2, 0.5);
+ ^
+CustomClocks/.settings/custom.cpp:97:12: error: use of undeclared identifier 'clock2'; did you mean 'clock'?
+ ob2.clock(clock2);
+           ^~~~~~
+           clock
+/usr/include/time.h:72:16: note: 'clock' declared here
+extern clock_t clock (void) throw ();
+               ^
+In file included from CustomClocks/.settings/custom.cpp:1:
+CustomClocks/.settings/custom.cpp:97:2: error: no matching function for call to object of type 'sc_in_clk' (aka 'sc_in<bool>')
+ ob2.clock(clock2);
+ ^~~~~~~~~
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:280:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_signal_in_if<bool> &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( IF& interface_ ) { bind(interface_); }
+                                                   ^
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:284:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_prim_channel &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( sc_prim_channel& ic__ ) { bind(ic__); }
+                                                   ^
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:286:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_port_b<_ap_sc_::sc_core::sc_signal_in_if<bool> > &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( sc_port_b& parent_ ) { bind(parent_); }
+                                                   ^
+In file included from CustomClocks/.settings/custom.cpp:1:
+CustomClocks/.settings/custom.cpp:103:12: error: use of undeclared identifier 'clock1'; did you mean 'clock'?
+ ob1.clock(clock1);
+           ^~~~~~
+           clock
+/usr/include/time.h:72:16: note: 'clock' declared here
+extern clock_t clock (void) throw ();
+               ^
+In file included from CustomClocks/.settings/custom.cpp:1:
+CustomClocks/.settings/custom.cpp:103:2: error: no matching function for call to object of type 'sc_in_clk' (aka 'sc_in<bool>')
+ ob1.clock(clock1);
+ ^~~~~~~~~
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:280:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_signal_in_if<bool> &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( IF& interface_ ) { bind(interface_); }
+                                                   ^
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:284:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_prim_channel &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( sc_prim_channel& ic__ ) { bind(ic__); }
+                                                   ^
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:286:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_port_b<_ap_sc_::sc_core::sc_signal_in_if<bool> > &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( sc_port_b& parent_ ) { bind(parent_); }
+                                                   ^
+In file included from CustomClocks/.settings/custom.cpp:1:
+CustomClocks/.settings/custom.cpp:109:17: error: use of undeclared identifier 'SC_NS'
+ sc_start(1000, SC_NS);
+                ^
+7 errors generated.
+==============================================================
+File generated on Sat Jan 25 17:40:15 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 17:44:01 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 17:46:19 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 17:48:20 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 17:49:02 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 17:49:44 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 17:50:32 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 17:53:16 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 17:56:07 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 17:59:51 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 18:01:27 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 18:03:17 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 18:04:38 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 18:05:36 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Sat Jan 25 18:14:11 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu9eg-ffvb1156-2-e'
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'CustomClocks/.settings/custom.cpp' ... 
+WARNING: [HLS 200-40] In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:1:
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/systemc.h:1:10: error: #include nested too deeply
+#include "ap_systemc.h"
+         ^
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:84:
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/systemc.h:1:10: error: #include nested too deeply
+#include "ap_systemc.h"
+         ^
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+CustomClocks/.settings/custom.cpp:1:10: error: #include nested too deeply
+#include <systemc.h>
+         ^
+CustomClocks/.settings/custom.cpp:84:10: error: #include nested too deeply
+#include <systemc.h>
+         ^
+CustomClocks/.settings/custom.cpp:85:10: error: #include nested too deeply
+#include "custom.cpp"
+         ^
+5 errors generated.
+==============================================================
+File generated on Sat Jan 25 18:18:16 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu9eg-ffvb1156-2-e'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'CustomClocks/.settings/custom.cpp' ... 
+WARNING: [HLS 200-40] In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:1:
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/systemc.h:1:10: error: #include nested too deeply
+#include "ap_systemc.h"
+         ^
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:84:
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/systemc.h:1:10: error: #include nested too deeply
+#include "ap_systemc.h"
+         ^
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+In file included from CustomClocks/.settings/custom.cpp:85:
+CustomClocks/.settings/custom.cpp:1:10: error: #include nested too deeply
+#include <systemc.h>
+         ^
+CustomClocks/.settings/custom.cpp:84:10: error: #include nested too deeply
+#include <systemc.h>
+         ^
+CustomClocks/.settings/custom.cpp:85:10: error: #include nested too deeply
+#include "custom.cpp"
+         ^
+5 errors generated.
+==============================================================
+File generated on Sat Jan 25 18:18:46 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu9eg-ffvb1156-2-e'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'CustomClocks/.settings/custom.cpp' ... 
+ERROR: [HLS 200-70] Compilation errors found: In file included from CustomClocks/.settings/custom.cpp:1:
+CustomClocks/.settings/custom.cpp:85:2: error: use of undeclared identifier 'sc_clock'
+ sc_clock clock1("clock1", 4, 0.5);
+ ^
+CustomClocks/.settings/custom.cpp:86:2: error: use of undeclared identifier 'sc_clock'
+ sc_clock clock2("clock2", 2, 0.5);
+ ^
+CustomClocks/.settings/custom.cpp:99:13: error: use of undeclared identifier 'clock2'; did you mean 'clock'?
+ ob2.clock1(clock2);
+            ^~~~~~
+            clock
+/usr/include/time.h:72:16: note: 'clock' declared here
+extern clock_t clock (void) throw ();
+               ^
+In file included from CustomClocks/.settings/custom.cpp:1:
+CustomClocks/.settings/custom.cpp:99:2: error: no matching function for call to object of type 'sc_in_clk' (aka 'sc_in<bool>')
+ ob2.clock1(clock2);
+ ^~~~~~~~~~
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:280:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_signal_in_if<bool> &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( IF& interface_ ) { bind(interface_); }
+                                                   ^
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:284:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_prim_channel &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( sc_prim_channel& ic__ ) { bind(ic__); }
+                                                   ^
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:286:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_port_b<_ap_sc_::sc_core::sc_signal_in_if<bool> > &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( sc_port_b& parent_ ) { bind(parent_); }
+                                                   ^
+In file included from CustomClocks/.settings/custom.cpp:1:
+CustomClocks/.settings/custom.cpp:105:12: error: use of undeclared identifier 'clock1'; did you mean 'clock'?
+ ob1.clock(clock1);
+           ^~~~~~
+           clock
+/usr/include/time.h:72:16: note: 'clock' declared here
+extern clock_t clock (void) throw ();
+               ^
+In file included from CustomClocks/.settings/custom.cpp:1:
+CustomClocks/.settings/custom.cpp:105:2: error: no matching function for call to object of type 'sc_in_clk' (aka 'sc_in<bool>')
+ ob1.clock(clock1);
+ ^~~~~~~~~
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:280:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_signal_in_if<bool> &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( IF& interface_ ) { bind(interface_); }
+                                                   ^
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:284:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_prim_channel &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( sc_prim_channel& ic__ ) { bind(ic__); }
+                                                   ^
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:286:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_port_b<_ap_sc_::sc_core::sc_signal_in_if<bool> > &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( sc_port_b& parent_ ) { bind(parent_); }
+                                                   ^
+In file included from CustomClocks/.settings/custom.cpp:1:
+CustomClocks/.settings/custom.cpp:111:17: error: use of undeclared identifier 'SC_NS'
+ sc_start(1000, SC_NS);
+                ^
+7 errors generated.
+==============================================================
+File generated on Mon Jan 27 12:08:38 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Mon Jan 27 12:12:17 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu9eg-ffvb1156-2-e'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'CustomClocks/.settings/custom.cpp' ... 
+ERROR: [HLS 200-70] Compilation errors found: In file included from CustomClocks/.settings/custom.cpp:1:
+CustomClocks/.settings/custom.cpp:85:2: error: use of undeclared identifier 'sc_clock'
+ sc_clock clock1("clock1", 4, 0.5);
+ ^
+CustomClocks/.settings/custom.cpp:86:2: error: use of undeclared identifier 'sc_clock'
+ sc_clock clock2("clock2", 2, 0.5);
+ ^
+CustomClocks/.settings/custom.cpp:99:13: error: use of undeclared identifier 'clock2'; did you mean 'clock'?
+ ob2.clock1(clock2);
+            ^~~~~~
+            clock
+/usr/include/time.h:72:16: note: 'clock' declared here
+extern clock_t clock (void) throw ();
+               ^
+In file included from CustomClocks/.settings/custom.cpp:1:
+CustomClocks/.settings/custom.cpp:99:2: error: no matching function for call to object of type 'sc_in_clk' (aka 'sc_in<bool>')
+ ob2.clock1(clock2);
+ ^~~~~~~~~~
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:280:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_signal_in_if<bool> &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( IF& interface_ ) { bind(interface_); }
+                                                   ^
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:284:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_prim_channel &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( sc_prim_channel& ic__ ) { bind(ic__); }
+                                                   ^
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:286:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_port_b<_ap_sc_::sc_core::sc_signal_in_if<bool> > &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( sc_port_b& parent_ ) { bind(parent_); }
+                                                   ^
+In file included from CustomClocks/.settings/custom.cpp:1:
+CustomClocks/.settings/custom.cpp:105:12: error: use of undeclared identifier 'clock1'; did you mean 'clock'?
+ ob1.clock(clock1);
+           ^~~~~~
+           clock
+/usr/include/time.h:72:16: note: 'clock' declared here
+extern clock_t clock (void) throw ();
+               ^
+In file included from CustomClocks/.settings/custom.cpp:1:
+CustomClocks/.settings/custom.cpp:105:2: error: no matching function for call to object of type 'sc_in_clk' (aka 'sc_in<bool>')
+ ob1.clock(clock1);
+ ^~~~~~~~~
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:280:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_signal_in_if<bool> &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( IF& interface_ ) { bind(interface_); }
+                                                   ^
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:284:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_prim_channel &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( sc_prim_channel& ic__ ) { bind(ic__); }
+                                                   ^
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:286:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_port_b<_ap_sc_::sc_core::sc_signal_in_if<bool> > &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( sc_port_b& parent_ ) { bind(parent_); }
+                                                   ^
+In file included from CustomClocks/.settings/custom.cpp:1:
+CustomClocks/.settings/custom.cpp:111:17: error: use of undeclared identifier 'SC_NS'
+ sc_start(1000, SC_NS);
+                ^
+7 errors generated.
+==============================================================
+File generated on Mon Jan 27 12:14:38 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu9eg-ffvb1156-2-e'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'CustomClocks/.settings/custom.cpp' ... 
+ERROR: [HLS 200-70] Compilation errors found: In file included from CustomClocks/.settings/custom.cpp:1:
+CustomClocks/.settings/custom.cpp:85:2: error: use of undeclared identifier 'sc_clock'
+ sc_clock clock1("clock1", 4, 0.5);
+ ^
+CustomClocks/.settings/custom.cpp:86:2: error: use of undeclared identifier 'sc_clock'
+ sc_clock clock2("clock2", 2, 0.5);
+ ^
+CustomClocks/.settings/custom.cpp:99:13: error: use of undeclared identifier 'clock2'; did you mean 'clock'?
+ ob2.clock1(clock2);
+            ^~~~~~
+            clock
+/usr/include/time.h:72:16: note: 'clock' declared here
+extern clock_t clock (void) throw ();
+               ^
+In file included from CustomClocks/.settings/custom.cpp:1:
+CustomClocks/.settings/custom.cpp:99:2: error: no matching function for call to object of type 'sc_in_clk' (aka 'sc_in<bool>')
+ ob2.clock1(clock2);
+ ^~~~~~~~~~
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:280:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_signal_in_if<bool> &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( IF& interface_ ) { bind(interface_); }
+                                                   ^
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:284:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_prim_channel &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( sc_prim_channel& ic__ ) { bind(ic__); }
+                                                   ^
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:286:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_port_b<_ap_sc_::sc_core::sc_signal_in_if<bool> > &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( sc_port_b& parent_ ) { bind(parent_); }
+                                                   ^
+In file included from CustomClocks/.settings/custom.cpp:1:
+CustomClocks/.settings/custom.cpp:105:12: error: use of undeclared identifier 'clock1'; did you mean 'clock'?
+ ob1.clock(clock1);
+           ^~~~~~
+           clock
+/usr/include/time.h:72:16: note: 'clock' declared here
+extern clock_t clock (void) throw ();
+               ^
+In file included from CustomClocks/.settings/custom.cpp:1:
+CustomClocks/.settings/custom.cpp:105:2: error: no matching function for call to object of type 'sc_in_clk' (aka 'sc_in<bool>')
+ ob1.clock(clock1);
+ ^~~~~~~~~
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:280:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_signal_in_if<bool> &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( IF& interface_ ) { bind(interface_); }
+                                                   ^
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:284:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_prim_channel &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( sc_prim_channel& ic__ ) { bind(ic__); }
+                                                   ^
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:286:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_port_b<_ap_sc_::sc_core::sc_signal_in_if<bool> > &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( sc_port_b& parent_ ) { bind(parent_); }
+                                                   ^
+In file included from CustomClocks/.settings/custom.cpp:1:
+CustomClocks/.settings/custom.cpp:111:17: error: use of undeclared identifier 'SC_NS'
+ sc_start(1000, SC_NS);
+                ^
+7 errors generated.
+==============================================================
+File generated on Mon Jan 27 12:25:46 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu9eg-ffvb1156-2-e'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'CustomClocks/.settings/custom.cpp' ... 
+ERROR: [HLS 200-70] Compilation errors found: In file included from CustomClocks/.settings/custom.cpp:1:
+CustomClocks/.settings/custom.cpp:4:2: error: use of undeclared identifier 'sc_clock'
+ sc_clock clock1("clock1", 4, 0.5);
+ ^
+CustomClocks/.settings/custom.cpp:5:2: error: use of undeclared identifier 'sc_clock'
+ sc_clock clock2("clock2", 2, 0.5);
+ ^
+CustomClocks/.settings/custom.cpp:17:2: error: use of undeclared identifier 'second_counter'
+ second_counter ob2("SECOND");
+ ^
+CustomClocks/.settings/custom.cpp:18:2: error: use of undeclared identifier 'ob2'
+ ob2.clock1(clock2);
+ ^
+CustomClocks/.settings/custom.cpp:18:13: error: use of undeclared identifier 'clock2'; did you mean 'clock'?
+ ob2.clock1(clock2);
+            ^~~~~~
+            clock
+/usr/include/time.h:72:16: note: 'clock' declared here
+extern clock_t clock (void) throw ();
+               ^
+In file included from CustomClocks/.settings/custom.cpp:1:
+CustomClocks/.settings/custom.cpp:19:2: error: use of undeclared identifier 'ob2'
+ ob2.reset1(reset2);
+ ^
+CustomClocks/.settings/custom.cpp:20:2: error: use of undeclared identifier 'ob2'
+ ob2.enable1(enable2);
+ ^
+CustomClocks/.settings/custom.cpp:21:2: error: use of undeclared identifier 'ob2'
+ ob2.out_counter1(out_counter2);
+ ^
+CustomClocks/.settings/custom.cpp:23:2: error: use of undeclared identifier 'first_counter'
+ first_counter ob1("FIRST");
+ ^
+CustomClocks/.settings/custom.cpp:24:2: error: use of undeclared identifier 'ob1'
+ ob1.clock(clock1);
+ ^
+CustomClocks/.settings/custom.cpp:24:12: error: use of undeclared identifier 'clock1'; did you mean 'clock'?
+ ob1.clock(clock1);
+           ^~~~~~
+           clock
+/usr/include/time.h:72:16: note: 'clock' declared here
+extern clock_t clock (void) throw ();
+               ^
+In file included from CustomClocks/.settings/custom.cpp:1:
+CustomClocks/.settings/custom.cpp:25:2: error: use of undeclared identifier 'ob1'
+ ob1.reset(reset1);
+ ^
+CustomClocks/.settings/custom.cpp:26:2: error: use of undeclared identifier 'ob1'
+ ob1.enable(enable1);
+ ^
+CustomClocks/.settings/custom.cpp:27:2: error: use of undeclared identifier 'ob1'
+ ob1.out_counter(out_counter1);
+ ^
+CustomClocks/.settings/custom.cpp:30:17: error: use of undeclared identifier 'SC_NS'
+ sc_start(1000, SC_NS);
+                ^
+15 errors generated.
+==============================================================
+File generated on Mon Jan 27 13:23:29 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu9eg-ffvb1156-2-e'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'CustomClocks/.settings/top.cpp' ... 
+ERROR: [HLS 200-70] Compilation errors found: In file included from CustomClocks/.settings/top.cpp:1:
+CustomClocks/.settings/top.cpp:5:2: error: use of undeclared identifier 'sc_clock'
+ sc_clock clock1("clock1", 4, 0.5);
+ ^
+CustomClocks/.settings/top.cpp:6:2: error: use of undeclared identifier 'sc_clock'
+ sc_clock clock2("clock2", 2, 0.5);
+ ^
+CustomClocks/.settings/top.cpp:19:13: error: use of undeclared identifier 'clock2'; did you mean 'clock'?
+ ob2.clock1(clock2);
+            ^~~~~~
+            clock
+/usr/include/time.h:72:16: note: 'clock' declared here
+extern clock_t clock (void) throw ();
+               ^
+In file included from CustomClocks/.settings/top.cpp:1:
+CustomClocks/.settings/top.cpp:19:2: error: no matching function for call to object of type 'sc_in_clk' (aka 'sc_in<bool>')
+ ob2.clock1(clock2);
+ ^~~~~~~~~~
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:280:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_signal_in_if<bool> &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( IF& interface_ ) { bind(interface_); }
+                                                   ^
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:284:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_prim_channel &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( sc_prim_channel& ic__ ) { bind(ic__); }
+                                                   ^
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:286:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_port_b<_ap_sc_::sc_core::sc_signal_in_if<bool> > &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( sc_port_b& parent_ ) { bind(parent_); }
+                                                   ^
+In file included from CustomClocks/.settings/top.cpp:1:
+CustomClocks/.settings/top.cpp:25:12: error: use of undeclared identifier 'clock1'; did you mean 'clock'?
+ ob1.clock(clock1);
+           ^~~~~~
+           clock
+/usr/include/time.h:72:16: note: 'clock' declared here
+extern clock_t clock (void) throw ();
+               ^
+In file included from CustomClocks/.settings/top.cpp:1:
+CustomClocks/.settings/top.cpp:25:2: error: no matching function for call to object of type 'sc_in_clk' (aka 'sc_in<bool>')
+ ob1.clock(clock1);
+ ^~~~~~~~~
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:280:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_signal_in_if<bool> &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( IF& interface_ ) { bind(interface_); }
+                                                   ^
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:284:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_prim_channel &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( sc_prim_channel& ic__ ) { bind(ic__); }
+                                                   ^
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:286:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_port_b<_ap_sc_::sc_core::sc_signal_in_if<bool> > &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( sc_port_b& parent_ ) { bind(parent_); }
+                                                   ^
+In file included from CustomClocks/.settings/top.cpp:1:
+CustomClocks/.settings/top.cpp:31:17: error: use of undeclared identifier 'SC_NS'
+ sc_start(1000, SC_NS);
+                ^
+7 errors generated.
+==============================================================
+File generated on Mon Jan 27 13:23:56 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu9eg-ffvb1156-2-e'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'CustomClocks/.settings/top.cpp' ... 
+ERROR: [HLS 200-70] Compilation errors found: In file included from CustomClocks/.settings/top.cpp:1:
+CustomClocks/.settings/top.cpp:5:2: error: use of undeclared identifier 'sc_clock'
+ sc_clock clock1("clock1", 4, 0.5);
+ ^
+CustomClocks/.settings/top.cpp:6:2: error: use of undeclared identifier 'sc_clock'
+ sc_clock clock2("clock2", 2, 0.5);
+ ^
+CustomClocks/.settings/top.cpp:19:13: error: use of undeclared identifier 'clock2'; did you mean 'clock'?
+ ob2.clock1(clock2);
+            ^~~~~~
+            clock
+/usr/include/time.h:72:16: note: 'clock' declared here
+extern clock_t clock (void) throw ();
+               ^
+In file included from CustomClocks/.settings/top.cpp:1:
+CustomClocks/.settings/top.cpp:19:2: error: no matching function for call to object of type 'sc_in_clk' (aka 'sc_in<bool>')
+ ob2.clock1(clock2);
+ ^~~~~~~~~~
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:280:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_signal_in_if<bool> &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( IF& interface_ ) { bind(interface_); }
+                                                   ^
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:284:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_prim_channel &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( sc_prim_channel& ic__ ) { bind(ic__); }
+                                                   ^
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:286:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_port_b<_ap_sc_::sc_core::sc_signal_in_if<bool> > &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( sc_port_b& parent_ ) { bind(parent_); }
+                                                   ^
+In file included from CustomClocks/.settings/top.cpp:1:
+CustomClocks/.settings/top.cpp:25:12: error: use of undeclared identifier 'clock1'; did you mean 'clock'?
+ ob1.clock(clock1);
+           ^~~~~~
+           clock
+/usr/include/time.h:72:16: note: 'clock' declared here
+extern clock_t clock (void) throw ();
+               ^
+In file included from CustomClocks/.settings/top.cpp:1:
+CustomClocks/.settings/top.cpp:25:2: error: no matching function for call to object of type 'sc_in_clk' (aka 'sc_in<bool>')
+ ob1.clock(clock1);
+ ^~~~~~~~~
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:280:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_signal_in_if<bool> &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( IF& interface_ ) { bind(interface_); }
+                                                   ^
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:284:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_prim_channel &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( sc_prim_channel& ic__ ) { bind(ic__); }
+                                                   ^
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:286:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_port_b<_ap_sc_::sc_core::sc_signal_in_if<bool> > &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( sc_port_b& parent_ ) { bind(parent_); }
+                                                   ^
+In file included from CustomClocks/.settings/top.cpp:1:
+CustomClocks/.settings/top.cpp:31:17: error: use of undeclared identifier 'SC_NS'
+ sc_start(1000, SC_NS);
+                ^
+7 errors generated.
+==============================================================
+File generated on Mon Jan 27 13:24:38 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu9eg-ffvb1156-2-e'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'CustomClocks/.settings/top.cpp' ... 
+ERROR: [HLS 200-70] Compilation errors found: In file included from CustomClocks/.settings/top.cpp:1:
+CustomClocks/.settings/top.cpp:5:2: error: use of undeclared identifier 'sc_clock'
+ sc_clock clock1("clock1", 4, 0.5);
+ ^
+CustomClocks/.settings/top.cpp:6:2: error: use of undeclared identifier 'sc_clock'
+ sc_clock clock2("clock2", 2, 0.5);
+ ^
+CustomClocks/.settings/top.cpp:19:13: error: use of undeclared identifier 'clock2'; did you mean 'clock'?
+ ob2.clock1(clock2);
+            ^~~~~~
+            clock
+/usr/include/time.h:72:16: note: 'clock' declared here
+extern clock_t clock (void) throw ();
+               ^
+In file included from CustomClocks/.settings/top.cpp:1:
+CustomClocks/.settings/top.cpp:19:2: error: no matching function for call to object of type 'sc_in_clk' (aka 'sc_in<bool>')
+ ob2.clock1(clock2);
+ ^~~~~~~~~~
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:280:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_signal_in_if<bool> &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( IF& interface_ ) { bind(interface_); }
+                                                   ^
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:284:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_prim_channel &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( sc_prim_channel& ic__ ) { bind(ic__); }
+                                                   ^
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:286:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_port_b<_ap_sc_::sc_core::sc_signal_in_if<bool> > &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( sc_port_b& parent_ ) { bind(parent_); }
+                                                   ^
+In file included from CustomClocks/.settings/top.cpp:1:
+CustomClocks/.settings/top.cpp:25:12: error: use of undeclared identifier 'clock1'; did you mean 'clock'?
+ ob1.clock(clock1);
+           ^~~~~~
+           clock
+/usr/include/time.h:72:16: note: 'clock' declared here
+extern clock_t clock (void) throw ();
+               ^
+In file included from CustomClocks/.settings/top.cpp:1:
+CustomClocks/.settings/top.cpp:25:2: error: no matching function for call to object of type 'sc_in_clk' (aka 'sc_in<bool>')
+ ob1.clock(clock1);
+ ^~~~~~~~~
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:280:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_signal_in_if<bool> &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( IF& interface_ ) { bind(interface_); }
+                                                   ^
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:284:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_prim_channel &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( sc_prim_channel& ic__ ) { bind(ic__); }
+                                                   ^
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:286:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_port_b<_ap_sc_::sc_core::sc_signal_in_if<bool> > &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( sc_port_b& parent_ ) { bind(parent_); }
+                                                   ^
+In file included from CustomClocks/.settings/top.cpp:1:
+CustomClocks/.settings/top.cpp:31:17: error: use of undeclared identifier 'SC_NS'
+ sc_start(1000, SC_NS);
+                ^
+7 errors generated.
+==============================================================
+File generated on Mon Jan 27 13:30:33 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu9eg-ffvb1156-2-e'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'CustomClocks/.settings/top.cpp' ... 
+ERROR: [HLS 200-70] Compilation errors found: In file included from CustomClocks/.settings/top.cpp:1:
+CustomClocks/.settings/top.cpp:5:2: error: use of undeclared identifier 'sc_clock'
+ sc_clock clock1("clock1", 4, 0.5);
+ ^
+CustomClocks/.settings/top.cpp:6:2: error: use of undeclared identifier 'sc_clock'
+ sc_clock clock2("clock2", 2, 0.5);
+ ^
+CustomClocks/.settings/top.cpp:19:13: error: use of undeclared identifier 'clock2'; did you mean 'clock'?
+ ob2.clock1(clock2);
+            ^~~~~~
+            clock
+/usr/include/time.h:72:16: note: 'clock' declared here
+extern clock_t clock (void) throw ();
+               ^
+In file included from CustomClocks/.settings/top.cpp:1:
+CustomClocks/.settings/top.cpp:19:2: error: no matching function for call to object of type 'sc_in_clk' (aka 'sc_in<bool>')
+ ob2.clock1(clock2);
+ ^~~~~~~~~~
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:280:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_signal_in_if<bool> &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( IF& interface_ ) { bind(interface_); }
+                                                   ^
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:284:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_prim_channel &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( sc_prim_channel& ic__ ) { bind(ic__); }
+                                                   ^
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:286:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_port_b<_ap_sc_::sc_core::sc_signal_in_if<bool> > &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( sc_port_b& parent_ ) { bind(parent_); }
+                                                   ^
+In file included from CustomClocks/.settings/top.cpp:1:
+CustomClocks/.settings/top.cpp:25:12: error: use of undeclared identifier 'clock1'; did you mean 'clock'?
+ ob1.clock(clock1);
+           ^~~~~~
+           clock
+/usr/include/time.h:72:16: note: 'clock' declared here
+extern clock_t clock (void) throw ();
+               ^
+In file included from CustomClocks/.settings/top.cpp:1:
+CustomClocks/.settings/top.cpp:25:2: error: no matching function for call to object of type 'sc_in_clk' (aka 'sc_in<bool>')
+ ob1.clock(clock1);
+ ^~~~~~~~~
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:280:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_signal_in_if<bool> &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( IF& interface_ ) { bind(interface_); }
+                                                   ^
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:284:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_prim_channel &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( sc_prim_channel& ic__ ) { bind(ic__); }
+                                                   ^
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:286:52: note: candidate function not viable: no known conversion from 'clock_t () throw()' to '_ap_sc_::sc_core::sc_port_b<_ap_sc_::sc_core::sc_signal_in_if<bool> > &' for 1st argument; 
+        inline __attribute__((always_inline)) void operator () ( sc_port_b& parent_ ) { bind(parent_); }
+                                                   ^
+In file included from CustomClocks/.settings/top.cpp:1:
+CustomClocks/.settings/top.cpp:31:17: error: use of undeclared identifier 'SC_NS'
+ sc_start(1000, SC_NS);
+                ^
+7 errors generated.
+==============================================================
+File generated on Mon Jan 27 13:33:33 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Mon Jan 27 13:33:52 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Mon Jan 27 15:03:49 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Mon Jan 27 15:04:11 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu9eg-ffvb1156-2-e'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'CustomClocks/.settings/top.cpp' ... 
+ERROR: [HLS 200-70] Compilation errors found: In file included from CustomClocks/.settings/top.cpp:1:
+In file included from CustomClocks/.settings/top.cpp:2:
+CustomClocks/.settings/custom.cpp:6:9: error: use of undeclared identifier 'sc_clock'
+ sc_in< sc_clock > clock;
+        ^
+CustomClocks/.settings/custom.cpp:6:20: error: C++ requires a type specifier for all declarations
+ sc_in< sc_clock > clock;
+                   ^~~~~
+CustomClocks/.settings/custom.cpp:36:184: error: cannot initialize a parameter of type '_ap_sc_::sc_core::sc_module *' with an rvalue of type 'first_counter *'
+  { ::sc_core::sc_method_process* increment_handle = simcontext()->register_method_process( "increment", (void (::sc_core::sc_process_host::*)())(&SC_CURRENT_USER_MODULE::increment), this ); sensitive << increment_handle; sensitive_pos << increment_handle; sensitive_neg << increment_handle; };
+                                                                                                                                                                                       ^~~~
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:537:62: note: passing argument to parameter here
+                                                  sc_module* );
+                                                             ^
+In file included from CustomClocks/.settings/top.cpp:1:
+In file included from CustomClocks/.settings/top.cpp:2:
+CustomClocks/.settings/custom.cpp:47:9: error: use of undeclared identifier 'sc_clock'
+ sc_in< sc_clock > clock1;
+        ^
+CustomClocks/.settings/custom.cpp:47:20: error: C++ requires a type specifier for all declarations
+ sc_in< sc_clock > clock1;
+                   ^~~~~~
+CustomClocks/.settings/custom.cpp:77:184: error: cannot initialize a parameter of type '_ap_sc_::sc_core::sc_module *' with an rvalue of type 'second_counter *'
+  { ::sc_core::sc_method_process* increment_handle = simcontext()->register_method_process( "increment", (void (::sc_core::sc_process_host::*)())(&SC_CURRENT_USER_MODULE::increment), this ); sensitive << increment_handle; sensitive_pos << increment_handle; sensitive_neg << increment_handle; };
+                                                                                                                                                                                       ^~~~
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:537:62: note: passing argument to parameter here
+                                                  sc_module* );
+                                                             ^
+In file included from CustomClocks/.settings/top.cpp:1:
+CustomClocks/.settings/top.cpp:5:2: error: use of undeclared identifier 'sc_clock'
+ sc_clock clock1("clock1", 4, 0.5);
+ ^
+CustomClocks/.settings/top.cpp:6:2: error: use of undeclared identifier 'sc_clock'
+ sc_clock clock2("clock2", 2, 0.5);
+ ^
+CustomClocks/.settings/top.cpp:19:13: error: use of undeclared identifier 'clock2'; did you mean 'clock'?
+ ob2.clock1(clock2);
+            ^~~~~~
+            clock
+/usr/include/time.h:72:16: note: 'clock' declared here
+extern clock_t clock (void) throw ();
+               ^
+In file included from CustomClocks/.settings/top.cpp:1:
+CustomClocks/.settings/top.cpp:25:12: error: use of undeclared identifier 'clock1'; did you mean 'clock'?
+ ob1.clock(clock1);
+           ^~~~~~
+           clock
+/usr/include/time.h:72:16: note: 'clock' declared here
+extern clock_t clock (void) throw ();
+               ^
+In file included from CustomClocks/.settings/top.cpp:1:
+CustomClocks/.settings/top.cpp:31:17: error: use of undeclared identifier 'SC_NS'
+ sc_start(1000, SC_NS);
+                ^
+11 errors generated.
+==============================================================
+File generated on Mon Jan 27 15:40:48 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu9eg-ffvb1156-2-e'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'CustomClocks/.settings/top.cpp' ... 
+WARNING: [HLS 200-40] In file included from CustomClocks/.settings/top.cpp:2:
+CustomClocks/.settings/custom.cpp:45:2: warning: '/*' within block comment [-Wcomment]
+        /*create_clock -period 15 fast_clk
+        ^
+1 warning generated.
+ERROR: [HLS 200-70] Compilation errors found: In file included from CustomClocks/.settings/top.cpp:1:
+In file included from CustomClocks/.settings/top.cpp:2:
+CustomClocks/.settings/custom.cpp:6:9: error: use of undeclared identifier 'sc_clock'
+ sc_in< sc_clock > clock;
+        ^
+CustomClocks/.settings/custom.cpp:6:20: error: C++ requires a type specifier for all declarations
+ sc_in< sc_clock > clock;
+                   ^~~~~
+CustomClocks/.settings/custom.cpp:36:184: error: cannot initialize a parameter of type '_ap_sc_::sc_core::sc_module *' with an rvalue of type 'first_counter *'
+  { ::sc_core::sc_method_process* increment_handle = simcontext()->register_method_process( "increment", (void (::sc_core::sc_process_host::*)())(&SC_CURRENT_USER_MODULE::increment), this ); sensitive << increment_handle; sensitive_pos << increment_handle; sensitive_neg << increment_handle; };
+                                                                                                                                                                                       ^~~~
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:537:62: note: passing argument to parameter here
+                                                  sc_module* );
+                                                             ^
+In file included from CustomClocks/.settings/top.cpp:1:
+CustomClocks/.settings/top.cpp:5:2: error: use of undeclared identifier 'sc_clock'
+ sc_clock clock1("clock1", 4, 0.5);
+ ^
+CustomClocks/.settings/top.cpp:6:2: error: use of undeclared identifier 'sc_clock'
+ sc_clock clock2("clock2", 2, 0.5);
+ ^
+CustomClocks/.settings/top.cpp:19:12: error: use of undeclared identifier 'clock2'; did you mean 'clock'?
+ ob2.clock(clock2);
+           ^~~~~~
+           clock
+/usr/include/time.h:72:16: note: 'clock' declared here
+extern clock_t clock (void) throw ();
+               ^
+In file included from CustomClocks/.settings/top.cpp:1:
+CustomClocks/.settings/top.cpp:25:12: error: use of undeclared identifier 'clock1'; did you mean 'clock'?
+ ob1.clock(clock1);
+           ^~~~~~
+           clock
+/usr/include/time.h:72:16: note: 'clock' declared here
+extern clock_t clock (void) throw ();
+               ^
+In file included from CustomClocks/.settings/top.cpp:1:
+CustomClocks/.settings/top.cpp:31:17: error: use of undeclared identifier 'SC_NS'
+ sc_start(1000, SC_NS);
+                ^
+8 errors generated.
+==============================================================
+File generated on Mon Jan 27 15:42:14 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu9eg-ffvb1156-2-e'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'CustomClocks/.settings/custom.cpp' ... 
+ERROR: [HLS 200-70] Compilation errors found: In file included from CustomClocks/.settings/custom.cpp:1:
+CustomClocks/.settings/custom.cpp:6:9: error: use of undeclared identifier 'sc_clock'
+ sc_in< sc_clock > clock;
+        ^
+CustomClocks/.settings/custom.cpp:6:20: error: C++ requires a type specifier for all declarations
+ sc_in< sc_clock > clock;
+                   ^~~~~
+CustomClocks/.settings/custom.cpp:36:184: error: cannot initialize a parameter of type '_ap_sc_::sc_core::sc_module *' with an rvalue of type 'first_counter *'
+  { ::sc_core::sc_method_process* increment_handle = simcontext()->register_method_process( "increment", (void (::sc_core::sc_process_host::*)())(&SC_CURRENT_USER_MODULE::increment), this ); sensitive << increment_handle; sensitive_pos << increment_handle; sensitive_neg << increment_handle; };
+                                                                                                                                                                                       ^~~~
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:537:62: note: passing argument to parameter here
+                                                  sc_module* );
+                                                             ^
+3 errors generated.
+==============================================================
+File generated on Mon Jan 27 15:42:59 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu9eg-ffvb1156-2-e'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'CustomClocks/.settings/custom.cpp' ... 
+ERROR: [HLS 200-70] Compilation errors found: In file included from CustomClocks/.settings/custom.cpp:1:
+CustomClocks/.settings/custom.cpp:6:9: error: use of undeclared identifier 'sc_clock'
+ sc_in< sc_clock > clock;
+        ^
+CustomClocks/.settings/custom.cpp:6:20: error: C++ requires a type specifier for all declarations
+ sc_in< sc_clock > clock;
+                   ^~~~~
+CustomClocks/.settings/custom.cpp:36:184: error: cannot initialize a parameter of type '_ap_sc_::sc_core::sc_module *' with an rvalue of type 'first_counter *'
+  { ::sc_core::sc_method_process* increment_handle = simcontext()->register_method_process( "increment", (void (::sc_core::sc_process_host::*)())(&SC_CURRENT_USER_MODULE::increment), this ); sensitive << increment_handle; sensitive_pos << increment_handle; sensitive_neg << increment_handle; };
+                                                                                                                                                                                       ^~~~
+/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc/ap_sc_core.h:537:62: note: passing argument to parameter here
+                                                  sc_module* );
+                                                             ^
+3 errors generated.
+==============================================================
+File generated on Mon Jan 27 15:43:46 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Mon Jan 27 15:45:33 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Mon Jan 27 15:49:48 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Mon Jan 27 15:58:23 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Mon Jan 27 15:59:44 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Mon Jan 27 16:00:04 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Mon Jan 27 16:00:40 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Mon Jan 27 16:03:35 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Mon Jan 27 16:04:58 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Mon Jan 27 16:15:59 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Mon Jan 27 16:16:47 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Mon Jan 27 16:18:03 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Mon Jan 27 16:19:45 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Mon Jan 27 16:21:44 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Mon Jan 27 16:22:24 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Mon Jan 27 17:37:47 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Mon Jan 27 17:38:16 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Mon Jan 27 17:39:03 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Mon Jan 27 17:40:58 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Mon Jan 27 17:42:02 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Mon Jan 27 17:42:42 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Mon Jan 27 17:44:01 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Mon Jan 27 18:02:10 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Mon Jan 27 18:02:41 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Mon Jan 27 18:07:51 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Mon Jan 27 18:14:52 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Mon Jan 27 18:32:13 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+File generated on Mon Jan 27 18:53:09 IST 2020
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================

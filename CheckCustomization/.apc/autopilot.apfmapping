@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="CheckCustomization.c" path="/home/shubham/HLS_Exercises/CheckCustomization/.settings/CheckCustomization.c"/>
+  </source>
+  <testbench/>
+</autopilotfilemapping:AutoPilotFileMapping>

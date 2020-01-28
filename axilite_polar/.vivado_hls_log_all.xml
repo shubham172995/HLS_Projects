@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog>
+        <logs message="ERROR: [HLS 200-70] Synthesizability check failed.&#xA;command 'ap_source' returned error code&#xA;    while executing&#xA;&quot;source /home/shubham/HLS_Exercises/axilite_polar/solution1/csynth.tcl&quot;&#xA;    invoked from within&#xA;&quot;hls::main /home/shubham/HLS_Exercises/axilite_polar/solution1/csynth.tcl&quot;&#xA;    (&quot;uplevel&quot; body line 1)&#xA;    invoked from within&#xA;&quot;uplevel 1 hls::main {*}$args&quot;&#xA;    (procedure &quot;hls_proc&quot; line 5)&#xA;    invoked from within&#xA;&quot;hls_proc $argv&quot;&#xA;" projectName="axilite_polar" solutionName="solution1" date="2020-01-22T16:16:36.301+0530"/>
+        <logs message="ERROR: [SYNCHK 200-61] axilite_polar/.settings/axilitepolar.cpp:14: unsupported memory access on variable 'data' which is (or contains) an array with unknown size at compile time." projectName="axilite_polar" solutionName="solution1" date="2020-01-22T16:16:36.282+0530"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [HLS 200-41] Resource core 'AXI4M' on port '&amp;addr' is deprecated. Please use the interface directive to specify the AXI interface." projectName="axilite_polar" solutionName="solution1" date="2020-01-22T16:16:35.749+0530" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

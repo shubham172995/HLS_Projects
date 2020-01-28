@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"custom2::custom2": {
+			"proto_instances": {
+			}
+		}
+	}
+}

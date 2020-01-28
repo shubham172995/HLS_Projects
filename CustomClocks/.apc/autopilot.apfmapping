@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="custom.cpp" path="/home/shubham/HLS_Exercises/CustomClocks/.settings/custom.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="test.cpp" path="/home/shubham/HLS_Exercises/CustomClocks/.settings/test.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

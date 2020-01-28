@@ -1,0 +1,150 @@
+
+
+================================================================
+== Vivado HLS Report for 'custom2'
+================================================================
+* Date:           Tue Jan 28 15:33:11 2020
+
+* Version:        2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)
+* Project:        CustomClocks2
+* Solution:       solution1
+* Product family: zynquplus
+* Target device:  xczu9eg-ffvb1156-2-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|     0.797|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+---------+
+    |  Latency  |  Interval | Pipeline|
+    | min | max | min | max |   Type  |
+    +-----+-----+-----+-----+---------+
+    |    1|    4|    1|    4|   none  |
+    +-----+-----+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 2
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+	2  / true
+2 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 0.65>
+ST_1 : Operation 3 [2/2] (0.65ns)   --->   "call void @"first_counter::first_counter.1"(i1* %clock1_form, i1* %reset_form, i1* %enable_form, i4* %out_counter1_form, i4* %custom2_first_count_V)" [/home/shubham/HLS_Exercises/CustomClocks2/counter1.h:49->/home/shubham/HLS_Exercises/CustomClocks2/Custom2.h:22]   --->   Operation 3 'call' <Predicate = true> <Delay = 0.65> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_1 : Operation 4 [2/2] (0.65ns)   --->   "call void @"first_counter::first_counter.1"(i1* %clock2_form, i1* %reset_form1, i1* %enable_form2, i4* %out_counter2_form, i4* %custom2_second_count_V)" [/home/shubham/HLS_Exercises/CustomClocks2/counter1.h:49->/home/shubham/HLS_Exercises/CustomClocks2/Custom2.h:22]   --->   Operation 4 'call' <Predicate = true> <Delay = 0.65> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 2 <SV = 1> <Delay = 0.00>
+ST_2 : Operation 5 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i1* %clock1), !map !187"   --->   Operation 5 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 6 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i1* %clock2), !map !191"   --->   Operation 6 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 7 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i1* %reset), !map !195"   --->   Operation 7 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 8 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i1* %enable), !map !199"   --->   Operation 8 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 9 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i4* %out_counter1), !map !203"   --->   Operation 9 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 10 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i4* %out_counter2), !map !207"   --->   Operation 10 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 11 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i4* %custom2_count1_V), !map !211"   --->   Operation 11 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 12 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i4* %custom2_count2_V), !map !215"   --->   Operation 12 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 13 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i1* %clock1_form), !map !219"   --->   Operation 13 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 14 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i1* %reset_form), !map !223"   --->   Operation 14 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 15 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i1* %enable_form), !map !227"   --->   Operation 15 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 16 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i4* %out_counter1_form), !map !231"   --->   Operation 16 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 17 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i4* %custom2_first_count_V), !map !235"   --->   Operation 17 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 18 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i1* %clock2_form), !map !239"   --->   Operation 18 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 19 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i1* %reset_form1), !map !243"   --->   Operation 19 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 20 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i1* %enable_form2), !map !247"   --->   Operation 20 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 21 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i4* %out_counter2_form), !map !251"   --->   Operation 21 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 22 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i4* %custom2_second_count_V), !map !255"   --->   Operation 22 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 23 [1/2] (0.00ns)   --->   "call void @"first_counter::first_counter.1"(i1* %clock1_form, i1* %reset_form, i1* %enable_form, i4* %out_counter1_form, i4* %custom2_first_count_V)" [/home/shubham/HLS_Exercises/CustomClocks2/counter1.h:49->/home/shubham/HLS_Exercises/CustomClocks2/Custom2.h:22]   --->   Operation 23 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_2 : Operation 24 [1/2] (0.00ns)   --->   "call void @"first_counter::first_counter.1"(i1* %clock2_form, i1* %reset_form1, i1* %enable_form2, i4* %out_counter2_form, i4* %custom2_second_count_V)" [/home/shubham/HLS_Exercises/CustomClocks2/counter1.h:49->/home/shubham/HLS_Exercises/CustomClocks2/Custom2.h:22]   --->   Operation 24 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_2 : Operation 25 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecTopModule([8 x i8]* @p_str5, [8 x i8]* @p_str5) nounwind" [/home/shubham/HLS_Exercises/CustomClocks2/Custom2.h:23]   --->   Operation 25 'spectopmodule' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 26 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecPort([8 x i8]* @p_str5, i32 0, [7 x i8]* @p_str6, [7 x i8]* @p_str7, i32 0, i32 0, i1* %clock1) nounwind" [/home/shubham/HLS_Exercises/CustomClocks2/Custom2.h:24]   --->   Operation 26 'specport' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 27 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecPort([8 x i8]* @p_str5, i32 0, [7 x i8]* @p_str6, [7 x i8]* @p_str8, i32 0, i32 0, i1* %clock2) nounwind" [/home/shubham/HLS_Exercises/CustomClocks2/Custom2.h:25]   --->   Operation 27 'specport' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 28 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecPort([8 x i8]* @p_str5, i32 0, [7 x i8]* @p_str6, [6 x i8]* @p_str9, i32 0, i32 0, i1* %reset) nounwind" [/home/shubham/HLS_Exercises/CustomClocks2/Custom2.h:26]   --->   Operation 28 'specport' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 29 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecPort([8 x i8]* @p_str5, i32 0, [7 x i8]* @p_str6, [7 x i8]* @p_str10, i32 0, i32 0, i1* %enable) nounwind" [/home/shubham/HLS_Exercises/CustomClocks2/Custom2.h:27]   --->   Operation 29 'specport' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 30 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecPort([8 x i8]* @p_str5, i32 1, [13 x i8]* @p_str11, [13 x i8]* @p_str12, i32 0, i32 0, i4* %out_counter1) nounwind" [/home/shubham/HLS_Exercises/CustomClocks2/Custom2.h:28]   --->   Operation 30 'specport' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 31 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecPort([8 x i8]* @p_str5, i32 1, [13 x i8]* @p_str11, [13 x i8]* @p_str13, i32 0, i32 0, i4* %out_counter2) nounwind" [/home/shubham/HLS_Exercises/CustomClocks2/Custom2.h:29]   --->   Operation 31 'specport' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 32 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecPortMap(i1* %clock1_form, i1* %clock1) nounwind" [/home/shubham/HLS_Exercises/CustomClocks2/Custom2.h:30]   --->   Operation 32 'specportmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 33 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecPortMap(i1* %reset_form, i1* %reset) nounwind" [/home/shubham/HLS_Exercises/CustomClocks2/Custom2.h:31]   --->   Operation 33 'specportmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 34 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecPortMap(i1* %enable_form, i1* %enable) nounwind" [/home/shubham/HLS_Exercises/CustomClocks2/Custom2.h:32]   --->   Operation 34 'specportmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 35 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecPortMap(i4* %out_counter1_form, i4* %out_counter1) nounwind" [/home/shubham/HLS_Exercises/CustomClocks2/Custom2.h:33]   --->   Operation 35 'specportmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 36 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecPortMap(i1* %clock2_form, i1* %clock2) nounwind" [/home/shubham/HLS_Exercises/CustomClocks2/Custom2.h:34]   --->   Operation 36 'specportmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 37 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecPortMap(i1* %reset_form1, i1* %reset) nounwind" [/home/shubham/HLS_Exercises/CustomClocks2/Custom2.h:35]   --->   Operation 37 'specportmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 38 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecPortMap(i1* %enable_form2, i1* %enable) nounwind" [/home/shubham/HLS_Exercises/CustomClocks2/Custom2.h:36]   --->   Operation 38 'specportmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 39 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecPortMap(i4* %out_counter2_form, i4* %out_counter2) nounwind" [/home/shubham/HLS_Exercises/CustomClocks2/Custom2.h:37]   --->   Operation 39 'specportmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 40 [1/1] (0.00ns)   --->   "ret void" [/home/shubham/HLS_Exercises/CustomClocks2/Custom2.h:41]   --->   Operation 40 'ret' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 1.25ns.
+
+ <State 1>: 0.656ns
+The critical path consists of the following:
+	'call' operation (/home/shubham/HLS_Exercises/CustomClocks2/counter1.h:49->/home/shubham/HLS_Exercises/CustomClocks2/Custom2.h:22) to 'first_counter::first_counter.1' [38]  (0.656 ns)
+
+ <State 2>: 0ns
+The critical path consists of the following:
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

@@ -1,0 +1,19 @@
+
+
+Implementation tool: Xilinx Vivado v.2018.3
+Project:             CheckCustomization
+Solution:            solution1
+Device target:       xczu9eg-ffvb1156-2-e
+Report date:         Thu Jan 23 15:58:04 IST 2020
+
+#=== Post-Synthesis Resource usage ===
+SLICE:            0
+LUT:              0
+FF:               0
+DSP:              0
+BRAM:             0
+SRL:              0
+#=== Final timing ===
+CP required:    10.000
+CP achieved post-synthesis:    NA
+No Sequential Path

@@ -1,0 +1,73 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x3D8D4B63EB7E4E3E",
+      "device": "xczu9eg-ffvb1156-2-e",
+      "name": "bd_0",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3",
+      "validated": "true"
+    },
+    "design_tree": {
+      "hls_inst": ""
+    },
+    "interface_ports": {
+      "ap_ctrl": {
+        "mode": "Slave",
+        "vlnv": "xilinx.com:interface:acc_handshake_rtl:1.0"
+      }
+    },
+    "ports": {
+      "a": {
+        "type": "data",
+        "direction": "I",
+        "left": "31",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "xilinx.com:interface:datatypes:1.0 {DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 32} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} integer {signed {attribs {resolve_type immediate dependency {} format bool minimum {} maximum {}} value true}}}}}"
+          }
+        }
+      },
+      "b": {
+        "type": "data",
+        "direction": "I",
+        "left": "31",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "xilinx.com:interface:datatypes:1.0 {DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 32} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} integer {signed {attribs {resolve_type immediate dependency {} format bool minimum {} maximum {}} value true}}}}}"
+          }
+        }
+      }
+    },
+    "components": {
+      "hls_inst": {
+        "vlnv": "xilinx.com:hls:Check:1.0",
+        "xci_name": "bd_0_hls_inst_0"
+      }
+    },
+    "interface_nets": {
+      "ap_ctrl_0_1": {
+        "interface_ports": [
+          "ap_ctrl",
+          "hls_inst/ap_ctrl"
+        ]
+      }
+    },
+    "nets": {
+      "a_0_1": {
+        "ports": [
+          "a",
+          "hls_inst/a"
+        ]
+      },
+      "b_0_1": {
+        "ports": [
+          "b",
+          "hls_inst/b"
+        ]
+      }
+    }
+  }
+}
