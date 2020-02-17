@@ -623,3 +623,278 @@ Execute     get_config_export -sdx_tcl
 Command   csynth_design done; 23.23 sec.
 Command ap_source done; 23.42 sec.
 Execute cleanup_all 
+INFO-FLOW: Workspace /home/shubham/HLS_Exercises/CustomClocks2/solution1 opened at Tue Jan 28 15:38:49 IST 2020
+Execute     config_clock -quiet -name default -period 10 -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+Execute     open_platform DefaultPlatform 
+Execute     import_lib /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/zynquplus/zynquplus 
+Execute       source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/common/xilinx.lib 
+Execute         source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/xilinx_interface.lib 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/plb46.lib 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/fsl.lib 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/axi4.lib 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/maxi.lib 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/saxilite.lib 
+Execute         source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/common/dsp48.lib 
+Execute         source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/ip/dds_compiler.lib 
+Execute         source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/ip/xfft.lib 
+Execute         source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/ip/xfir.lib 
+Execute       source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/common/xilinx_old.lib 
+Execute       source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/common/xilinx_vivado.lib 
+Execute       source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/common/xilinx.hlp 
+Execute         source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/common/target_info.tcl 
+Execute         source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/maxi.hlp 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/saxilite.hlp 
+Execute         source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/common/dsp48.hlp 
+Execute       source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/zynquplus/dsp48e2.hlp 
+Execute       get_default_platform 
+Execute       config_chip_info -quiet -resource  {SLICE 34260} {LUT 274080}   {FF 548160}  {DSP48E 2520}  {BRAM 1824} {URAM 0}  
+Execute       config_chip_info -quiet -speed medium 
+Execute       source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/common/xilinx.hlp 
+Execute         source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/common/target_info.tcl 
+Execute         source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/maxi.hlp 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/saxilite.hlp 
+Execute         source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/common/dsp48.hlp 
+Execute     source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/zynquplus/zynquplus.gen 
+Execute       source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/common/virtex.gen 
+Execute         source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/common/xilinx.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/plb46.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/fsl.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/axi4.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute             source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/saxilite.gen 
+Execute             source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/maxi.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/ip/dds_compiler.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/ip/util.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/ip/xfft.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/ip/xfir.gen 
+Execute         source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/common/dsp48.gen 
+Execute     open_platform DefaultPlatform 
+Execute     import_lib /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/zynquplus/zynquplus_fpv7 
+Execute       source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/common/xilinx_fpv7.lib 
+Execute         source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/common/xilinx_hp.lib 
+Execute       source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/common/xilinx_fpv.hlp 
+Execute         source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/common/xilinx.hlp 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/common/target_info.tcl 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute             source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/maxi.hlp 
+Execute             source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/saxilite.hlp 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/common/dsp48.hlp 
+Execute       source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/zynquplus/zynquplus_hp.hlp 
+Execute     source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/zynquplus/zynquplus_fpv7.gen 
+Execute       source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/common/xilinx_fpv6.gen 
+Execute     set_part xczu9eg-ffvb1156-2-e 
+Execute       add_library xilinx/zynquplus/zynquplus:xczu9eg:-ffvb1156:-2-e 
+Execute         get_default_platform 
+Execute         license_isbetapart xczu9eg 
+Command         license_isbetapart done; error code: 1; 
+Execute         get_default_platform 
+Execute         config_chip_info -quiet -resource  {SLICE 34260} {LUT 274080}   {FF 548160}  {DSP48E 2520}  {BRAM 1824} {URAM 0}  
+Execute         config_chip_info -quiet -speed medium 
+Execute       add_library xilinx/zynquplus/zynquplus_fpv7 
+Execute         get_default_platform 
+INFO: [HLS 200-10] Setting target device to 'xczu9eg-ffvb1156-2-e'
+Execute       get_default_platform 
+Execute     get_default_platform 
+Execute     config_chip_info -quiet -resource  {SLICE 34260} {LUT 274080}   {FF 548160}  {DSP48E 2520}  {BRAM 1824} {URAM 0}  
+Execute     config_chip_info -quiet -speed medium 
+Command   open_solution done; 0.14 sec.
+Execute   export_design -rtl verilog -format ip_catalog 
+Execute     get_config_export -acc 
+Execute     get_config_export -clock_margin 
+Execute     get_config_export -custom_script 
+Execute     get_config_export -description 
+Execute     get_config_export -display_name 
+Execute     get_config_export -driver_input_dir 
+Execute     get_config_export -ipname 
+Execute     get_config_export -kernel_drc 
+Execute     get_config_export -library 
+Execute     get_config_export -qor_test 
+Execute     get_config_export -sdaccel 
+Execute     get_config_export -sim 
+Execute     get_config_export -taxonomy 
+Execute     get_config_export -use_ip 
+Execute     get_config_export -use_netlist 
+Execute     get_config_export -vendor 
+Execute     get_config_export -version 
+Execute     get_config_export -xo 
+Execute     config_export -format=ip_catalog -rtl=verilog 
+INFO-FLOW: DBG:CMD: export_design_wrap: -format ip_catalog -rtl verilog
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/global.setting.tcl 
+Execute     get_config_export -vivado_clock 
+Execute     get_top 
+Execute     get_config_sdx -target 
+Execute     get_config_rtl -auto_prefix 
+Execute     get_config_sdx -target 
+INFO-FLOW: DBG:CMD:   auto_impl: pack: -export -tool vivado -rtl verilog -sdx-target none
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/global.setting.tcl 
+INFO-FLOW: DBG:CMD: read_platform_lib /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/global.setting.tcl
+Execute     source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/generic/autopilot/common.gen 
+Execute       source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/generic/autopilot/APCoreGen.gen 
+Execute     source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/generic/autopilot/op.gen 
+Execute     source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/generic/autopilot/op_simcore.gen 
+Execute     source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/generic/autopilot/interface.gen 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/global.setting.tcl 
+Execute     source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/zynquplus/zynquplus.gen 
+Execute       source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/common/virtex.gen 
+Execute         source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/common/xilinx.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/plb46.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/fsl.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/axi4.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute             source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/saxilite.gen 
+Execute             source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/maxi.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/ip/dds_compiler.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/ip/util.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/ip/xfft.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/ip/xfir.gen 
+Execute         source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/common/dsp48.gen 
+Execute     source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/zynquplus/zynquplus_fpv7.gen 
+Execute       source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/common/xilinx_fpv6.gen 
+INFO-FLOW: DBG:CMD:   using AESL_AUTOCG::g_clock_period=10.000 (was NA)
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/global.setting.tcl 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/global.setting.tcl 
+INFO-FLOW: DBG:CMD: automg_wrap -export -pcore_version 1.00.a -rtl vlog -sdx-target none -tool Vivado -impltomg_flag
+INFO-FLOW: DBG:CMD:     auto_generate -export -pcore_version 1.00.a -rtl vlog -sdx-target none -tool Vivado -impltomg_flag
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/global.setting.tcl 
+INFO-FLOW: DBG:CMD: read_platform_lib /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/global.setting.tcl
+Execute     source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/generic/autopilot/common.gen 
+Execute       source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/generic/autopilot/APCoreGen.gen 
+Execute     source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/generic/autopilot/op.gen 
+Execute     source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/generic/autopilot/op_simcore.gen 
+Execute     source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/generic/autopilot/interface.gen 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/global.setting.tcl 
+Execute     source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/zynquplus/zynquplus.gen 
+Execute       source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/common/virtex.gen 
+Execute         source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/common/xilinx.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/plb46.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/fsl.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/axi4.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute             source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/saxilite.gen 
+Execute             source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/maxi.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/ip/dds_compiler.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/ip/util.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/ip/xfft.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/ip/xfir.gen 
+Execute         source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/common/dsp48.gen 
+Execute     source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/zynquplus/zynquplus_fpv7.gen 
+Execute       source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/common/xilinx_fpv6.gen 
+INFO-FLOW: DBG:CMD:       initCTypeInfo top_module=custom2 xml_exists=0
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.rtl_wrap.cfg.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.rtl_wrap.cfg.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.rtl_wrap.cfg.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.tbgen.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.tbgen.tcl 
+INFO-FLOW: DBG:CMD:         dump_ctype_info_xml failed
+INFO-FLOW: DBG:CMD:       export_impl_rtl
+INFO-FLOW: DBG:CMD:       generate_ip_cores sim=0 export=0 expOnly=0 dstVlogDir=impl/.verilog
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/global.setting.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/first_counter_increment.compgen.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/first_counter.compgen.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.compgen.tcl 
+INFO-FLOW: DBG:CMD:       generate_ip_cores sim=0 export=1 expOnly=1 dstVlogDir=impl/.pcores/verilog
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/global.setting.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/first_counter_increment.compgen.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/first_counter.compgen.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.compgen.tcl 
+INFO-FLOW: DBG:CMD:       generate_ip_cores sim=0 export=0 expOnly=0 dstVlogDir=impl/.pcores/verilog_sim
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/global.setting.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/first_counter_increment.compgen.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/first_counter.compgen.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.compgen.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/global.setting.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.constraint.tcl 
+INFO-FLOW: DBG:CMD:       hasPcoreIpAdapter=false #gSsdmPorts=0
+INFO-FLOW: DBG:CMD:       generate_ip_script #gSsdmPorts=0
+INFO-FLOW: DBG:CMD:       initCTypeInfo top_module=custom2 xml_exists=0
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.rtl_wrap.cfg.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.rtl_wrap.cfg.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.rtl_wrap.cfg.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.tbgen.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.tbgen.tcl 
+INFO-FLOW: DBG:CMD:         dump_ctype_info_xml failed
+INFO-FLOW: DBG:CMD:       initCTypeInfo top_module=custom2 xml_exists=0
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.rtl_wrap.cfg.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.rtl_wrap.cfg.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.rtl_wrap.cfg.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.tbgen.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.tbgen.tcl 
+INFO-FLOW: DBG:CMD:         dump_ctype_info_xml failed
+INFO-FLOW: DBG:CMD:       initCTypeInfo top_module=custom2 xml_exists=0
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.rtl_wrap.cfg.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.rtl_wrap.cfg.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.rtl_wrap.cfg.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.tbgen.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.tbgen.tcl 
+INFO-FLOW: DBG:CMD:         dump_ctype_info_xml failed
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.tbgen.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.tbgen.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/global.setting.tcl 
+Execute     get_config_sdx -target 
+INFO-FLOW: DBG:CMD:       generate_ip_auxiliary
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/global.setting.tcl 
+INFO-FLOW: DBG:CMD:       prepArgInfo -> loadAnalyze_DB top_module=custom2
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.rtl_wrap.cfg.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.rtl_wrap.cfg.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.rtl_wrap.cfg.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.tbgen.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.tbgen.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.tbgen.tcl 
+INFO-FLOW: DBG:CMD:       generate_top_info
+INFO-FLOW: DBG:CMD:       prepArgInfo -> loadAnalyze_DB top_module=custom2
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.rtl_wrap.cfg.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.rtl_wrap.cfg.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.rtl_wrap.cfg.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.tbgen.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.tbgen.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/global.setting.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.constraint.tcl 
+INFO-FLOW: DBG:CMD:       generate_ipi_example_script
+INFO-FLOW: DBG:CMD:       generate_syn_sh
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/global.setting.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/global.setting.tcl 
+INFO-FLOW: DBG:CMD:       generate_imp_constraints
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.constraint.tcl 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/custom2.constraint.tcl 
+INFO-FLOW: DBG:CMD:       copy-tb-rtl-files
+INFO-FLOW: DBG:CMD:       copy-tb-data-files
+INFO-FLOW: DBG:CMD:       delete-temp-dirs (skipped for debug)
+INFO-FLOW: DBG:CMD: read_platform_lib /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/global.setting.tcl
+Execute     source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/generic/autopilot/common.gen 
+Execute       source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/generic/autopilot/APCoreGen.gen 
+Execute     source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/generic/autopilot/op.gen 
+Execute     source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/generic/autopilot/op_simcore.gen 
+Execute     source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/generic/autopilot/interface.gen 
+Execute     source /home/shubham/HLS_Exercises/CustomClocks2/solution1/.autopilot/db/global.setting.tcl 
+Execute     source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/zynquplus/zynquplus.gen 
+Execute       source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/common/virtex.gen 
+Execute         source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/common/xilinx.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/plb46.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/fsl.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/axi4.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute             source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/saxilite.gen 
+Execute             source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/maxi.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/ip/dds_compiler.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/ip/util.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/ip/xfft.gen 
+Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/ip/xfir.gen 
+Execute         source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/common/dsp48.gen 
+Execute     source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/zynquplus/zynquplus_fpv7.gen 
+Execute       source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/common/xilinx_fpv6.gen 
+INFO-FLOW: DBG:CMD:     exec /home/shubham/HLS_Exercises/CustomClocks2/solution1/impl/ip/pack.sh
+Command   export_design done; 28.28 sec.
+Command ap_source done; 28.42 sec.
+Execute cleanup_all 

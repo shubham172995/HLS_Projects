@@ -9,10 +9,9 @@ add_files CustomClocks2/.settings/Custom2.cpp
 open_solution "solution1"
 set_part {xczu9eg-ffvb1156-2-e} -tool vivado
 create_clock -period 10 -name default
-create_clock -period 10 -name clock1
-create_clock -period 40 -name clock2
+config_export -format ip_catalog -rtl verilog
 #source "./CustomClocks2/solution1/directives.tcl"
 #csim_design
 csynth_design
 #cosim_design
-export_design -format ip_catalog
+export_design -rtl verilog -format ip_catalog

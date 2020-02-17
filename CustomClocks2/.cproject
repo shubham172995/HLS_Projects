@@ -123,7 +123,11 @@
                                     								
                                 </option>
                                 								
-                                <option id="gnu.c.link.option.libs.1830968012" name="Libraries (-l)" superClass="gnu.c.link.option.libs"/>
+                                <option id="gnu.c.link.option.libs.1830968012" name="Libraries (-l)" superClass="gnu.c.link.option.libs" valueType="libs">
+                                    									
+                                    <listOptionValue builtIn="false" value="systemc_debug"/>
+                                    								
+                                </option>
                                 								
                                 <option id="gnu.c.link.option.ldflags.2141638956" name="Linker flags" superClass="gnu.c.link.option.ldflags"/>
                                 							
@@ -137,7 +141,11 @@
                                     								
                                 </option>
                                 								
-                                <option id="gnu.cpp.link.option.libs.1994181365" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs"/>
+                                <option id="gnu.cpp.link.option.libs.1994181365" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" valueType="libs">
+                                    									
+                                    <listOptionValue builtIn="false" value="systemc_debug"/>
+                                    								
+                                </option>
                                 								
                                 <option id="gnu.cpp.link.option.flags.579733972" name="Linker flags" superClass="gnu.cpp.link.option.flags"/>
                                 								
@@ -275,7 +283,11 @@
                                     								
                                 </option>
                                 								
-                                <option id="gnu.c.link.option.libs.785833969" name="Libraries (-l)" superClass="gnu.c.link.option.libs"/>
+                                <option id="gnu.c.link.option.libs.785833969" name="Libraries (-l)" superClass="gnu.c.link.option.libs" valueType="libs">
+                                    									
+                                    <listOptionValue builtIn="false" value="systemc_debug"/>
+                                    								
+                                </option>
                                 								
                                 <option id="gnu.c.link.option.ldflags.75422666" name="Linker flags" superClass="gnu.c.link.option.ldflags"/>
                                 							
@@ -289,7 +301,11 @@
                                     								
                                 </option>
                                 								
-                                <option id="gnu.cpp.link.option.libs.293439787" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs"/>
+                                <option id="gnu.cpp.link.option.libs.293439787" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" valueType="libs">
+                                    									
+                                    <listOptionValue builtIn="false" value="systemc_debug"/>
+                                    								
+                                </option>
                                 								
                                 <option id="gnu.cpp.link.option.flags.1721780152" name="Linker flags" superClass="gnu.cpp.link.option.flags"/>
                                 								

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="custom2" xd:componentRef="custom2" xd:initiationInterval="5" xd:clockPeriod="10.000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:arg xd:name="enable" xd:originalName="enable" xd:direction="in" xd:interfaceRef="enable" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="1"/>
+  <xd:arg xd:name="out_counter1" xd:originalName="out_counter1" xd:direction="out" xd:interfaceRef="out_counter1" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="4" xd:firstOut="-1"/>
+  <xd:arg xd:name="out_counter2" xd:originalName="out_counter2" xd:direction="out" xd:interfaceRef="out_counter2" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="4" xd:firstOut="-1"/>
+  <xd:latencyEstimates xd:best-case="1" xd:worst-case="4" xd:average-case="3"/>
+  <xd:resourceEstimates xd:LUT="42" xd:FF="20" xd:BRAM="0" xd:DSP="0"/>
+</xd:acceleratorMap>

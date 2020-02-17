@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="hier_func.c" path="/home/shubham/HLS_Exercises/hier_func/hier_func.c"/>
+  </source>
+  <testbench>
+    <originFiles name="tb_data" path="/home/shubham/HLS_Exercises/hier_func/tb_data"/>
+    <originFiles name="hier_func_test.c" path="/home/shubham/HLS_Exercises/hier_func/hier_func_test.c"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>
