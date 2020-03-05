@@ -1,0 +1,7 @@
+<annotationInfo>
+<item  id="27" filename="/home/shubham/HLS_Exercises/DataDecCPP/DataDecCPP.h" linenumber="65" name="exitcond" contextFuncName="datagdec" moduleName="datagdec" rtlName="exitcond_fu_128_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="11" fileDirectory="/home/shubham/HLS_Exercises"><\/item>
+<item  id="29" filename="/home/shubham/HLS_Exercises/DataDecCPP/DataDecCPP.h" linenumber="65" name="i" contextFuncName="datagdec" moduleName="datagdec" rtlName="i_fu_134_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="12" fileDirectory="/home/shubham/HLS_Exercises"><\/item>
+<item  id="32" filename="/home/shubham/HLS_Exercises/DataDecCPP/DataDecCPP.h" linenumber="66" name="tmp_tlast" contextFuncName="datagdec" moduleName="datagdec" rtlName="tmp_tlast_fu_140_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="9" fileDirectory="/home/shubham/HLS_Exercises"><\/item>
+<item  id="33" filename="/home/shubham/HLS_Exercises/DataDecCPP/DataDecCPP.h" linenumber="69" name="tmp_3" contextFuncName="datagdec" moduleName="datagdec" rtlName="tmp_3_fu_146_p1" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="/home/shubham/HLS_Exercises"><\/item>
+<item  id="36" filename="/home/shubham/HLS_Exercises/DataDecCPP/DataDecCPP.h" linenumber="69" name="dat_data_V" contextFuncName="datagdec" moduleName="datagdec" rtlName="dat_data_V_fu_151_p3" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="2" fileDirectory="/home/shubham/HLS_Exercises"><\/item>
+</annotationInfo>

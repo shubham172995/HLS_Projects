@@ -30669,33 +30669,21 @@ void datag(hls::stream<d_in> din, hls::stream<int> control, hls::stream<d_in_wor
 #pragma HLS INTERFACE axis register both port=dout_words
 #pragma HLS INTERFACE axis register both port=din_words
 #pragma HLS INTERFACE axis register both port=control
-#pragma empty_line
-#pragma empty_line
-#pragma empty_line
-#pragma empty_line
 #pragma HLS INTERFACE axis register both port=din
-#pragma empty_line
-#pragma empty_line
-#pragma empty_line
-#pragma empty_line
-#pragma empty_line
-#pragma empty_line
  d_in dat;
- dat.data=0x95EE819A76;
+ dat.data=0xF5EE819A76;
  dat.tlast=1;
  d_in_words words;
  words.tlast=1;
- words.data=0x10;
+ words.data=0x5;
  d_out_words dwords;
  dwords.data=0x10;
  dwords.tlast=1;
-#pragma line 77 "/home/shubham/HLS_Exercises/DataCPP/DataCPP.h"
-  control.write(0x048F55FC);
-  din_words.write(words);
-  dout_words.write(dwords);
-#pragma line 89 "/home/shubham/HLS_Exercises/DataCPP/DataCPP.h"
-  din.write(dat);
-#pragma line 100 "/home/shubham/HLS_Exercises/DataCPP/DataCPP.h"
+ control.write(0);
+ din_words.write(words);
+ dout_words.write(dwords);
+#pragma line 58 "/home/shubham/HLS_Exercises/DataCPP/DataCPP.h"
+ din.write(dat);
 }
 #pragma line 2 "DataCPP/.settings/DataCPP.cpp" 2
 #pragma empty_line

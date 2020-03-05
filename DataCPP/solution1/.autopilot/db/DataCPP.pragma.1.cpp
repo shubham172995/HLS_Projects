@@ -30745,33 +30745,21 @@ void datag(hls::stream<d_in> din, hls::stream<int> control, hls::stream<d_in_wor
 _ssdm_op_SpecInterface(&dout_words, "axis", 1, 1, "both", 0, 0, "", "", "", 0, 0, 0, 0, "", "");
 _ssdm_op_SpecInterface(&din_words, "axis", 1, 1, "both", 0, 0, "", "", "", 0, 0, 0, 0, "", "");
 _ssdm_op_SpecInterface(&control, "axis", 1, 1, "both", 0, 0, "", "", "", 0, 0, 0, 0, "", "");
-
-
-
-
 _ssdm_op_SpecInterface(&din, "axis", 1, 1, "both", 0, 0, "", "", "", 0, 0, 0, 0, "", "");
-
-
-
-
-
-
  d_in dat;
- dat.data=0x95EE819A76;
+ dat.data=0xF5EE819A76;
  dat.tlast=1;
  d_in_words words;
  words.tlast=1;
- words.data=0x10;
+ words.data=0x5;
  d_out_words dwords;
  dwords.data=0x10;
  dwords.tlast=1;
-#77 "/home/shubham/HLS_Exercises/DataCPP/DataCPP.h"
-  control.write(0x048F55FC);
-  din_words.write(words);
-  dout_words.write(dwords);
-#89 "/home/shubham/HLS_Exercises/DataCPP/DataCPP.h"
-  din.write(dat);
-#100 "/home/shubham/HLS_Exercises/DataCPP/DataCPP.h"
+ control.write(0);
+ din_words.write(words);
+ dout_words.write(dwords);
+#58 "/home/shubham/HLS_Exercises/DataCPP/DataCPP.h"
+ din.write(dat);
 }
 #2 "DataCPP/.settings/DataCPP.cpp" 2
 

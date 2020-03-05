@@ -25,7 +25,7 @@
 
 <Node id="20" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="32">
 <![CDATA[
-:12  call void @_ssdm_op_Write.axis.volatile.i32P(i32* %control_V, i32 76502524)
+:12  call void @_ssdm_op_Write.axis.volatile.i32P(i32* %control_V, i32 0)
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>
@@ -40,7 +40,7 @@
 
 <Node id="21" bw="0" op_0_bw="0" op_1_bw="8" op_2_bw="1" op_3_bw="8" op_4_bw="1">
 <![CDATA[
-:13  call void @_ssdm_op_Write.axis.volatile.i8P.i1P(i8* %din_words_V_data_V, i1* %din_words_V_tlast, i8 16, i1 true)
+:13  call void @_ssdm_op_Write.axis.volatile.i8P.i1P(i8* %din_words_V_data_V, i1* %din_words_V_tlast, i8 5, i1 true)
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>
@@ -70,7 +70,7 @@
 
 <Node id="23" bw="0" op_0_bw="0" op_1_bw="128" op_2_bw="1" op_3_bw="128" op_4_bw="1">
 <![CDATA[
-:15  call void @_ssdm_op_Write.axis.volatile.i128P.i1P(i128* %din_V_data_V, i1* %din_V_tlast, i128 643951598198, i1 true)
+:15  call void @_ssdm_op_Write.axis.volatile.i128P.i1P(i128* %din_V_data_V, i1* %din_V_tlast, i128 1056268458614, i1 true)
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>
@@ -268,7 +268,7 @@
 
 <Node id="20" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="32">
 <![CDATA[
-:12  call void @_ssdm_op_Write.axis.volatile.i32P(i32* %control_V, i32 76502524)
+:12  call void @_ssdm_op_Write.axis.volatile.i32P(i32* %control_V, i32 0)
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>
@@ -283,7 +283,7 @@
 
 <Node id="21" bw="0" op_0_bw="0" op_1_bw="8" op_2_bw="1" op_3_bw="8" op_4_bw="1">
 <![CDATA[
-:13  call void @_ssdm_op_Write.axis.volatile.i8P.i1P(i8* %din_words_V_data_V, i1* %din_words_V_tlast, i8 16, i1 true)
+:13  call void @_ssdm_op_Write.axis.volatile.i8P.i1P(i8* %din_words_V_data_V, i1* %din_words_V_tlast, i8 5, i1 true)
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>
@@ -313,7 +313,7 @@
 
 <Node id="23" bw="0" op_0_bw="0" op_1_bw="128" op_2_bw="1" op_3_bw="128" op_4_bw="1">
 <![CDATA[
-:15  call void @_ssdm_op_Write.axis.volatile.i128P.i1P(i128* %din_V_data_V, i1* %din_V_tlast, i128 643951598198, i1 true)
+:15  call void @_ssdm_op_Write.axis.volatile.i128P.i1P(i128* %din_V_data_V, i1* %din_V_tlast, i128 1056268458614, i1 true)
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>

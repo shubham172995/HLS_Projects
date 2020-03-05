@@ -1,0 +1,181 @@
+
+
+================================================================
+== Vivado HLS Report for 'datagdec'
+================================================================
+* Date:           Thu Feb 27 23:52:57 2020
+
+* Version:        2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)
+* Project:        DataDecCPP
+* Solution:       solution1
+* Product family: zynquplus
+* Target device:  xczu9eg-ffvb1156-2-i
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|     1.416|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+---------+
+    |  Latency  |  Interval | Pipeline|
+    | min | max | min | max |   Type  |
+    +-----+-----+-----+-----+---------+
+    |   26|   26|   26|   26|   none  |
+    +-----+-----+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+        |          |  Latency  | Iteration|  Initiation Interval  | Trip |          |
+        | Loop Name| min | max |  Latency |  achieved |   target  | Count| Pipelined|
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+        |- Loop 1  |   24|   24|         3|          -|          -|     8|    no    |
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 5
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+	2  / true
+2 --> 
+	3  / true
+3 --> 
+	4  / (!exitcond)
+4 --> 
+	5  / true
+5 --> 
+	3  / true
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 0.00>
+ST_1 : Operation 6 [2/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i32P(i32* %control_V, i32 0)" [/home/shubham/HLS_Exercises/DataDecCPP/DataDecCPP.h:62]   --->   Operation 6 'write' <Predicate = true> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_1 : Operation 7 [2/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i8P.i1P(i8* %din_words_V_data_V, i1* %din_words_V_tlast, i8 16, i1 true)" [/home/shubham/HLS_Exercises/DataDecCPP/DataDecCPP.h:63]   --->   Operation 7 'write' <Predicate = true> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_1 : Operation 8 [2/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i8P.i1P(i8* %dout_words_V_data_V, i1* %dout_words_V_tlast, i8 16, i1 true)" [/home/shubham/HLS_Exercises/DataDecCPP/DataDecCPP.h:64]   --->   Operation 8 'write' <Predicate = true> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+
+State 2 <SV = 1> <Delay = 0.65>
+ST_2 : Operation 9 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i128* %din_V_data_V), !map !48"   --->   Operation 9 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 10 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i1* %din_V_tlast), !map !52"   --->   Operation 10 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 11 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i32* %control_V), !map !56"   --->   Operation 11 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 12 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %din_words_V_data_V), !map !60"   --->   Operation 12 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 13 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i1* %din_words_V_tlast), !map !64"   --->   Operation 13 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 14 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %dout_words_V_data_V), !map !68"   --->   Operation 14 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 15 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i1* %dout_words_V_tlast), !map !72"   --->   Operation 15 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 16 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecTopModule([9 x i8]* @datagdec_str) nounwind"   --->   Operation 16 'spectopmodule' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 17 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i8* %dout_words_V_data_V, i1* %dout_words_V_tlast, [5 x i8]* @p_str, i32 1, i32 1, [5 x i8]* @p_str1, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2, [1 x i8]* @p_str2, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2) nounwind" [/home/shubham/HLS_Exercises/DataDecCPP/DataDecCPP.h:27]   --->   Operation 17 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 18 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i8* %din_words_V_data_V, i1* %din_words_V_tlast, [5 x i8]* @p_str, i32 1, i32 1, [5 x i8]* @p_str1, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2, [1 x i8]* @p_str2, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2) nounwind" [/home/shubham/HLS_Exercises/DataDecCPP/DataDecCPP.h:28]   --->   Operation 18 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 19 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %control_V, [5 x i8]* @p_str, i32 1, i32 1, [5 x i8]* @p_str1, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2, [1 x i8]* @p_str2, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2) nounwind" [/home/shubham/HLS_Exercises/DataDecCPP/DataDecCPP.h:29]   --->   Operation 19 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 20 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i128* %din_V_data_V, i1* %din_V_tlast, [5 x i8]* @p_str, i32 1, i32 1, [5 x i8]* @p_str1, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2, [1 x i8]* @p_str2, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2) nounwind" [/home/shubham/HLS_Exercises/DataDecCPP/DataDecCPP.h:30]   --->   Operation 20 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 21 [1/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i32P(i32* %control_V, i32 0)" [/home/shubham/HLS_Exercises/DataDecCPP/DataDecCPP.h:62]   --->   Operation 21 'write' <Predicate = true> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_2 : Operation 22 [1/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i8P.i1P(i8* %din_words_V_data_V, i1* %din_words_V_tlast, i8 16, i1 true)" [/home/shubham/HLS_Exercises/DataDecCPP/DataDecCPP.h:63]   --->   Operation 22 'write' <Predicate = true> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_2 : Operation 23 [1/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i8P.i1P(i8* %dout_words_V_data_V, i1* %dout_words_V_tlast, i8 16, i1 true)" [/home/shubham/HLS_Exercises/DataDecCPP/DataDecCPP.h:64]   --->   Operation 23 'write' <Predicate = true> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_2 : Operation 24 [1/1] (0.65ns)   --->   "br label %0" [/home/shubham/HLS_Exercises/DataDecCPP/DataDecCPP.h:65]   --->   Operation 24 'br' <Predicate = true> <Delay = 0.65>
+
+State 3 <SV = 2> <Delay = 1.23>
+ST_3 : Operation 25 [1/1] (0.00ns)   --->   "%i2 = phi i4 [ 0, %arrayctor.loop1.preheader ], [ %i, %1 ]"   --->   Operation 25 'phi' 'i2' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 26 [1/1] (0.72ns)   --->   "%exitcond = icmp eq i4 %i2, -8" [/home/shubham/HLS_Exercises/DataDecCPP/DataDecCPP.h:65]   --->   Operation 26 'icmp' 'exitcond' <Predicate = true> <Delay = 0.72> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.72> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 27 [1/1] (0.00ns)   --->   "%empty = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 8, i64 8, i64 8)"   --->   Operation 27 'speclooptripcount' 'empty' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 28 [1/1] (0.79ns)   --->   "%i = add i4 %i2, 1" [/home/shubham/HLS_Exercises/DataDecCPP/DataDecCPP.h:65]   --->   Operation 28 'add' 'i' <Predicate = true> <Delay = 0.79> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.79> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 29 [1/1] (0.00ns)   --->   "br i1 %exitcond, label %2, label %1" [/home/shubham/HLS_Exercises/DataDecCPP/DataDecCPP.h:65]   --->   Operation 29 'br' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 30 [1/1] (0.72ns)   --->   "%tmp_tlast = icmp ugt i4 %i2, 6" [/home/shubham/HLS_Exercises/DataDecCPP/DataDecCPP.h:66]   --->   Operation 30 'icmp' 'tmp_tlast' <Predicate = (!exitcond)> <Delay = 0.72> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.72> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 31 [1/1] (0.00ns)   --->   "%tmp_3 = zext i4 %i2 to i64" [/home/shubham/HLS_Exercises/DataDecCPP/DataDecCPP.h:69]   --->   Operation 31 'zext' 'tmp_3' <Predicate = (!exitcond)> <Delay = 0.00>
+ST_3 : Operation 32 [1/1] (0.00ns)   --->   "%t_addr = getelementptr [8 x i1]* @t, i64 0, i64 %tmp_3" [/home/shubham/HLS_Exercises/DataDecCPP/DataDecCPP.h:69]   --->   Operation 32 'getelementptr' 't_addr' <Predicate = (!exitcond)> <Delay = 0.00>
+ST_3 : Operation 33 [2/2] (1.23ns)   --->   "%t_load = load i1* %t_addr, align 1" [/home/shubham/HLS_Exercises/DataDecCPP/DataDecCPP.h:69]   --->   Operation 33 'load' 't_load' <Predicate = (!exitcond)> <Delay = 1.23> <Core = "ROM_nP">   --->   Core 52 'ROM_nP' <Latency = 1> <II = 1> <Delay = 1.23> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 1> <Depth = 8> <ROM>
+ST_3 : Operation 34 [1/1] (0.00ns)   --->   "ret void" [/home/shubham/HLS_Exercises/DataDecCPP/DataDecCPP.h:72]   --->   Operation 34 'ret' <Predicate = (exitcond)> <Delay = 0.00>
+
+State 4 <SV = 3> <Delay = 1.41>
+ST_4 : Operation 35 [1/2] (1.23ns)   --->   "%t_load = load i1* %t_addr, align 1" [/home/shubham/HLS_Exercises/DataDecCPP/DataDecCPP.h:69]   --->   Operation 35 'load' 't_load' <Predicate = true> <Delay = 1.23> <Core = "ROM_nP">   --->   Core 52 'ROM_nP' <Latency = 1> <II = 1> <Delay = 1.23> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 1> <Depth = 8> <ROM>
+ST_4 : Operation 36 [1/1] (0.17ns)   --->   "%dat_data_V = select i1 %t_load, i128 -1, i128 0" [/home/shubham/HLS_Exercises/DataDecCPP/DataDecCPP.h:69]   --->   Operation 36 'select' 'dat_data_V' <Predicate = true> <Delay = 0.17> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 0.17> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_4 : Operation 37 [2/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i128P.i1P(i128* %din_V_data_V, i1* %din_V_tlast, i128 %dat_data_V, i1 %tmp_tlast)" [/home/shubham/HLS_Exercises/DataDecCPP/DataDecCPP.h:70]   --->   Operation 37 'write' <Predicate = true> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+
+State 5 <SV = 4> <Delay = 0.00>
+ST_5 : Operation 38 [1/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i128P.i1P(i128* %din_V_data_V, i1* %din_V_tlast, i128 %dat_data_V, i1 %tmp_tlast)" [/home/shubham/HLS_Exercises/DataDecCPP/DataDecCPP.h:70]   --->   Operation 38 'write' <Predicate = true> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_5 : Operation 39 [1/1] (0.00ns)   --->   "br label %0" [/home/shubham/HLS_Exercises/DataDecCPP/DataDecCPP.h:65]   --->   Operation 39 'br' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 1.25ns.
+
+ <State 1>: 0ns
+The critical path consists of the following:
+
+ <State 2>: 0.656ns
+The critical path consists of the following:
+	multiplexor before 'phi' operation ('i') with incoming values : ('i', /home/shubham/HLS_Exercises/DataDecCPP/DataDecCPP.h:65) [26]  (0.656 ns)
+
+ <State 3>: 1.24ns
+The critical path consists of the following:
+	'phi' operation ('i') with incoming values : ('i', /home/shubham/HLS_Exercises/DataDecCPP/DataDecCPP.h:65) [26]  (0 ns)
+	'getelementptr' operation ('t_addr', /home/shubham/HLS_Exercises/DataDecCPP/DataDecCPP.h:69) [34]  (0 ns)
+	'load' operation ('t_load', /home/shubham/HLS_Exercises/DataDecCPP/DataDecCPP.h:69) on array 't' [35]  (1.24 ns)
+
+ <State 4>: 1.42ns
+The critical path consists of the following:
+	'load' operation ('t_load', /home/shubham/HLS_Exercises/DataDecCPP/DataDecCPP.h:69) on array 't' [35]  (1.24 ns)
+	'select' operation ('dat.data.V', /home/shubham/HLS_Exercises/DataDecCPP/DataDecCPP.h:69) [36]  (0.179 ns)
+
+ <State 5>: 0ns
+The critical path consists of the following:
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

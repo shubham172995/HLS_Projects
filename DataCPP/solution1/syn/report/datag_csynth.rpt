@@ -3,13 +3,13 @@
 ================================================================
 == Vivado HLS Report for 'datag'
 ================================================================
-* Date:           Mon Feb 17 18:08:18 2020
+* Date:           Sat Feb 22 17:22:00 2020
 
 * Version:        2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)
 * Project:        DataCPP
 * Solution:       solution1
 * Product family: zynquplus
-* Target device:  xczu9eg-ffvb1156-2-e
+* Target device:  xczu9eg-ffvb1156-2-i
 
 
 ================================================================

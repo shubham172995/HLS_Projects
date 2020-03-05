@@ -39,7 +39,7 @@ set ExportMCPathFlag 0
 set SCTraceFileName mytrace
 set SCTraceFileFormat vcd
 set SCTraceOption all
-set TargetInfo xczu9eg:-ffvb1156:-2-e
+set TargetInfo xczu9eg:-ffvb1156:-2-i
 set SourceFiles {sc {} c ../.settings/DataCPP.cpp}
 set SourceFlags {sc {} c {{}}}
 set DirectiveFile /home/shubham/HLS_Exercises/DataCPP/solution1/solution1.directive

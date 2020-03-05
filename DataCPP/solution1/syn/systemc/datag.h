@@ -130,7 +130,7 @@ struct datag : public sc_module {
     static const sc_lv<2> ap_const_lv2_3;
     static const sc_lv<2> ap_const_lv2_1;
     static const sc_lv<32> ap_const_lv32_1;
-    static const sc_lv<32> ap_const_lv32_48F55FC;
+    static const sc_lv<8> ap_const_lv8_5;
     static const sc_lv<8> ap_const_lv8_10;
     static const sc_lv<128> ap_const_lv128_lc_1;
     // Thread declarations

@@ -25,9 +25,9 @@ const sc_lv<2> datag::ap_const_lv2_2 = "10";
 const sc_lv<2> datag::ap_const_lv2_3 = "11";
 const sc_lv<2> datag::ap_const_lv2_1 = "1";
 const sc_lv<32> datag::ap_const_lv32_1 = "1";
-const sc_lv<32> datag::ap_const_lv32_48F55FC = "100100011110101010111111100";
+const sc_lv<8> datag::ap_const_lv8_5 = "101";
 const sc_lv<8> datag::ap_const_lv8_10 = "10000";
-const sc_lv<128> datag::ap_const_lv128_lc_1 = "1001010111101110100000011001101001110110";
+const sc_lv<128> datag::ap_const_lv128_lc_1 = "1111010111101110100000011001101001110110";
 
 datag::datag(sc_module_name name) : sc_module(name), mVcdFile(0) {
 
@@ -785,7 +785,7 @@ void datag::thread_control_V_1_ack_out() {
 }
 
 void datag::thread_control_V_1_data_out() {
-    control_V_1_data_out = ap_const_lv32_48F55FC;
+    control_V_1_data_out = ap_const_lv32_0;
 }
 
 void datag::thread_control_V_1_sel() {
@@ -934,7 +934,7 @@ void datag::thread_din_words_V_data_V_1_ack_out() {
 }
 
 void datag::thread_din_words_V_data_V_1_data_out() {
-    din_words_V_data_V_1_data_out = ap_const_lv8_10;
+    din_words_V_data_V_1_data_out = ap_const_lv8_5;
 }
 
 void datag::thread_din_words_V_data_V_1_sel() {

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="datag" xd:componentRef="datag" xd:initiationInterval="2" xd:clockPeriod="10.000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:controlReg xd:name="control" xd:interfaceRef="ap_ctrl" xd:busTypeRef="acc_handshake" xd:type="acc_handshake"/>
+  <xd:arg xd:name="din.data" xd:originalName="din" xd:direction="out" xd:interfaceRef="din" xd:busTypeRef="axis" xd:dataWidth="128"/>
+  <xd:arg xd:name="din.tlast" xd:originalName="din" xd:direction="out" xd:interfaceRef="din" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="control" xd:originalName="control" xd:direction="out" xd:interfaceRef="control_V" xd:busTypeRef="axis" xd:dataWidth="32"/>
+  <xd:arg xd:name="din_words.data" xd:originalName="din_words" xd:direction="out" xd:interfaceRef="din_words" xd:busTypeRef="axis" xd:dataWidth="8"/>
+  <xd:arg xd:name="din_words.tlast" xd:originalName="din_words" xd:direction="out" xd:interfaceRef="din_words" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="dout_words.data" xd:originalName="dout_words" xd:direction="out" xd:interfaceRef="dout_words" xd:busTypeRef="axis" xd:dataWidth="8"/>
+  <xd:arg xd:name="dout_words.tlast" xd:originalName="dout_words" xd:direction="out" xd:interfaceRef="dout_words" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:latencyEstimates xd:best-case="1" xd:worst-case="1" xd:average-case="1"/>
+  <xd:resourceEstimates xd:LUT="160" xd:FF="23" xd:BRAM="0" xd:DSP="0"/>
+</xd:acceleratorMap>

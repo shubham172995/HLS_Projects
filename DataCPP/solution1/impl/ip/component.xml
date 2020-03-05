@@ -332,7 +332,7 @@ tatype {name {attribs {resolve_type immediate dependency {} format string minimu
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>e78154d0</spirit:value>
+            <spirit:value>03d08992</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -348,7 +348,7 @@ tatype {name {attribs {resolve_type immediate dependency {} format string minimu
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>30016cd2</spirit:value>
+            <spirit:value>9a003c26</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -364,7 +364,7 @@ tatype {name {attribs {resolve_type immediate dependency {} format string minimu
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>04344dde</spirit:value>
+            <spirit:value>61c307e3</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -380,7 +380,7 @@ tatype {name {attribs {resolve_type immediate dependency {} format string minimu
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>81dce3ca</spirit:value>
+            <spirit:value>4d6cf293</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -416,7 +416,7 @@ tatype {name {attribs {resolve_type immediate dependency {} format string minimu
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>987ffef6</spirit:value>
+            <spirit:value>e16b763f</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -784,7 +784,7 @@ tatype {name {attribs {resolve_type immediate dependency {} format string minimu
       <spirit:file>
         <spirit:name>hdl/vhdl/datag.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_81dce3ca</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_4d6cf293</spirit:userFileType>
       </spirit:file>
     </spirit:fileSet>
     <spirit:fileSet>
@@ -871,13 +871,13 @@ tatype {name {attribs {resolve_type immediate dependency {} format string minimu
       </xilinx:taxonomies>
       <xilinx:displayName>Datag</xilinx:displayName>
       <xilinx:definitionSource>HLS</xilinx:definitionSource>
-      <xilinx:coreRevision>2002171808</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2020-02-17T12:38:32Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>2002221722</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2020-02-22T11:52:13Z</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2018.3</xilinx:xilinxVersion>
       <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="d274e04c"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="00efa757"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="398f0d1f"/>
       <xilinx:checksum xilinx:scope="ports" xilinx:value="60e4bbcd"/>
       <xilinx:checksum xilinx:scope="parameters" xilinx:value="bf0de1f7"/>
     </xilinx:packagingInfo>

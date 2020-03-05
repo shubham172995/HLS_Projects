@@ -38,7 +38,7 @@ end;
 architecture behav of datag is 
     attribute CORE_GENERATION_INFO : STRING;
     attribute CORE_GENERATION_INFO of behav : architecture is
-    "datag,hls_ip_2018_3,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xczu9eg-ffvb1156-2-e,HLS_INPUT_CLOCK=10.000000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=0.000000,HLS_SYN_LAT=1,HLS_SYN_TPT=none,HLS_SYN_MEM=0,HLS_SYN_DSP=0,HLS_SYN_FF=23,HLS_SYN_LUT=160,HLS_VERSION=2018_3}";
+    "datag,hls_ip_2018_3,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xczu9eg-ffvb1156-2-i,HLS_INPUT_CLOCK=10.000000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=0.000000,HLS_SYN_LAT=1,HLS_SYN_TPT=none,HLS_SYN_MEM=0,HLS_SYN_DSP=0,HLS_SYN_FF=23,HLS_SYN_LUT=160,HLS_VERSION=2018_3}";
     constant ap_const_logic_1 : STD_LOGIC := '1';
     constant ap_const_logic_0 : STD_LOGIC := '0';
     constant ap_ST_fsm_state1 : STD_LOGIC_VECTOR (1 downto 0) := "01";
@@ -52,9 +52,9 @@ architecture behav of datag is
     constant ap_const_lv2_3 : STD_LOGIC_VECTOR (1 downto 0) := "11";
     constant ap_const_lv2_1 : STD_LOGIC_VECTOR (1 downto 0) := "01";
     constant ap_const_lv32_1 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000000001";
-    constant ap_const_lv32_48F55FC : STD_LOGIC_VECTOR (31 downto 0) := "00000100100011110101010111111100";
+    constant ap_const_lv8_5 : STD_LOGIC_VECTOR (7 downto 0) := "00000101";
     constant ap_const_lv8_10 : STD_LOGIC_VECTOR (7 downto 0) := "00010000";
-    constant ap_const_lv128_lc_1 : STD_LOGIC_VECTOR (127 downto 0) := "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000001001010111101110100000011001101001110110";
+    constant ap_const_lv128_lc_1 : STD_LOGIC_VECTOR (127 downto 0) := "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111010111101110100000011001101001110110";
 
     signal ap_rst_n_inv : STD_LOGIC;
     signal ap_CS_fsm : STD_LOGIC_VECTOR (1 downto 0) := "01";
@@ -462,7 +462,7 @@ begin
 
     control_V_1_ack_in <= control_V_1_state(1);
     control_V_1_ack_out <= control_V_TREADY;
-    control_V_1_data_out <= ap_const_lv32_48F55FC;
+    control_V_1_data_out <= ap_const_lv32_0;
     control_V_1_sel <= control_V_1_sel_rd;
 
     control_V_1_vld_in_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_block_state1_io)
@@ -545,7 +545,7 @@ begin
     din_words_TVALID <= din_words_V_tlast_1_state(0);
     din_words_V_data_V_1_ack_in <= din_words_V_data_V_1_state(1);
     din_words_V_data_V_1_ack_out <= din_words_TREADY;
-    din_words_V_data_V_1_data_out <= ap_const_lv8_10;
+    din_words_V_data_V_1_data_out <= ap_const_lv8_5;
     din_words_V_data_V_1_sel <= din_words_V_data_V_1_sel_rd;
 
     din_words_V_data_V_1_vld_in_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_block_state1_io)

@@ -7,7 +7,7 @@
 
 `timescale 1 ns / 1 ps 
 
-(* CORE_GENERATION_INFO="datag,hls_ip_2018_3,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xczu9eg-ffvb1156-2-e,HLS_INPUT_CLOCK=10.000000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=0.000000,HLS_SYN_LAT=1,HLS_SYN_TPT=none,HLS_SYN_MEM=0,HLS_SYN_DSP=0,HLS_SYN_FF=23,HLS_SYN_LUT=160,HLS_VERSION=2018_3}" *)
+(* CORE_GENERATION_INFO="datag,hls_ip_2018_3,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xczu9eg-ffvb1156-2-i,HLS_INPUT_CLOCK=10.000000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=0.000000,HLS_SYN_LAT=1,HLS_SYN_TPT=none,HLS_SYN_MEM=0,HLS_SYN_DSP=0,HLS_SYN_FF=23,HLS_SYN_LUT=160,HLS_VERSION=2018_3}" *)
 
 module datag (
         ap_clk,
@@ -498,7 +498,7 @@ assign control_V_1_ack_in = control_V_1_state[1'd1];
 
 assign control_V_1_ack_out = control_V_TREADY;
 
-assign control_V_1_data_out = 32'd76502524;
+assign control_V_1_data_out = 32'd0;
 
 assign control_V_1_sel = control_V_1_sel_rd;
 
@@ -518,7 +518,7 @@ assign din_V_data_V_1_ack_in = din_V_data_V_1_state[1'd1];
 
 assign din_V_data_V_1_ack_out = din_TREADY;
 
-assign din_V_data_V_1_data_out = 128'd643951598198;
+assign din_V_data_V_1_data_out = 128'd1056268458614;
 
 assign din_V_data_V_1_sel = din_V_data_V_1_sel_rd;
 
@@ -544,7 +544,7 @@ assign din_words_V_data_V_1_ack_in = din_words_V_data_V_1_state[1'd1];
 
 assign din_words_V_data_V_1_ack_out = din_words_TREADY;
 
-assign din_words_V_data_V_1_data_out = 8'd16;
+assign din_words_V_data_V_1_data_out = 8'd5;
 
 assign din_words_V_data_V_1_sel = din_words_V_data_V_1_sel_rd;
 

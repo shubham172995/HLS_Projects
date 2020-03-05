@@ -3,18 +3,18 @@
         <value string="false"/>
     </checksum>
     <downStreamTool>
-        <DownStreamTool name="vivado"/>
+        <DownStreamTool name=""/>
     </downStreamTool>
-    <clockList>
-        <clock default="false" name="default" period="10"/>
-    </clockList>
     <config>
-        <config_compile blackbox=""/>
         <schedule model="datag"/>
-        <config_export format="ip_catalog" rtl="verilog"/>
+        <config_compile blackbox="" no_signed_zeros="0" unsafe_math_optimizations="0"/>
+        <config_schedule effort="medium" enable_dsp_full_reg="0" relax_ii_for_timing="0" verbose="0"/>
+        <config_export flow="" format="ip_catalog" rtl="verilog" use_netlist="" vivado_phys_opt="place" vivado_report_level="0"/>
+        <config_bind effort="medium"/>
+        <config_sdx optimization_level="none" target="none"/>
     </config>
     <UIConfigurations>
-        <UIAutosynConf hideTrivialOp="true" isBasedOnBoard="false" isSolutionDirty="false" isStopAskAgain="false" showDetailDesignViewer="false">
+        <UIAutosynConf boardInfo="ZYNQ UltraScale+ ZCU102 Evaluation Platform (xczu9eg-ffvb1156-2-i) " hideTrivialOp="true" isBasedOnBoard="true" isSolutionDirty="false" isStopAskAgain="false" showDetailDesignViewer="false">
             <Platform>xilinx/zynquplus/zynquplus</Platform>
             <Platform>xilinx/zynquplus/zynquplus_fpv7</Platform>
             <customLibs/>
@@ -66,11 +66,14 @@
         <value string="DataCPP"/>
     </project>
     <targetInfo>
-        <TargetInfo value="xczu9eg:-ffvb1156:-2-e"/>
+        <TargetInfo value="xczu9eg:-ffvb1156:-2-i"/>
     </targetInfo>
     <libraryList>
         <library name="DefaultPlatform" value="xilinx/zynquplus/zynquplus"/>
         <library name="DefaultPlatform" value="xilinx/zynquplus/zynquplus_fpv7"/>
     </libraryList>
+    <clockList>
+        <clock name="default" default="false" uncertainty="12.5%" period="10"/>
+    </clockList>
 </solution>
 
