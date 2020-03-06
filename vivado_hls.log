@@ -1,11 +1,11 @@
 INFO: [HLS 200-10] Running '/home/shubham/Xilinx2018.3/Vivado/2018.3/bin/unwrapped/lnx64.o/vivado_hls'
-INFO: [HLS 200-10] For user 'shubham' on host 'shubham-HP-Desktop-Pro-G1-MT' (Linux_x86_64 version 4.15.0-88-generic) on Tue Mar 03 16:54:00 IST 2020
+INFO: [HLS 200-10] For user 'shubham' on host 'shubham-HP-Desktop-Pro-G1-MT' (Linux_x86_64 version 4.15.0-88-generic) on Fri Mar 06 16:44:06 IST 2020
 INFO: [HLS 200-10] On os Ubuntu 18.04.1 LTS
 INFO: [HLS 200-10] In directory '/home/shubham/HLS_Exercises'
-INFO: [HLS 200-10] Opening project '/home/shubham/HLS_Exercises/pspolar111'.
-INFO: [HLS 200-10] Opening solution '/home/shubham/HLS_Exercises/pspolar111/solution1'.
+INFO: [HLS 200-10] Opening project '/home/shubham/HLS_Exercises/LLRGen'.
+INFO: [HLS 200-10] Opening solution '/home/shubham/HLS_Exercises/LLRGen/solution1'.
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
-INFO: [HLS 200-10] Setting target device to 'xczu28dr-ffvg1517-2-e'
+INFO: [HLS 200-10] Setting target device to 'xczu9eg-ffvb1156-2-i'
 INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
 
 ****** Vivado v2018.3 (64-bit)
@@ -17,4 +17,4 @@ source run_ippack.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/shubham/Xilinx2018.3/Vivado/2018.3/data/ip'.
-INFO: [Common 17-206] Exiting Vivado at Tue Mar  3 16:54:07 2020...
+INFO: [Common 17-206] Exiting Vivado at Fri Mar  6 16:44:32 2020...

@@ -1,0 +1,173 @@
+
+
+================================================================
+== Vivado HLS Report for 'llr'
+================================================================
+* Date:           Fri Mar  6 16:43:55 2020
+
+* Version:        2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)
+* Project:        LLRGen
+* Solution:       solution1
+* Product family: zynquplus
+* Target device:  xczu9eg-ffvb1156-2-i
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|     1.300|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+---------+
+    |  Latency  |  Interval | Pipeline|
+    | min | max | min | max |   Type  |
+    +-----+-----+-----+-----+---------+
+    |    ?|    ?|    ?|    ?|   none  |
+    +-----+-----+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+        |          |  Latency  | Iteration|  Initiation Interval  | Trip |          |
+        | Loop Name| min | max |  Latency |  achieved |   target  | Count| Pipelined|
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+        |- Loop 1  |    ?|    ?|         2|          -|          -|     ?|    no    |
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 4
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+	2  / true
+2 --> 
+	3  / true
+3 --> 
+	4  / (!tmp_5)
+4 --> 
+	3  / true
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 0.00>
+ST_1 : Operation 5 [2/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i32P(i32* %control_V, i32 0)" [/home/shubham/HLS_Exercises/LLRGen/llrgen.h:43]   --->   Operation 5 'write' <Predicate = true> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_1 : Operation 6 [2/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i8P.i1P(i8* %din_words_V_data_V, i1* %din_words_V_tlast, i8 16, i1 true)" [/home/shubham/HLS_Exercises/LLRGen/llrgen.h:44]   --->   Operation 6 'write' <Predicate = true> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_1 : Operation 7 [2/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i8P.i1P(i8* %dout_words_V_data_V, i1* %dout_words_V_tlast, i8 5, i1 true)" [/home/shubham/HLS_Exercises/LLRGen/llrgen.h:45]   --->   Operation 7 'write' <Predicate = true> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%empty = call { i128, i1 } @_ssdm_op_Read.axis.volatile.i128P.i1P(i128* %dt_V_data_V, i1* %dt_V_tlast)" [/home/shubham/HLS_Exercises/LLRGen/llrgen.h:47]   --->   Operation 8 'read' 'empty' <Predicate = true> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%tmp_data_V = extractvalue { i128, i1 } %empty, 0" [/home/shubham/HLS_Exercises/LLRGen/llrgen.h:47]   --->   Operation 9 'extractvalue' 'tmp_data_V' <Predicate = true> <Delay = 0.00>
+
+State 2 <SV = 1> <Delay = 0.65>
+ST_2 : Operation 10 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i128* %dt_V_data_V), !map !74"   --->   Operation 10 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 11 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i1* %dt_V_tlast), !map !78"   --->   Operation 11 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 12 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i128* %din_V_data_V), !map !82"   --->   Operation 12 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 13 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i1* %din_V_tlast), !map !86"   --->   Operation 13 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 14 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i32* %control_V), !map !90"   --->   Operation 14 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 15 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %din_words_V_data_V), !map !94"   --->   Operation 15 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 16 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i1* %din_words_V_tlast), !map !98"   --->   Operation 16 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 17 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i8* %dout_words_V_data_V), !map !102"   --->   Operation 17 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 18 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i1* %dout_words_V_tlast), !map !106"   --->   Operation 18 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 19 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecTopModule([4 x i8]* @llr_str) nounwind"   --->   Operation 19 'spectopmodule' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 20 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i8* %dout_words_V_data_V, i1* %dout_words_V_tlast, [5 x i8]* @p_str, i32 1, i32 1, [5 x i8]* @p_str1, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2, [1 x i8]* @p_str2, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2) nounwind" [/home/shubham/HLS_Exercises/LLRGen/llrgen.h:31]   --->   Operation 20 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 21 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i8* %din_words_V_data_V, i1* %din_words_V_tlast, [5 x i8]* @p_str, i32 1, i32 1, [5 x i8]* @p_str1, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2, [1 x i8]* @p_str2, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2) nounwind" [/home/shubham/HLS_Exercises/LLRGen/llrgen.h:32]   --->   Operation 21 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 22 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %control_V, [5 x i8]* @p_str, i32 1, i32 1, [5 x i8]* @p_str1, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2, [1 x i8]* @p_str2, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2) nounwind" [/home/shubham/HLS_Exercises/LLRGen/llrgen.h:33]   --->   Operation 22 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 23 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i128* %din_V_data_V, i1* %din_V_tlast, [5 x i8]* @p_str, i32 1, i32 1, [5 x i8]* @p_str1, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2, [1 x i8]* @p_str2, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2) nounwind" [/home/shubham/HLS_Exercises/LLRGen/llrgen.h:34]   --->   Operation 23 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 24 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i128* %dt_V_data_V, i1* %dt_V_tlast, [5 x i8]* @p_str, i32 1, i32 1, [5 x i8]* @p_str1, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2, [1 x i8]* @p_str2, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2) nounwind" [/home/shubham/HLS_Exercises/LLRGen/llrgen.h:35]   --->   Operation 24 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 25 [1/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i32P(i32* %control_V, i32 0)" [/home/shubham/HLS_Exercises/LLRGen/llrgen.h:43]   --->   Operation 25 'write' <Predicate = true> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_2 : Operation 26 [1/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i8P.i1P(i8* %din_words_V_data_V, i1* %din_words_V_tlast, i8 16, i1 true)" [/home/shubham/HLS_Exercises/LLRGen/llrgen.h:44]   --->   Operation 26 'write' <Predicate = true> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_2 : Operation 27 [1/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i8P.i1P(i8* %dout_words_V_data_V, i1* %dout_words_V_tlast, i8 5, i1 true)" [/home/shubham/HLS_Exercises/LLRGen/llrgen.h:45]   --->   Operation 27 'write' <Predicate = true> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_2 : Operation 28 [1/1] (0.65ns)   --->   "br label %1" [/home/shubham/HLS_Exercises/LLRGen/llrgen.h:48]   --->   Operation 28 'br' <Predicate = true> <Delay = 0.65>
+
+State 3 <SV = 2> <Delay = 1.30>
+ST_3 : Operation 29 [1/1] (0.00ns)   --->   "%lhs_V = phi i128 [ %tmp_data_V, %0 ], [ %temp_data_V_1, %_ZrSILi128ELb1EER11ap_int_baseIXT_EXT0_EES2_i.exit ]"   --->   Operation 29 'phi' 'lhs_V' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 30 [1/1] (0.00ns)   --->   "%tmp = trunc i128 %lhs_V to i64" [/home/shubham/HLS_Exercises/LLRGen/llrgen.h:48]   --->   Operation 30 'trunc' 'tmp' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 31 [1/1] (0.00ns)   --->   "%tmp_1 = trunc i128 %lhs_V to i1" [/home/shubham/HLS_Exercises/LLRGen/llrgen.h:48]   --->   Operation 31 'trunc' 'tmp_1' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 32 [1/1] (1.13ns)   --->   "%tmp_5 = icmp eq i64 %tmp, 0" [/home/shubham/HLS_Exercises/LLRGen/llrgen.h:48]   --->   Operation 32 'icmp' 'tmp_5' <Predicate = true> <Delay = 1.13> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.30> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 33 [1/1] (0.00ns)   --->   "br i1 %tmp_5, label %2, label %_ZrSILi128ELb1EER11ap_int_baseIXT_EXT0_EES2_i.exit" [/home/shubham/HLS_Exercises/LLRGen/llrgen.h:48]   --->   Operation 33 'br' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 34 [1/1] (0.00ns)   --->   "%tmp_2 = call i127 @_ssdm_op_PartSelect.i127.i128.i32.i32(i128 %lhs_V, i32 1, i32 127)" [/home/shubham/HLS_Exercises/LLRGen/llrgen.h:50]   --->   Operation 34 'partselect' 'tmp_2' <Predicate = (!tmp_5)> <Delay = 0.00>
+ST_3 : Operation 35 [1/1] (0.00ns)   --->   "%temp_data_V_1 = sext i127 %tmp_2 to i128" [/home/shubham/HLS_Exercises/LLRGen/llrgen.h:50]   --->   Operation 35 'sext' 'temp_data_V_1' <Predicate = (!tmp_5)> <Delay = 0.00>
+ST_3 : Operation 36 [1/1] (1.30ns)   --->   "%tmp_tlast = icmp eq i127 %tmp_2, 0" [/home/shubham/HLS_Exercises/LLRGen/llrgen.h:51]   --->   Operation 36 'icmp' 'tmp_tlast' <Predicate = (!tmp_5)> <Delay = 1.30> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.30> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 37 [1/1] (0.39ns)   --->   "%tmp_data_V_4_cast = select i1 %tmp_1, i128 127, i128 -127" [/home/shubham/HLS_Exercises/LLRGen/llrgen.h:54]   --->   Operation 37 'select' 'tmp_data_V_4_cast' <Predicate = (!tmp_5)> <Delay = 0.39> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_3 : Operation 38 [2/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i128P.i1P(i128* %din_V_data_V, i1* %din_V_tlast, i128 %tmp_data_V_4_cast, i1 %tmp_tlast)" [/home/shubham/HLS_Exercises/LLRGen/llrgen.h:55]   --->   Operation 38 'write' <Predicate = (!tmp_5)> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_3 : Operation 39 [1/1] (0.00ns)   --->   "ret void" [/home/shubham/HLS_Exercises/LLRGen/llrgen.h:57]   --->   Operation 39 'ret' <Predicate = (tmp_5)> <Delay = 0.00>
+
+State 4 <SV = 3> <Delay = 0.00>
+ST_4 : Operation 40 [1/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i128P.i1P(i128* %din_V_data_V, i1* %din_V_tlast, i128 %tmp_data_V_4_cast, i1 %tmp_tlast)" [/home/shubham/HLS_Exercises/LLRGen/llrgen.h:55]   --->   Operation 40 'write' <Predicate = true> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_4 : Operation 41 [1/1] (0.00ns)   --->   "br label %1" [/home/shubham/HLS_Exercises/LLRGen/llrgen.h:56]   --->   Operation 41 'br' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 1.25ns.
+
+ <State 1>: 0ns
+The critical path consists of the following:
+
+ <State 2>: 0.656ns
+The critical path consists of the following:
+	multiplexor before 'phi' operation ('temp.data.V') with incoming values : ('tmp.data.V', /home/shubham/HLS_Exercises/LLRGen/llrgen.h:47) ('temp.data.V', /home/shubham/HLS_Exercises/LLRGen/llrgen.h:50) [32]  (0.656 ns)
+
+ <State 3>: 1.3ns
+The critical path consists of the following:
+	'phi' operation ('temp.data.V') with incoming values : ('tmp.data.V', /home/shubham/HLS_Exercises/LLRGen/llrgen.h:47) ('temp.data.V', /home/shubham/HLS_Exercises/LLRGen/llrgen.h:50) [32]  (0 ns)
+	'icmp' operation ('tmp.tlast', /home/shubham/HLS_Exercises/LLRGen/llrgen.h:51) [40]  (1.3 ns)
+
+ <State 4>: 0ns
+The critical path consists of the following:
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

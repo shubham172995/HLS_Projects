@@ -33,7 +33,7 @@ void llr(hls::stream<d_in> dt, hls::stream<d_in> din, hls::stream<int> control, 
 #pragma HLS INTERFACE axis register both port=control
 #pragma HLS INTERFACE axis register both port=din
 #pragma HLS INTERFACE axis register both port=dt
-		d_in dat;
+		d_in dat, temp;
 		d_in_words words;
 		words.tlast=1;
 		words.data=0x10;
@@ -44,10 +44,11 @@ void llr(hls::stream<d_in> dt, hls::stream<d_in> din, hls::stream<int> control, 
 		din_words.write(words);
 		dout_words.write(dwords);
 		ap_int<8> t;
-		while(dt){
-			t=(dt&1)?0x7F:0x81;
-			dt>>=1;
-			if(dt==0)
+		temp=dt.read();
+		while(temp.data){
+			t=(temp.data&1)?0x7F:0x81;
+			temp.data>>=1;
+			if(temp.data==0)
 				dat.tlast=1;
 			else dat.tlast=0;
 			dat.data=t;
