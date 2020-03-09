@@ -12,9 +12,10 @@
     "Package": "-ffvb1156",
     "Speed": "-2-i"
   },
-  "HlsSolution": {
-    
-  },
+  "HlsSolution": {"Config": [
+      "config_export -format=ip_catalog",
+      "config_export -rtl=verilog"
+    ]},
   "ClockInfo": {
     "ClockName": "ap_clk",
     "ClockPeriod": "10",
@@ -366,7 +367,7 @@
   },
   "GenData": {
     "DataVersion": "0.1",
-    "Time": "2020-03-06 16:43:56 IST",
+    "Time": "2020-03-09 11:26:42 IST",
     "ToolName": "vivado_hls",
     "ToolVersion": "2018.3"
   }

@@ -163,26 +163,26 @@ reg   [1:0] dout_words_V_tlast_1_state;
 reg    dt_TDATA_blk_n;
 reg    din_TDATA_blk_n;
 wire    ap_CS_fsm_state3;
-wire   [0:0] tmp_5_fu_133_p2;
+wire   [0:0] tmp_5_fu_135_p2;
 wire    ap_CS_fsm_state4;
 reg    control_V_TDATA_blk_n;
 wire    ap_CS_fsm_state2;
 reg    din_words_TDATA_blk_n;
 reg    dout_words_TDATA_blk_n;
-reg   [127:0] tmp_data_V_reg_169;
+reg   [127:0] tmp_data_V_reg_171;
 reg    ap_block_state1;
 reg    ap_block_state1_io;
-wire  signed [127:0] temp_data_V_1_fu_149_p1;
-reg  signed [127:0] temp_data_V_1_reg_177;
+wire  signed [127:0] temp_data_V_1_fu_151_p1;
+reg  signed [127:0] temp_data_V_1_reg_179;
 reg    ap_block_state3;
 reg    ap_block_state3_io;
-wire   [0:0] tmp_tlast_fu_153_p2;
-wire   [127:0] tmp_data_V_4_cast_fu_160_p3;
-reg   [127:0] lhs_V_reg_112;
+wire   [0:0] tmp_tlast_fu_155_p2;
+wire   [127:0] tmp_data_V_4_cast_fu_162_p3;
+reg   [127:0] lhs_V_reg_114;
 reg    ap_block_state2_io;
-wire   [63:0] tmp_fu_125_p1;
-wire  signed [126:0] tmp_2_fu_139_p4;
-wire   [0:0] tmp_1_fu_129_p1;
+wire   [63:0] tmp_fu_127_p1;
+wire  signed [126:0] tmp_2_fu_141_p4;
+wire   [0:0] tmp_1_fu_131_p1;
 reg   [3:0] ap_NS_fsm;
 
 // power-on initialization
@@ -474,33 +474,33 @@ end
 
 always @ (posedge ap_clk) begin
     if (((1'b1 == ap_CS_fsm_state4) & (din_V_data_V_1_ack_in == 1'b1))) begin
-        lhs_V_reg_112 <= temp_data_V_1_reg_177;
+        lhs_V_reg_114 <= temp_data_V_1_reg_179;
     end else if (((1'b0 == ap_block_state2_io) & (1'b1 == ap_CS_fsm_state2))) begin
-        lhs_V_reg_112 <= tmp_data_V_reg_169;
+        lhs_V_reg_114 <= tmp_data_V_reg_171;
     end
 end
 
 always @ (posedge ap_clk) begin
     if ((din_V_data_V_1_load_A == 1'b1)) begin
-        din_V_data_V_1_payload_A <= tmp_data_V_4_cast_fu_160_p3;
+        din_V_data_V_1_payload_A <= tmp_data_V_4_cast_fu_162_p3;
     end
 end
 
 always @ (posedge ap_clk) begin
     if ((din_V_data_V_1_load_B == 1'b1)) begin
-        din_V_data_V_1_payload_B <= tmp_data_V_4_cast_fu_160_p3;
+        din_V_data_V_1_payload_B <= tmp_data_V_4_cast_fu_162_p3;
     end
 end
 
 always @ (posedge ap_clk) begin
     if ((din_V_tlast_1_load_A == 1'b1)) begin
-        din_V_tlast_1_payload_A <= tmp_tlast_fu_153_p2;
+        din_V_tlast_1_payload_A <= tmp_tlast_fu_155_p2;
     end
 end
 
 always @ (posedge ap_clk) begin
     if ((din_V_tlast_1_load_B == 1'b1)) begin
-        din_V_tlast_1_payload_B <= tmp_tlast_fu_153_p2;
+        din_V_tlast_1_payload_B <= tmp_tlast_fu_155_p2;
     end
 end
 
@@ -517,19 +517,19 @@ always @ (posedge ap_clk) begin
 end
 
 always @ (posedge ap_clk) begin
-    if ((~((dout_words_V_tlast_1_ack_in == 1'b0) | (dout_words_V_data_V_1_ack_in == 1'b0) | (din_words_V_tlast_1_ack_in == 1'b0) | (din_words_V_data_V_1_ack_in == 1'b0) | (control_V_1_ack_in == 1'b0) | (din_V_tlast_1_ack_in == 1'b0) | (din_V_data_V_1_ack_in == 1'b0) | (1'b1 == ap_block_state3_io)) & (tmp_5_fu_133_p2 == 1'd0) & (1'b1 == ap_CS_fsm_state3))) begin
-        temp_data_V_1_reg_177 <= temp_data_V_1_fu_149_p1;
+    if ((~((dout_words_V_tlast_1_ack_in == 1'b0) | (dout_words_V_data_V_1_ack_in == 1'b0) | (din_words_V_tlast_1_ack_in == 1'b0) | (din_words_V_data_V_1_ack_in == 1'b0) | (control_V_1_ack_in == 1'b0) | (din_V_tlast_1_ack_in == 1'b0) | (din_V_data_V_1_ack_in == 1'b0) | (1'b1 == ap_block_state3_io)) & (tmp_5_fu_135_p2 == 1'd0) & (1'b1 == ap_CS_fsm_state3))) begin
+        temp_data_V_1_reg_179 <= temp_data_V_1_fu_151_p1;
     end
 end
 
 always @ (posedge ap_clk) begin
     if ((~((dt_V_data_V_0_vld_out == 1'b0) | (ap_start == 1'b0) | (1'b1 == ap_block_state1_io)) & (1'b1 == ap_CS_fsm_state1))) begin
-        tmp_data_V_reg_169 <= dt_V_data_V_0_data_out;
+        tmp_data_V_reg_171 <= dt_V_data_V_0_data_out;
     end
 end
 
 always @ (*) begin
-    if ((~((dout_words_V_tlast_1_ack_in == 1'b0) | (dout_words_V_data_V_1_ack_in == 1'b0) | (din_words_V_tlast_1_ack_in == 1'b0) | (din_words_V_data_V_1_ack_in == 1'b0) | (control_V_1_ack_in == 1'b0) | (din_V_tlast_1_ack_in == 1'b0) | (din_V_data_V_1_ack_in == 1'b0) | (1'b1 == ap_block_state3_io)) & (tmp_5_fu_133_p2 == 1'd1) & (dout_words_V_tlast_1_state[1'd0] == 1'b0) & (dout_words_V_data_V_1_state[1'd0] == 1'b0) & (din_words_V_tlast_1_state[1'd0] == 1'b0) & (din_words_V_data_V_1_state[1'd0] == 1'b0) & (control_V_1_state[1'd0] == 1'b0) & (din_V_tlast_1_state[1'd0] == 1'b0) & (din_V_data_V_1_state[1'd0] == 1'b0) & (1'b1 == ap_CS_fsm_state3))) begin
+    if ((~((dout_words_V_tlast_1_ack_in == 1'b0) | (dout_words_V_data_V_1_ack_in == 1'b0) | (din_words_V_tlast_1_ack_in == 1'b0) | (din_words_V_data_V_1_ack_in == 1'b0) | (control_V_1_ack_in == 1'b0) | (din_V_tlast_1_ack_in == 1'b0) | (din_V_data_V_1_ack_in == 1'b0) | (1'b1 == ap_block_state3_io)) & (tmp_5_fu_135_p2 == 1'd1) & (dout_words_V_tlast_1_state[1'd0] == 1'b0) & (dout_words_V_data_V_1_state[1'd0] == 1'b0) & (din_words_V_tlast_1_state[1'd0] == 1'b0) & (din_words_V_data_V_1_state[1'd0] == 1'b0) & (control_V_1_state[1'd0] == 1'b0) & (din_V_tlast_1_state[1'd0] == 1'b0) & (din_V_data_V_1_state[1'd0] == 1'b0) & (1'b1 == ap_CS_fsm_state3))) begin
         ap_done = 1'b1;
     end else begin
         ap_done = 1'b0;
@@ -545,7 +545,7 @@ always @ (*) begin
 end
 
 always @ (*) begin
-    if ((~((dout_words_V_tlast_1_ack_in == 1'b0) | (dout_words_V_data_V_1_ack_in == 1'b0) | (din_words_V_tlast_1_ack_in == 1'b0) | (din_words_V_data_V_1_ack_in == 1'b0) | (control_V_1_ack_in == 1'b0) | (din_V_tlast_1_ack_in == 1'b0) | (din_V_data_V_1_ack_in == 1'b0) | (1'b1 == ap_block_state3_io)) & (tmp_5_fu_133_p2 == 1'd1) & (dout_words_V_tlast_1_state[1'd0] == 1'b0) & (dout_words_V_data_V_1_state[1'd0] == 1'b0) & (din_words_V_tlast_1_state[1'd0] == 1'b0) & (din_words_V_data_V_1_state[1'd0] == 1'b0) & (control_V_1_state[1'd0] == 1'b0) & (din_V_tlast_1_state[1'd0] == 1'b0) & (din_V_data_V_1_state[1'd0] == 1'b0) & (1'b1 == ap_CS_fsm_state3))) begin
+    if ((~((dout_words_V_tlast_1_ack_in == 1'b0) | (dout_words_V_data_V_1_ack_in == 1'b0) | (din_words_V_tlast_1_ack_in == 1'b0) | (din_words_V_data_V_1_ack_in == 1'b0) | (control_V_1_ack_in == 1'b0) | (din_V_tlast_1_ack_in == 1'b0) | (din_V_data_V_1_ack_in == 1'b0) | (1'b1 == ap_block_state3_io)) & (tmp_5_fu_135_p2 == 1'd1) & (dout_words_V_tlast_1_state[1'd0] == 1'b0) & (dout_words_V_data_V_1_state[1'd0] == 1'b0) & (din_words_V_tlast_1_state[1'd0] == 1'b0) & (din_words_V_data_V_1_state[1'd0] == 1'b0) & (control_V_1_state[1'd0] == 1'b0) & (din_V_tlast_1_state[1'd0] == 1'b0) & (din_V_data_V_1_state[1'd0] == 1'b0) & (1'b1 == ap_CS_fsm_state3))) begin
         ap_ready = 1'b1;
     end else begin
         ap_ready = 1'b0;
@@ -569,7 +569,7 @@ always @ (*) begin
 end
 
 always @ (*) begin
-    if (((1'b1 == ap_CS_fsm_state4) | ((tmp_5_fu_133_p2 == 1'd0) & (1'b1 == ap_CS_fsm_state3)))) begin
+    if (((1'b1 == ap_CS_fsm_state4) | ((tmp_5_fu_135_p2 == 1'd0) & (1'b1 == ap_CS_fsm_state3)))) begin
         din_TDATA_blk_n = din_V_data_V_1_state[1'd1];
     end else begin
         din_TDATA_blk_n = 1'b1;
@@ -585,7 +585,7 @@ always @ (*) begin
 end
 
 always @ (*) begin
-    if ((~((dout_words_V_tlast_1_ack_in == 1'b0) | (dout_words_V_data_V_1_ack_in == 1'b0) | (din_words_V_tlast_1_ack_in == 1'b0) | (din_words_V_data_V_1_ack_in == 1'b0) | (control_V_1_ack_in == 1'b0) | (din_V_tlast_1_ack_in == 1'b0) | (din_V_data_V_1_ack_in == 1'b0) | (1'b1 == ap_block_state3_io)) & (tmp_5_fu_133_p2 == 1'd0) & (1'b1 == ap_CS_fsm_state3))) begin
+    if ((~((dout_words_V_tlast_1_ack_in == 1'b0) | (dout_words_V_data_V_1_ack_in == 1'b0) | (din_words_V_tlast_1_ack_in == 1'b0) | (din_words_V_data_V_1_ack_in == 1'b0) | (control_V_1_ack_in == 1'b0) | (din_V_tlast_1_ack_in == 1'b0) | (din_V_data_V_1_ack_in == 1'b0) | (1'b1 == ap_block_state3_io)) & (tmp_5_fu_135_p2 == 1'd0) & (1'b1 == ap_CS_fsm_state3))) begin
         din_V_data_V_1_vld_in = 1'b1;
     end else begin
         din_V_data_V_1_vld_in = 1'b0;
@@ -601,7 +601,7 @@ always @ (*) begin
 end
 
 always @ (*) begin
-    if ((~((dout_words_V_tlast_1_ack_in == 1'b0) | (dout_words_V_data_V_1_ack_in == 1'b0) | (din_words_V_tlast_1_ack_in == 1'b0) | (din_words_V_data_V_1_ack_in == 1'b0) | (control_V_1_ack_in == 1'b0) | (din_V_tlast_1_ack_in == 1'b0) | (din_V_data_V_1_ack_in == 1'b0) | (1'b1 == ap_block_state3_io)) & (tmp_5_fu_133_p2 == 1'd0) & (1'b1 == ap_CS_fsm_state3))) begin
+    if ((~((dout_words_V_tlast_1_ack_in == 1'b0) | (dout_words_V_data_V_1_ack_in == 1'b0) | (din_words_V_tlast_1_ack_in == 1'b0) | (din_words_V_data_V_1_ack_in == 1'b0) | (control_V_1_ack_in == 1'b0) | (din_V_tlast_1_ack_in == 1'b0) | (din_V_data_V_1_ack_in == 1'b0) | (1'b1 == ap_block_state3_io)) & (tmp_5_fu_135_p2 == 1'd0) & (1'b1 == ap_CS_fsm_state3))) begin
         din_V_tlast_1_vld_in = 1'b1;
     end else begin
         din_V_tlast_1_vld_in = 1'b0;
@@ -705,9 +705,9 @@ always @ (*) begin
             end
         end
         ap_ST_fsm_state3 : begin
-            if ((~((dout_words_V_tlast_1_ack_in == 1'b0) | (dout_words_V_data_V_1_ack_in == 1'b0) | (din_words_V_tlast_1_ack_in == 1'b0) | (din_words_V_data_V_1_ack_in == 1'b0) | (control_V_1_ack_in == 1'b0) | (din_V_tlast_1_ack_in == 1'b0) | (din_V_data_V_1_ack_in == 1'b0) | (1'b1 == ap_block_state3_io)) & (tmp_5_fu_133_p2 == 1'd1) & (dout_words_V_tlast_1_state[1'd0] == 1'b0) & (dout_words_V_data_V_1_state[1'd0] == 1'b0) & (din_words_V_tlast_1_state[1'd0] == 1'b0) & (din_words_V_data_V_1_state[1'd0] == 1'b0) & (control_V_1_state[1'd0] == 1'b0) & (din_V_tlast_1_state[1'd0] == 1'b0) & (din_V_data_V_1_state[1'd0] == 1'b0) & (1'b1 == ap_CS_fsm_state3))) begin
+            if ((~((dout_words_V_tlast_1_ack_in == 1'b0) | (dout_words_V_data_V_1_ack_in == 1'b0) | (din_words_V_tlast_1_ack_in == 1'b0) | (din_words_V_data_V_1_ack_in == 1'b0) | (control_V_1_ack_in == 1'b0) | (din_V_tlast_1_ack_in == 1'b0) | (din_V_data_V_1_ack_in == 1'b0) | (1'b1 == ap_block_state3_io)) & (tmp_5_fu_135_p2 == 1'd1) & (dout_words_V_tlast_1_state[1'd0] == 1'b0) & (dout_words_V_data_V_1_state[1'd0] == 1'b0) & (din_words_V_tlast_1_state[1'd0] == 1'b0) & (din_words_V_data_V_1_state[1'd0] == 1'b0) & (control_V_1_state[1'd0] == 1'b0) & (din_V_tlast_1_state[1'd0] == 1'b0) & (din_V_data_V_1_state[1'd0] == 1'b0) & (1'b1 == ap_CS_fsm_state3))) begin
                 ap_NS_fsm = ap_ST_fsm_state1;
-            end else if ((~((dout_words_V_tlast_1_ack_in == 1'b0) | (dout_words_V_data_V_1_ack_in == 1'b0) | (din_words_V_tlast_1_ack_in == 1'b0) | (din_words_V_data_V_1_ack_in == 1'b0) | (control_V_1_ack_in == 1'b0) | (din_V_tlast_1_ack_in == 1'b0) | (din_V_data_V_1_ack_in == 1'b0) | (1'b1 == ap_block_state3_io)) & (tmp_5_fu_133_p2 == 1'd0) & (1'b1 == ap_CS_fsm_state3))) begin
+            end else if ((~((dout_words_V_tlast_1_ack_in == 1'b0) | (dout_words_V_data_V_1_ack_in == 1'b0) | (din_words_V_tlast_1_ack_in == 1'b0) | (din_words_V_data_V_1_ack_in == 1'b0) | (control_V_1_ack_in == 1'b0) | (din_V_tlast_1_ack_in == 1'b0) | (din_V_data_V_1_ack_in == 1'b0) | (1'b1 == ap_block_state3_io)) & (tmp_5_fu_135_p2 == 1'd0) & (1'b1 == ap_CS_fsm_state3))) begin
                 ap_NS_fsm = ap_ST_fsm_state4;
             end else begin
                 ap_NS_fsm = ap_ST_fsm_state3;
@@ -751,7 +751,7 @@ always @ (*) begin
 end
 
 always @ (*) begin
-    ap_block_state3_io = ((tmp_5_fu_133_p2 == 1'd0) & (din_V_data_V_1_ack_in == 1'b0));
+    ap_block_state3_io = ((tmp_5_fu_135_p2 == 1'd0) & (din_V_data_V_1_ack_in == 1'b0));
 end
 
 always @ (*) begin
@@ -762,7 +762,7 @@ assign control_V_1_ack_in = control_V_1_state[1'd1];
 
 assign control_V_1_ack_out = control_V_TREADY;
 
-assign control_V_1_data_out = 32'd0;
+assign control_V_1_data_out = 32'd4227858436;
 
 assign control_V_1_sel = control_V_1_sel_rd;
 
@@ -876,18 +876,18 @@ assign dt_V_data_V_0_vld_out = dt_V_data_V_0_state[1'd0];
 
 assign dt_V_tlast_0_vld_in = dt_TVALID;
 
-assign temp_data_V_1_fu_149_p1 = tmp_2_fu_139_p4;
+assign temp_data_V_1_fu_151_p1 = tmp_2_fu_141_p4;
 
-assign tmp_1_fu_129_p1 = lhs_V_reg_112[0:0];
+assign tmp_1_fu_131_p1 = lhs_V_reg_114[0:0];
 
-assign tmp_2_fu_139_p4 = {{lhs_V_reg_112[127:1]}};
+assign tmp_2_fu_141_p4 = {{lhs_V_reg_114[127:1]}};
 
-assign tmp_5_fu_133_p2 = ((tmp_fu_125_p1 == 64'd0) ? 1'b1 : 1'b0);
+assign tmp_5_fu_135_p2 = ((tmp_fu_127_p1 == 64'd0) ? 1'b1 : 1'b0);
 
-assign tmp_data_V_4_cast_fu_160_p3 = ((tmp_1_fu_129_p1[0:0] === 1'b1) ? 128'd127 : 128'd340282366920938463463374607431768211329);
+assign tmp_data_V_4_cast_fu_162_p3 = ((tmp_1_fu_131_p1[0:0] === 1'b1) ? 128'd127 : 128'd340282366920938463463374607431768211329);
 
-assign tmp_fu_125_p1 = lhs_V_reg_112[63:0];
+assign tmp_fu_127_p1 = lhs_V_reg_114[63:0];
 
-assign tmp_tlast_fu_153_p2 = ((tmp_2_fu_139_p4 == 127'd0) ? 1'b1 : 1'b0);
+assign tmp_tlast_fu_155_p2 = ((tmp_2_fu_141_p4 == 127'd0) ? 1'b1 : 1'b0);
 
 endmodule //llr

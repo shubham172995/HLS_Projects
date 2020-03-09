@@ -61,6 +61,7 @@ architecture behav of llr is
     constant ap_const_lv32_3 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000000011";
     constant ap_const_lv32_1 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000000001";
     constant ap_const_boolean_0 : BOOLEAN := false;
+    constant ap_const_lv32_FC000004 : STD_LOGIC_VECTOR (31 downto 0) := "11111100000000000000000000000100";
     constant ap_const_lv8_10 : STD_LOGIC_VECTOR (7 downto 0) := "00010000";
     constant ap_const_lv8_5 : STD_LOGIC_VECTOR (7 downto 0) := "00000101";
     constant ap_const_lv64_0 : STD_LOGIC_VECTOR (63 downto 0) := "0000000000000000000000000000000000000000000000000000000000000000";
@@ -164,7 +165,7 @@ architecture behav of llr is
     signal din_TDATA_blk_n : STD_LOGIC;
     signal ap_CS_fsm_state3 : STD_LOGIC;
     attribute fsm_encoding of ap_CS_fsm_state3 : signal is "none";
-    signal tmp_5_fu_133_p2 : STD_LOGIC_VECTOR (0 downto 0);
+    signal tmp_5_fu_135_p2 : STD_LOGIC_VECTOR (0 downto 0);
     signal ap_CS_fsm_state4 : STD_LOGIC;
     attribute fsm_encoding of ap_CS_fsm_state4 : signal is "none";
     signal control_V_TDATA_blk_n : STD_LOGIC;
@@ -172,20 +173,20 @@ architecture behav of llr is
     attribute fsm_encoding of ap_CS_fsm_state2 : signal is "none";
     signal din_words_TDATA_blk_n : STD_LOGIC;
     signal dout_words_TDATA_blk_n : STD_LOGIC;
-    signal tmp_data_V_reg_169 : STD_LOGIC_VECTOR (127 downto 0);
+    signal tmp_data_V_reg_171 : STD_LOGIC_VECTOR (127 downto 0);
     signal ap_block_state1 : BOOLEAN;
     signal ap_block_state1_io : BOOLEAN;
-    signal temp_data_V_1_fu_149_p1 : STD_LOGIC_VECTOR (127 downto 0);
-    signal temp_data_V_1_reg_177 : STD_LOGIC_VECTOR (127 downto 0);
+    signal temp_data_V_1_fu_151_p1 : STD_LOGIC_VECTOR (127 downto 0);
+    signal temp_data_V_1_reg_179 : STD_LOGIC_VECTOR (127 downto 0);
     signal ap_block_state3 : BOOLEAN;
     signal ap_block_state3_io : BOOLEAN;
-    signal tmp_tlast_fu_153_p2 : STD_LOGIC_VECTOR (0 downto 0);
-    signal tmp_data_V_4_cast_fu_160_p3 : STD_LOGIC_VECTOR (127 downto 0);
-    signal lhs_V_reg_112 : STD_LOGIC_VECTOR (127 downto 0);
+    signal tmp_tlast_fu_155_p2 : STD_LOGIC_VECTOR (0 downto 0);
+    signal tmp_data_V_4_cast_fu_162_p3 : STD_LOGIC_VECTOR (127 downto 0);
+    signal lhs_V_reg_114 : STD_LOGIC_VECTOR (127 downto 0);
     signal ap_block_state2_io : BOOLEAN;
-    signal tmp_fu_125_p1 : STD_LOGIC_VECTOR (63 downto 0);
-    signal tmp_2_fu_139_p4 : STD_LOGIC_VECTOR (126 downto 0);
-    signal tmp_1_fu_129_p1 : STD_LOGIC_VECTOR (0 downto 0);
+    signal tmp_fu_127_p1 : STD_LOGIC_VECTOR (63 downto 0);
+    signal tmp_2_fu_141_p4 : STD_LOGIC_VECTOR (126 downto 0);
+    signal tmp_1_fu_131_p1 : STD_LOGIC_VECTOR (0 downto 0);
     signal ap_NS_fsm : STD_LOGIC_VECTOR (3 downto 0);
 
 
@@ -540,13 +541,13 @@ begin
     end process;
 
 
-    lhs_V_reg_112_assign_proc : process (ap_clk)
+    lhs_V_reg_114_assign_proc : process (ap_clk)
     begin
         if (ap_clk'event and ap_clk = '1') then
             if (((ap_const_logic_1 = ap_CS_fsm_state4) and (din_V_data_V_1_ack_in = ap_const_logic_1))) then 
-                lhs_V_reg_112 <= temp_data_V_1_reg_177;
+                lhs_V_reg_114 <= temp_data_V_1_reg_179;
             elsif (((ap_const_boolean_0 = ap_block_state2_io) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-                lhs_V_reg_112 <= tmp_data_V_reg_169;
+                lhs_V_reg_114 <= tmp_data_V_reg_171;
             end if; 
         end if;
     end process;
@@ -554,7 +555,7 @@ begin
     begin
         if (ap_clk'event and ap_clk = '1') then
             if ((din_V_data_V_1_load_A = ap_const_logic_1)) then
-                din_V_data_V_1_payload_A <= tmp_data_V_4_cast_fu_160_p3;
+                din_V_data_V_1_payload_A <= tmp_data_V_4_cast_fu_162_p3;
             end if;
         end if;
     end process;
@@ -562,7 +563,7 @@ begin
     begin
         if (ap_clk'event and ap_clk = '1') then
             if ((din_V_data_V_1_load_B = ap_const_logic_1)) then
-                din_V_data_V_1_payload_B <= tmp_data_V_4_cast_fu_160_p3;
+                din_V_data_V_1_payload_B <= tmp_data_V_4_cast_fu_162_p3;
             end if;
         end if;
     end process;
@@ -570,7 +571,7 @@ begin
     begin
         if (ap_clk'event and ap_clk = '1') then
             if ((din_V_tlast_1_load_A = ap_const_logic_1)) then
-                din_V_tlast_1_payload_A <= tmp_tlast_fu_153_p2(0);
+                din_V_tlast_1_payload_A <= tmp_tlast_fu_155_p2(0);
             end if;
         end if;
     end process;
@@ -578,7 +579,7 @@ begin
     begin
         if (ap_clk'event and ap_clk = '1') then
             if ((din_V_tlast_1_load_B = ap_const_logic_1)) then
-                din_V_tlast_1_payload_B <= tmp_tlast_fu_153_p2(0);
+                din_V_tlast_1_payload_B <= tmp_tlast_fu_155_p2(0);
             end if;
         end if;
     end process;
@@ -601,8 +602,8 @@ begin
     process (ap_clk)
     begin
         if (ap_clk'event and ap_clk = '1') then
-            if ((not(((dout_words_V_tlast_1_ack_in = ap_const_logic_0) or (dout_words_V_data_V_1_ack_in = ap_const_logic_0) or (din_words_V_tlast_1_ack_in = ap_const_logic_0) or (din_words_V_data_V_1_ack_in = ap_const_logic_0) or (control_V_1_ack_in = ap_const_logic_0) or (din_V_tlast_1_ack_in = ap_const_logic_0) or (din_V_data_V_1_ack_in = ap_const_logic_0) or (ap_const_boolean_1 = ap_block_state3_io))) and (tmp_5_fu_133_p2 = ap_const_lv1_0) and (ap_const_logic_1 = ap_CS_fsm_state3))) then
-                temp_data_V_1_reg_177 <= temp_data_V_1_fu_149_p1;
+            if ((not(((dout_words_V_tlast_1_ack_in = ap_const_logic_0) or (dout_words_V_data_V_1_ack_in = ap_const_logic_0) or (din_words_V_tlast_1_ack_in = ap_const_logic_0) or (din_words_V_data_V_1_ack_in = ap_const_logic_0) or (control_V_1_ack_in = ap_const_logic_0) or (din_V_tlast_1_ack_in = ap_const_logic_0) or (din_V_data_V_1_ack_in = ap_const_logic_0) or (ap_const_boolean_1 = ap_block_state3_io))) and (tmp_5_fu_135_p2 = ap_const_lv1_0) and (ap_const_logic_1 = ap_CS_fsm_state3))) then
+                temp_data_V_1_reg_179 <= temp_data_V_1_fu_151_p1;
             end if;
         end if;
     end process;
@@ -610,12 +611,12 @@ begin
     begin
         if (ap_clk'event and ap_clk = '1') then
             if ((not(((dt_V_data_V_0_vld_out = ap_const_logic_0) or (ap_start = ap_const_logic_0) or (ap_const_boolean_1 = ap_block_state1_io))) and (ap_const_logic_1 = ap_CS_fsm_state1))) then
-                tmp_data_V_reg_169 <= dt_V_data_V_0_data_out;
+                tmp_data_V_reg_171 <= dt_V_data_V_0_data_out;
             end if;
         end if;
     end process;
 
-    ap_NS_fsm_assign_proc : process (ap_start, ap_CS_fsm, ap_CS_fsm_state1, dt_V_data_V_0_vld_out, din_V_data_V_1_ack_in, din_V_data_V_1_state, din_V_tlast_1_ack_in, din_V_tlast_1_state, control_V_1_ack_in, control_V_1_state, din_words_V_data_V_1_ack_in, din_words_V_data_V_1_state, din_words_V_tlast_1_ack_in, din_words_V_tlast_1_state, dout_words_V_data_V_1_ack_in, dout_words_V_data_V_1_state, dout_words_V_tlast_1_ack_in, dout_words_V_tlast_1_state, ap_CS_fsm_state3, tmp_5_fu_133_p2, ap_CS_fsm_state4, ap_CS_fsm_state2, ap_block_state1_io, ap_block_state3_io, ap_block_state2_io)
+    ap_NS_fsm_assign_proc : process (ap_start, ap_CS_fsm, ap_CS_fsm_state1, dt_V_data_V_0_vld_out, din_V_data_V_1_ack_in, din_V_data_V_1_state, din_V_tlast_1_ack_in, din_V_tlast_1_state, control_V_1_ack_in, control_V_1_state, din_words_V_data_V_1_ack_in, din_words_V_data_V_1_state, din_words_V_tlast_1_ack_in, din_words_V_tlast_1_state, dout_words_V_data_V_1_ack_in, dout_words_V_data_V_1_state, dout_words_V_tlast_1_ack_in, dout_words_V_tlast_1_state, ap_CS_fsm_state3, tmp_5_fu_135_p2, ap_CS_fsm_state4, ap_CS_fsm_state2, ap_block_state1_io, ap_block_state3_io, ap_block_state2_io)
     begin
         case ap_CS_fsm is
             when ap_ST_fsm_state1 => 
@@ -631,9 +632,9 @@ begin
                     ap_NS_fsm <= ap_ST_fsm_state2;
                 end if;
             when ap_ST_fsm_state3 => 
-                if ((not(((dout_words_V_tlast_1_ack_in = ap_const_logic_0) or (dout_words_V_data_V_1_ack_in = ap_const_logic_0) or (din_words_V_tlast_1_ack_in = ap_const_logic_0) or (din_words_V_data_V_1_ack_in = ap_const_logic_0) or (control_V_1_ack_in = ap_const_logic_0) or (din_V_tlast_1_ack_in = ap_const_logic_0) or (din_V_data_V_1_ack_in = ap_const_logic_0) or (ap_const_boolean_1 = ap_block_state3_io))) and (tmp_5_fu_133_p2 = ap_const_lv1_1) and (dout_words_V_tlast_1_state(0) = ap_const_logic_0) and (dout_words_V_data_V_1_state(0) = ap_const_logic_0) and (din_words_V_tlast_1_state(0) = ap_const_logic_0) and (din_words_V_data_V_1_state(0) = ap_const_logic_0) and (control_V_1_state(0) = ap_const_logic_0) and (din_V_tlast_1_state(0) = ap_const_logic_0) and (din_V_data_V_1_state(0) = ap_const_logic_0) and (ap_const_logic_1 = ap_CS_fsm_state3))) then
+                if ((not(((dout_words_V_tlast_1_ack_in = ap_const_logic_0) or (dout_words_V_data_V_1_ack_in = ap_const_logic_0) or (din_words_V_tlast_1_ack_in = ap_const_logic_0) or (din_words_V_data_V_1_ack_in = ap_const_logic_0) or (control_V_1_ack_in = ap_const_logic_0) or (din_V_tlast_1_ack_in = ap_const_logic_0) or (din_V_data_V_1_ack_in = ap_const_logic_0) or (ap_const_boolean_1 = ap_block_state3_io))) and (tmp_5_fu_135_p2 = ap_const_lv1_1) and (dout_words_V_tlast_1_state(0) = ap_const_logic_0) and (dout_words_V_data_V_1_state(0) = ap_const_logic_0) and (din_words_V_tlast_1_state(0) = ap_const_logic_0) and (din_words_V_data_V_1_state(0) = ap_const_logic_0) and (control_V_1_state(0) = ap_const_logic_0) and (din_V_tlast_1_state(0) = ap_const_logic_0) and (din_V_data_V_1_state(0) = ap_const_logic_0) and (ap_const_logic_1 = ap_CS_fsm_state3))) then
                     ap_NS_fsm <= ap_ST_fsm_state1;
-                elsif ((not(((dout_words_V_tlast_1_ack_in = ap_const_logic_0) or (dout_words_V_data_V_1_ack_in = ap_const_logic_0) or (din_words_V_tlast_1_ack_in = ap_const_logic_0) or (din_words_V_data_V_1_ack_in = ap_const_logic_0) or (control_V_1_ack_in = ap_const_logic_0) or (din_V_tlast_1_ack_in = ap_const_logic_0) or (din_V_data_V_1_ack_in = ap_const_logic_0) or (ap_const_boolean_1 = ap_block_state3_io))) and (tmp_5_fu_133_p2 = ap_const_lv1_0) and (ap_const_logic_1 = ap_CS_fsm_state3))) then
+                elsif ((not(((dout_words_V_tlast_1_ack_in = ap_const_logic_0) or (dout_words_V_data_V_1_ack_in = ap_const_logic_0) or (din_words_V_tlast_1_ack_in = ap_const_logic_0) or (din_words_V_data_V_1_ack_in = ap_const_logic_0) or (control_V_1_ack_in = ap_const_logic_0) or (din_V_tlast_1_ack_in = ap_const_logic_0) or (din_V_data_V_1_ack_in = ap_const_logic_0) or (ap_const_boolean_1 = ap_block_state3_io))) and (tmp_5_fu_135_p2 = ap_const_lv1_0) and (ap_const_logic_1 = ap_CS_fsm_state3))) then
                     ap_NS_fsm <= ap_ST_fsm_state4;
                 else
                     ap_NS_fsm <= ap_ST_fsm_state3;
@@ -677,15 +678,15 @@ begin
     end process;
 
 
-    ap_block_state3_io_assign_proc : process(din_V_data_V_1_ack_in, tmp_5_fu_133_p2)
+    ap_block_state3_io_assign_proc : process(din_V_data_V_1_ack_in, tmp_5_fu_135_p2)
     begin
-                ap_block_state3_io <= ((tmp_5_fu_133_p2 = ap_const_lv1_0) and (din_V_data_V_1_ack_in = ap_const_logic_0));
+                ap_block_state3_io <= ((tmp_5_fu_135_p2 = ap_const_lv1_0) and (din_V_data_V_1_ack_in = ap_const_logic_0));
     end process;
 
 
-    ap_done_assign_proc : process(din_V_data_V_1_ack_in, din_V_data_V_1_state, din_V_tlast_1_ack_in, din_V_tlast_1_state, control_V_1_ack_in, control_V_1_state, din_words_V_data_V_1_ack_in, din_words_V_data_V_1_state, din_words_V_tlast_1_ack_in, din_words_V_tlast_1_state, dout_words_V_data_V_1_ack_in, dout_words_V_data_V_1_state, dout_words_V_tlast_1_ack_in, dout_words_V_tlast_1_state, ap_CS_fsm_state3, tmp_5_fu_133_p2, ap_block_state3_io)
+    ap_done_assign_proc : process(din_V_data_V_1_ack_in, din_V_data_V_1_state, din_V_tlast_1_ack_in, din_V_tlast_1_state, control_V_1_ack_in, control_V_1_state, din_words_V_data_V_1_ack_in, din_words_V_data_V_1_state, din_words_V_tlast_1_ack_in, din_words_V_tlast_1_state, dout_words_V_data_V_1_ack_in, dout_words_V_data_V_1_state, dout_words_V_tlast_1_ack_in, dout_words_V_tlast_1_state, ap_CS_fsm_state3, tmp_5_fu_135_p2, ap_block_state3_io)
     begin
-        if ((not(((dout_words_V_tlast_1_ack_in = ap_const_logic_0) or (dout_words_V_data_V_1_ack_in = ap_const_logic_0) or (din_words_V_tlast_1_ack_in = ap_const_logic_0) or (din_words_V_data_V_1_ack_in = ap_const_logic_0) or (control_V_1_ack_in = ap_const_logic_0) or (din_V_tlast_1_ack_in = ap_const_logic_0) or (din_V_data_V_1_ack_in = ap_const_logic_0) or (ap_const_boolean_1 = ap_block_state3_io))) and (tmp_5_fu_133_p2 = ap_const_lv1_1) and (dout_words_V_tlast_1_state(0) = ap_const_logic_0) and (dout_words_V_data_V_1_state(0) = ap_const_logic_0) and (din_words_V_tlast_1_state(0) = ap_const_logic_0) and (din_words_V_data_V_1_state(0) = ap_const_logic_0) and (control_V_1_state(0) = ap_const_logic_0) and (din_V_tlast_1_state(0) = ap_const_logic_0) and (din_V_data_V_1_state(0) = ap_const_logic_0) and (ap_const_logic_1 = ap_CS_fsm_state3))) then 
+        if ((not(((dout_words_V_tlast_1_ack_in = ap_const_logic_0) or (dout_words_V_data_V_1_ack_in = ap_const_logic_0) or (din_words_V_tlast_1_ack_in = ap_const_logic_0) or (din_words_V_data_V_1_ack_in = ap_const_logic_0) or (control_V_1_ack_in = ap_const_logic_0) or (din_V_tlast_1_ack_in = ap_const_logic_0) or (din_V_data_V_1_ack_in = ap_const_logic_0) or (ap_const_boolean_1 = ap_block_state3_io))) and (tmp_5_fu_135_p2 = ap_const_lv1_1) and (dout_words_V_tlast_1_state(0) = ap_const_logic_0) and (dout_words_V_data_V_1_state(0) = ap_const_logic_0) and (din_words_V_tlast_1_state(0) = ap_const_logic_0) and (din_words_V_data_V_1_state(0) = ap_const_logic_0) and (control_V_1_state(0) = ap_const_logic_0) and (din_V_tlast_1_state(0) = ap_const_logic_0) and (din_V_data_V_1_state(0) = ap_const_logic_0) and (ap_const_logic_1 = ap_CS_fsm_state3))) then 
             ap_done <= ap_const_logic_1;
         else 
             ap_done <= ap_const_logic_0;
@@ -703,9 +704,9 @@ begin
     end process;
 
 
-    ap_ready_assign_proc : process(din_V_data_V_1_ack_in, din_V_data_V_1_state, din_V_tlast_1_ack_in, din_V_tlast_1_state, control_V_1_ack_in, control_V_1_state, din_words_V_data_V_1_ack_in, din_words_V_data_V_1_state, din_words_V_tlast_1_ack_in, din_words_V_tlast_1_state, dout_words_V_data_V_1_ack_in, dout_words_V_data_V_1_state, dout_words_V_tlast_1_ack_in, dout_words_V_tlast_1_state, ap_CS_fsm_state3, tmp_5_fu_133_p2, ap_block_state3_io)
+    ap_ready_assign_proc : process(din_V_data_V_1_ack_in, din_V_data_V_1_state, din_V_tlast_1_ack_in, din_V_tlast_1_state, control_V_1_ack_in, control_V_1_state, din_words_V_data_V_1_ack_in, din_words_V_data_V_1_state, din_words_V_tlast_1_ack_in, din_words_V_tlast_1_state, dout_words_V_data_V_1_ack_in, dout_words_V_data_V_1_state, dout_words_V_tlast_1_ack_in, dout_words_V_tlast_1_state, ap_CS_fsm_state3, tmp_5_fu_135_p2, ap_block_state3_io)
     begin
-        if ((not(((dout_words_V_tlast_1_ack_in = ap_const_logic_0) or (dout_words_V_data_V_1_ack_in = ap_const_logic_0) or (din_words_V_tlast_1_ack_in = ap_const_logic_0) or (din_words_V_data_V_1_ack_in = ap_const_logic_0) or (control_V_1_ack_in = ap_const_logic_0) or (din_V_tlast_1_ack_in = ap_const_logic_0) or (din_V_data_V_1_ack_in = ap_const_logic_0) or (ap_const_boolean_1 = ap_block_state3_io))) and (tmp_5_fu_133_p2 = ap_const_lv1_1) and (dout_words_V_tlast_1_state(0) = ap_const_logic_0) and (dout_words_V_data_V_1_state(0) = ap_const_logic_0) and (din_words_V_tlast_1_state(0) = ap_const_logic_0) and (din_words_V_data_V_1_state(0) = ap_const_logic_0) and (control_V_1_state(0) = ap_const_logic_0) and (din_V_tlast_1_state(0) = ap_const_logic_0) and (din_V_data_V_1_state(0) = ap_const_logic_0) and (ap_const_logic_1 = ap_CS_fsm_state3))) then 
+        if ((not(((dout_words_V_tlast_1_ack_in = ap_const_logic_0) or (dout_words_V_data_V_1_ack_in = ap_const_logic_0) or (din_words_V_tlast_1_ack_in = ap_const_logic_0) or (din_words_V_data_V_1_ack_in = ap_const_logic_0) or (control_V_1_ack_in = ap_const_logic_0) or (din_V_tlast_1_ack_in = ap_const_logic_0) or (din_V_data_V_1_ack_in = ap_const_logic_0) or (ap_const_boolean_1 = ap_block_state3_io))) and (tmp_5_fu_135_p2 = ap_const_lv1_1) and (dout_words_V_tlast_1_state(0) = ap_const_logic_0) and (dout_words_V_data_V_1_state(0) = ap_const_logic_0) and (din_words_V_tlast_1_state(0) = ap_const_logic_0) and (din_words_V_data_V_1_state(0) = ap_const_logic_0) and (control_V_1_state(0) = ap_const_logic_0) and (din_V_tlast_1_state(0) = ap_const_logic_0) and (din_V_data_V_1_state(0) = ap_const_logic_0) and (ap_const_logic_1 = ap_CS_fsm_state3))) then 
             ap_ready <= ap_const_logic_1;
         else 
             ap_ready <= ap_const_logic_0;
@@ -720,7 +721,7 @@ begin
 
     control_V_1_ack_in <= control_V_1_state(1);
     control_V_1_ack_out <= control_V_TREADY;
-    control_V_1_data_out <= ap_const_lv32_0;
+    control_V_1_data_out <= ap_const_lv32_FC000004;
     control_V_1_sel <= control_V_1_sel_rd;
 
     control_V_1_vld_in_assign_proc : process(ap_start, ap_CS_fsm_state1, dt_V_data_V_0_vld_out, ap_block_state1_io)
@@ -747,9 +748,9 @@ begin
     control_V_TVALID <= control_V_1_state(0);
     din_TDATA <= din_V_data_V_1_data_out;
 
-    din_TDATA_blk_n_assign_proc : process(din_V_data_V_1_state, ap_CS_fsm_state3, tmp_5_fu_133_p2, ap_CS_fsm_state4)
+    din_TDATA_blk_n_assign_proc : process(din_V_data_V_1_state, ap_CS_fsm_state3, tmp_5_fu_135_p2, ap_CS_fsm_state4)
     begin
-        if (((ap_const_logic_1 = ap_CS_fsm_state4) or ((tmp_5_fu_133_p2 = ap_const_lv1_0) and (ap_const_logic_1 = ap_CS_fsm_state3)))) then 
+        if (((ap_const_logic_1 = ap_CS_fsm_state4) or ((tmp_5_fu_135_p2 = ap_const_lv1_0) and (ap_const_logic_1 = ap_CS_fsm_state3)))) then 
             din_TDATA_blk_n <= din_V_data_V_1_state(1);
         else 
             din_TDATA_blk_n <= ap_const_logic_1;
@@ -775,9 +776,9 @@ begin
     din_V_data_V_1_sel <= din_V_data_V_1_sel_rd;
     din_V_data_V_1_state_cmp_full <= '0' when (din_V_data_V_1_state = ap_const_lv2_1) else '1';
 
-    din_V_data_V_1_vld_in_assign_proc : process(din_V_data_V_1_ack_in, din_V_tlast_1_ack_in, control_V_1_ack_in, din_words_V_data_V_1_ack_in, din_words_V_tlast_1_ack_in, dout_words_V_data_V_1_ack_in, dout_words_V_tlast_1_ack_in, ap_CS_fsm_state3, tmp_5_fu_133_p2, ap_block_state3_io)
+    din_V_data_V_1_vld_in_assign_proc : process(din_V_data_V_1_ack_in, din_V_tlast_1_ack_in, control_V_1_ack_in, din_words_V_data_V_1_ack_in, din_words_V_tlast_1_ack_in, dout_words_V_data_V_1_ack_in, dout_words_V_tlast_1_ack_in, ap_CS_fsm_state3, tmp_5_fu_135_p2, ap_block_state3_io)
     begin
-        if ((not(((dout_words_V_tlast_1_ack_in = ap_const_logic_0) or (dout_words_V_data_V_1_ack_in = ap_const_logic_0) or (din_words_V_tlast_1_ack_in = ap_const_logic_0) or (din_words_V_data_V_1_ack_in = ap_const_logic_0) or (control_V_1_ack_in = ap_const_logic_0) or (din_V_tlast_1_ack_in = ap_const_logic_0) or (din_V_data_V_1_ack_in = ap_const_logic_0) or (ap_const_boolean_1 = ap_block_state3_io))) and (tmp_5_fu_133_p2 = ap_const_lv1_0) and (ap_const_logic_1 = ap_CS_fsm_state3))) then 
+        if ((not(((dout_words_V_tlast_1_ack_in = ap_const_logic_0) or (dout_words_V_data_V_1_ack_in = ap_const_logic_0) or (din_words_V_tlast_1_ack_in = ap_const_logic_0) or (din_words_V_data_V_1_ack_in = ap_const_logic_0) or (control_V_1_ack_in = ap_const_logic_0) or (din_V_tlast_1_ack_in = ap_const_logic_0) or (din_V_data_V_1_ack_in = ap_const_logic_0) or (ap_const_boolean_1 = ap_block_state3_io))) and (tmp_5_fu_135_p2 = ap_const_lv1_0) and (ap_const_logic_1 = ap_CS_fsm_state3))) then 
             din_V_data_V_1_vld_in <= ap_const_logic_1;
         else 
             din_V_data_V_1_vld_in <= ap_const_logic_0;
@@ -802,9 +803,9 @@ begin
     din_V_tlast_1_sel <= din_V_tlast_1_sel_rd;
     din_V_tlast_1_state_cmp_full <= '0' when (din_V_tlast_1_state = ap_const_lv2_1) else '1';
 
-    din_V_tlast_1_vld_in_assign_proc : process(din_V_data_V_1_ack_in, din_V_tlast_1_ack_in, control_V_1_ack_in, din_words_V_data_V_1_ack_in, din_words_V_tlast_1_ack_in, dout_words_V_data_V_1_ack_in, dout_words_V_tlast_1_ack_in, ap_CS_fsm_state3, tmp_5_fu_133_p2, ap_block_state3_io)
+    din_V_tlast_1_vld_in_assign_proc : process(din_V_data_V_1_ack_in, din_V_tlast_1_ack_in, control_V_1_ack_in, din_words_V_data_V_1_ack_in, din_words_V_tlast_1_ack_in, dout_words_V_data_V_1_ack_in, dout_words_V_tlast_1_ack_in, ap_CS_fsm_state3, tmp_5_fu_135_p2, ap_block_state3_io)
     begin
-        if ((not(((dout_words_V_tlast_1_ack_in = ap_const_logic_0) or (dout_words_V_data_V_1_ack_in = ap_const_logic_0) or (din_words_V_tlast_1_ack_in = ap_const_logic_0) or (din_words_V_data_V_1_ack_in = ap_const_logic_0) or (control_V_1_ack_in = ap_const_logic_0) or (din_V_tlast_1_ack_in = ap_const_logic_0) or (din_V_data_V_1_ack_in = ap_const_logic_0) or (ap_const_boolean_1 = ap_block_state3_io))) and (tmp_5_fu_133_p2 = ap_const_lv1_0) and (ap_const_logic_1 = ap_CS_fsm_state3))) then 
+        if ((not(((dout_words_V_tlast_1_ack_in = ap_const_logic_0) or (dout_words_V_data_V_1_ack_in = ap_const_logic_0) or (din_words_V_tlast_1_ack_in = ap_const_logic_0) or (din_words_V_data_V_1_ack_in = ap_const_logic_0) or (control_V_1_ack_in = ap_const_logic_0) or (din_V_tlast_1_ack_in = ap_const_logic_0) or (din_V_data_V_1_ack_in = ap_const_logic_0) or (ap_const_boolean_1 = ap_block_state3_io))) and (tmp_5_fu_135_p2 = ap_const_lv1_0) and (ap_const_logic_1 = ap_CS_fsm_state3))) then 
             din_V_tlast_1_vld_in <= ap_const_logic_1;
         else 
             din_V_tlast_1_vld_in <= ap_const_logic_0;
@@ -947,14 +948,14 @@ begin
     end process;
 
     dt_V_tlast_0_vld_in <= dt_TVALID;
-        temp_data_V_1_fu_149_p1 <= std_logic_vector(IEEE.numeric_std.resize(signed(tmp_2_fu_139_p4),128));
+        temp_data_V_1_fu_151_p1 <= std_logic_vector(IEEE.numeric_std.resize(signed(tmp_2_fu_141_p4),128));
 
-    tmp_1_fu_129_p1 <= lhs_V_reg_112(1 - 1 downto 0);
-    tmp_2_fu_139_p4 <= lhs_V_reg_112(127 downto 1);
-    tmp_5_fu_133_p2 <= "1" when (tmp_fu_125_p1 = ap_const_lv64_0) else "0";
-    tmp_data_V_4_cast_fu_160_p3 <= 
-        ap_const_lv128_lc_1 when (tmp_1_fu_129_p1(0) = '1') else 
+    tmp_1_fu_131_p1 <= lhs_V_reg_114(1 - 1 downto 0);
+    tmp_2_fu_141_p4 <= lhs_V_reg_114(127 downto 1);
+    tmp_5_fu_135_p2 <= "1" when (tmp_fu_127_p1 = ap_const_lv64_0) else "0";
+    tmp_data_V_4_cast_fu_162_p3 <= 
+        ap_const_lv128_lc_1 when (tmp_1_fu_131_p1(0) = '1') else 
         ap_const_lv128_lc_2;
-    tmp_fu_125_p1 <= lhs_V_reg_112(64 - 1 downto 0);
-    tmp_tlast_fu_153_p2 <= "1" when (tmp_2_fu_139_p4 = ap_const_lv127_0) else "0";
+    tmp_fu_127_p1 <= lhs_V_reg_114(64 - 1 downto 0);
+    tmp_tlast_fu_155_p2 <= "1" when (tmp_2_fu_141_p4 = ap_const_lv127_0) else "0";
 end behav;

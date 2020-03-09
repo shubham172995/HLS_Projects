@@ -1,5 +1,5 @@
 INFO: [HLS 200-10] Running '/home/shubham/Xilinx2018.3/Vivado/2018.3/bin/unwrapped/lnx64.o/vivado_hls'
-INFO: [HLS 200-10] For user 'shubham' on host 'shubham-HP-Desktop-Pro-G1-MT' (Linux_x86_64 version 4.15.0-88-generic) on Fri Mar 06 16:44:06 IST 2020
+INFO: [HLS 200-10] For user 'shubham' on host 'shubham-HP-Desktop-Pro-G1-MT' (Linux_x86_64 version 4.15.0-88-generic) on Mon Mar 09 11:27:01 IST 2020
 INFO: [HLS 200-10] On os Ubuntu 18.04.1 LTS
 INFO: [HLS 200-10] In directory '/home/shubham/HLS_Exercises'
 INFO: [HLS 200-10] Opening project '/home/shubham/HLS_Exercises/LLRGen'.
@@ -17,4 +17,4 @@ source run_ippack.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/shubham/Xilinx2018.3/Vivado/2018.3/data/ip'.
-INFO: [Common 17-206] Exiting Vivado at Fri Mar  6 16:44:32 2020...
+INFO: [Common 17-206] Exiting Vivado at Mon Mar  9 11:27:08 2020...

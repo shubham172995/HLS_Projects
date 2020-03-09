@@ -44,7 +44,7 @@
 
 <Node id="25" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="32">
 <![CDATA[
-:15  call void @_ssdm_op_Write.axis.volatile.i32P(i32* %control_V, i32 0)
+:15  call void @_ssdm_op_Write.axis.volatile.i32P(i32* %control_V, i32 -67108860)
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>
@@ -347,7 +347,7 @@
 
 <Node id="25" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="32">
 <![CDATA[
-:15  call void @_ssdm_op_Write.axis.volatile.i32P(i32* %control_V, i32 0)
+:15  call void @_ssdm_op_Write.axis.volatile.i32P(i32* %control_V, i32 -67108860)
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>

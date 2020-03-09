@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'llr'
 ================================================================
-* Date:           Fri Mar  6 16:43:55 2020
+* Date:           Mon Mar  9 11:26:42 2020
 
 * Version:        2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)
 * Project:        LLRGen
@@ -87,7 +87,7 @@ IsGatedGlobalClock: 0
 * FSM state operations: 
 
 State 1 <SV = 0> <Delay = 0.00>
-ST_1 : Operation 5 [2/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i32P(i32* %control_V, i32 0)" [/home/shubham/HLS_Exercises/LLRGen/llrgen.h:43]   --->   Operation 5 'write' <Predicate = true> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_1 : Operation 5 [2/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i32P(i32* %control_V, i32 -67108860)" [/home/shubham/HLS_Exercises/LLRGen/llrgen.h:43]   --->   Operation 5 'write' <Predicate = true> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
 ST_1 : Operation 6 [2/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i8P.i1P(i8* %din_words_V_data_V, i1* %din_words_V_tlast, i8 16, i1 true)" [/home/shubham/HLS_Exercises/LLRGen/llrgen.h:44]   --->   Operation 6 'write' <Predicate = true> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
 ST_1 : Operation 7 [2/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i8P.i1P(i8* %dout_words_V_data_V, i1* %dout_words_V_tlast, i8 5, i1 true)" [/home/shubham/HLS_Exercises/LLRGen/llrgen.h:45]   --->   Operation 7 'write' <Predicate = true> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
 ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%empty = call { i128, i1 } @_ssdm_op_Read.axis.volatile.i128P.i1P(i128* %dt_V_data_V, i1* %dt_V_tlast)" [/home/shubham/HLS_Exercises/LLRGen/llrgen.h:47]   --->   Operation 8 'read' 'empty' <Predicate = true> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
@@ -109,7 +109,7 @@ ST_2 : Operation 21 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInte
 ST_2 : Operation 22 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %control_V, [5 x i8]* @p_str, i32 1, i32 1, [5 x i8]* @p_str1, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2, [1 x i8]* @p_str2, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2) nounwind" [/home/shubham/HLS_Exercises/LLRGen/llrgen.h:33]   --->   Operation 22 'specinterface' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 23 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i128* %din_V_data_V, i1* %din_V_tlast, [5 x i8]* @p_str, i32 1, i32 1, [5 x i8]* @p_str1, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2, [1 x i8]* @p_str2, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2) nounwind" [/home/shubham/HLS_Exercises/LLRGen/llrgen.h:34]   --->   Operation 23 'specinterface' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 24 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i128* %dt_V_data_V, i1* %dt_V_tlast, [5 x i8]* @p_str, i32 1, i32 1, [5 x i8]* @p_str1, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2, [1 x i8]* @p_str2, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2) nounwind" [/home/shubham/HLS_Exercises/LLRGen/llrgen.h:35]   --->   Operation 24 'specinterface' <Predicate = true> <Delay = 0.00>
-ST_2 : Operation 25 [1/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i32P(i32* %control_V, i32 0)" [/home/shubham/HLS_Exercises/LLRGen/llrgen.h:43]   --->   Operation 25 'write' <Predicate = true> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_2 : Operation 25 [1/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i32P(i32* %control_V, i32 -67108860)" [/home/shubham/HLS_Exercises/LLRGen/llrgen.h:43]   --->   Operation 25 'write' <Predicate = true> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
 ST_2 : Operation 26 [1/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i8P.i1P(i8* %din_words_V_data_V, i1* %din_words_V_tlast, i8 16, i1 true)" [/home/shubham/HLS_Exercises/LLRGen/llrgen.h:44]   --->   Operation 26 'write' <Predicate = true> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
 ST_2 : Operation 27 [1/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i8P.i1P(i8* %dout_words_V_data_V, i1* %dout_words_V_tlast, i8 5, i1 true)" [/home/shubham/HLS_Exercises/LLRGen/llrgen.h:45]   --->   Operation 27 'write' <Predicate = true> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
 ST_2 : Operation 28 [1/1] (0.65ns)   --->   "br label %1" [/home/shubham/HLS_Exercises/LLRGen/llrgen.h:48]   --->   Operation 28 'br' <Predicate = true> <Delay = 0.65>

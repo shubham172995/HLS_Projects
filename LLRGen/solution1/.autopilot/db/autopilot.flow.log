@@ -1,4 +1,4 @@
-INFO-FLOW: Workspace /home/shubham/HLS_Exercises/LLRGen/solution1 opened at Fri Mar 06 16:43:44 IST 2020
+INFO-FLOW: Workspace /home/shubham/HLS_Exercises/LLRGen/solution1 opened at Mon Mar 09 11:26:28 IST 2020
 Execute     config_clock -quiet -name default -period 10 -default=false 
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
 Execute     open_platform DefaultPlatform 
@@ -32,6 +32,7 @@ Execute         source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technolog
 Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/maxi.hlp 
 Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/interface/saxilite.hlp 
 Execute         source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/common/dsp48.hlp 
+Command     import_lib done; 0.19 sec.
 Execute     source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/zynquplus/zynquplus.gen 
 Execute       source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/common/virtex.gen 
 Execute         source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/common/xilinx.gen 
@@ -47,7 +48,10 @@ Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technol
 Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/ip/util.gen 
 Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/ip/xfft.gen 
 Execute           source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/ip/xfir.gen 
+Command         ap_source done; 0.15 sec.
 Execute         source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/common/dsp48.gen 
+Command       ap_source done; 0.16 sec.
+Command     ap_source done; 0.16 sec.
 Execute     open_platform DefaultPlatform 
 Execute     import_lib /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/zynquplus/zynquplus_fpv7 
 Execute       source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/common/xilinx_fpv7.lib 
@@ -77,7 +81,9 @@ Execute       get_default_platform
 Execute     get_default_platform 
 Execute     config_chip_info -quiet -resource  {SLICE 34260} {LUT 274080}   {FF 548160}  {DSP48E 2520}  {BRAM 1824} {URAM 0}  
 Execute     config_chip_info -quiet -speed medium 
-Command   open_solution done; 0.13 sec.
+Execute     config_export -format=ip_catalog 
+Execute     config_export -rtl=verilog 
+Command   open_solution done; 0.53 sec.
 Execute   set_part xczu9eg-ffvb1156-2-i -tool vivado 
 Execute     add_library xilinx/zynquplus/zynquplus:xczu9eg:-ffvb1156:-2-i 
 Execute       get_default_platform 
@@ -90,6 +96,9 @@ Execute     add_library xilinx/zynquplus/zynquplus_fpv7
 Execute       get_default_platform 
 Execute     get_default_platform 
 Execute   create_clock -period 10 -name default 
+Execute     config_clock -quiet -name default -period 10 -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+Execute   config_export -format ip_catalog -rtl verilog 
 Execute   csynth_design 
 Execute     get_config_compile -effort 
 Execute     get_config_compile -enable_clang39 
@@ -117,19 +126,19 @@ INFO-FLOW: Running: GCC PP
 INFO-FLOW: Source preprocessing
 Execute       clang  -fno-limit-debug-info -gcc-toolchain "/home/shubham/Xilinx2018.3/Vivado/2018.3/lnx64/tools/gcc" -hls  -fno-exceptions  -D__llvm__  -E "LLRGen/.settings/llrgen.cpp"     -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit  -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot" -I "/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E2__  -o "/home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/llrgen.pp.0.cpp" 
 INFO-FLOW: exec /home/shubham/Xilinx2018.3/Vivado/2018.3/lnx64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain /home/shubham/Xilinx2018.3/Vivado/2018.3/lnx64/tools/gcc -hls -fno-exceptions -D__llvm__ -E LLRGen/.settings/llrgen.cpp -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -fno-threadsafe-statics -fno-use-cxa-atexit -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot -I /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E2__ -o /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/llrgen.pp.0.cpp
-Command       clang done; 0.89 sec.
+Command       clang done; 2.24 sec.
 Execute       tidy_31 xilinx-xfmat-array-geometry /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/llrgen.pp.0.cpp std=gnu++98 
 INFO-FLOW: exec /home/shubham/Xilinx2018.3/Vivado/2018.3/lnx64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* -checks=-*,xilinx-xfmat-array-geometry -quiet -fix /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/llrgen.pp.0.cpp -- -std=gnu++98 -fhls -ferror-limit=0
-Command       tidy_31 done; 0.51 sec.
+Command       tidy_31 done; 1.14 sec.
 INFO-FLOW: Syntax Checking before pre-processing...
 Execute       clang -syntaxcheck -src /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/llrgen.pp.0.cpp  -fno-limit-debug-info -gcc-toolchain "/home/shubham/Xilinx2018.3/Vivado/2018.3/lnx64/tools/gcc" -hls    -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit  -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot" -I "/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E2__  "/home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/llrgen.pp.0.cpp"  -o "/home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/useless.bc"  
 INFO-FLOW: exec /home/shubham/Xilinx2018.3/Vivado/2018.3/lnx64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain /home/shubham/Xilinx2018.3/Vivado/2018.3/lnx64/tools/gcc -hls -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -fno-threadsafe-statics -fno-use-cxa-atexit -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot -I /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E2__ /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/llrgen.pp.0.cpp -o /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/useless.bc
-Command       clang done; 1.17 sec.
-INFO-FLOW: Done: GCC PP time: 2.6 seconds per iteration
+Command       clang done; 1.36 sec.
+INFO-FLOW: Done: GCC PP time: 4.7 seconds per iteration
 Execute       list_core -type functional_unit 
 Execute       tidy_31 xilinx-systemc-detector /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/llrgen.pp.0.cpp std=gnu++98 -directive=/home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/.systemc_flag 
 INFO-FLOW: exec /home/shubham/Xilinx2018.3/Vivado/2018.3/lnx64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* -checks=-*,xilinx-systemc-detector -import-directive=/home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/.systemc_flag -quiet -fix-errors /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/llrgen.pp.0.cpp -- -std=gnu++98 -fhls -ferror-limit=0
-Command       tidy_31 done; 0.5 sec.
+Command       tidy_31 done; 0.45 sec.
 INFO-FLOW: CDT Preprocessing without tidy-3.1...
 INFO-FLOW: Marker-Pragma convertor: /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/llrgen.pp.0.cpp /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/llrgen.pp.0.cpp.ap-line.cpp /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/llrgen.pp.0.cpp.ap-line.cpp.CXX 1
 INFO-FLOW: Converting Markers to Pragmas...
@@ -147,7 +156,7 @@ WARNING: Illegal reflective access by org.eclipse.emf.ecore.xmi.impl.XMLHandler 
 WARNING: Please consider reporting this to the maintainers of org.eclipse.emf.ecore.xmi.impl.XMLHandler
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-Command       cdt done; 4.64 sec.
+Command       cdt done; 4.58 sec.
 INFO-FLOW: Marker-Pragma convertor: /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/llrgen.pp.0.cpp.ap-cdt.cpp /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/llrgen.pragma.0.cpp /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/llrgen.pragma.0.cpp.ap-line.CXX 0
 INFO-FLOW: Converting Pragmas to Markers...
 Execute       source /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/pragma.status.tcl 
@@ -156,45 +165,45 @@ Execute       get_default_platform
 INFO-FLOW: Processing labels
 Execute       clang -src /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/llrgen.pragma.2.cpp  -fno-limit-debug-info -gcc-toolchain /home/shubham/Xilinx2018.3/Vivado/2018.3/lnx64/tools/gcc -hls -hls-analyze-label -hls-analyze-pragma -fno-exceptions  -D__llvm__  -w  "/home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/llrgen.pragma.2.cpp"    -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot" -I "/home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E2__ -g -o "/home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/llrgen.bc" 
 INFO-FLOW: exec /home/shubham/Xilinx2018.3/Vivado/2018.3/lnx64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain /home/shubham/Xilinx2018.3/Vivado/2018.3/lnx64/tools/gcc -hls -hls-analyze-label -hls-analyze-pragma -fno-exceptions -D__llvm__ -w /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/llrgen.pragma.2.cpp -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -fno-threadsafe-statics -fno-use-cxa-atexit -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot -I /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E2__ -g -o /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/llrgen.bc
-Command       clang done; 1.22 sec.
+Command       clang done; 1.19 sec.
 INFO-FLOW: Linking Debug ...
 Execute       llvm-ld /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/llrgen.g.bc -hls-opt -except-internalize llr -L/home/shubham/Xilinx2018.3/Vivado/2018.3/lnx64/lib -lhlsm -lhlsmc++ -o /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/a.g 
 Command       llvm-ld done; 0.78 sec.
-INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:21 ; elapsed = 00:00:11 . Memory (MB): peak = 437.961 ; gain = 0.094 ; free physical = 540 ; free virtual = 6718
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:21 ; elapsed = 00:00:13 . Memory (MB): peak = 437.961 ; gain = 0.094 ; free physical = 2891 ; free virtual = 11820
 Execute       source /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/ve_warning.tcl 
 INFO: [HLS 200-10] Validating synthesis directives ...
 Execute       source /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/pragma.status.tcl 
-INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:21 ; elapsed = 00:00:11 . Memory (MB): peak = 437.961 ; gain = 0.094 ; free physical = 539 ; free virtual = 6717
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:21 ; elapsed = 00:00:13 . Memory (MB): peak = 437.961 ; gain = 0.094 ; free physical = 2891 ; free virtual = 11820
 Execute       get_config_sdx -target 
 Execute       opt_and_import_c a -opt_level=2 -skip_syncheck=0 -ng=0 -keep_printf=0 
 Execute         cleanup_all_models 
 INFO: [HLS 200-10] Starting code transformations ...
 Execute         transform -promote-dbg-pointer /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/a.pp.bc -o /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/a.pp.0.bc -f 
-Command         transform done; 0.15 sec.
+Command         transform done; 0.21 sec.
 Execute         llvm-ld /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/a.pp.0.bc -disable-opt -L/home/shubham/Xilinx2018.3/Vivado/2018.3/lnx64/lib -lfloatconversion -o /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/a.g.0 
 Command         llvm-ld done; 0.48 sec.
 INFO-FLOW: Running Standard Transforms...
 Execute         transform -hls -share-std-xform -demangle-name -inline-byval-memcpy -always-inline -promote-dbg-pointer -interface-preproc -mem2reg -lower-blackbox -scalarrepl -mem2reg -keep-read-access -instcombine -dce -promote-dbg-pointer -bitop-raise -loop-simplify -indvarspre -indvars -loop-simplify -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -simplifycfg -mem2reg -globalopt -global-constprop -deadargelim -instcombine -simplifycfg -prune-eh -simplifycfg -scalarrepl -instcombine -reassociate -licm -simplifycfg -loop-simplify -indvars -instcombine -simplifycfg -mem2reg -loop-simplify -indvars -instcombine -gvn -gvn -instcombine -adce -break-crit-edges -simplifycfg -loop-delete -global-array-opt -dce -dse -adce -find-syn-modules -top llr -deadargelim -mem2reg -instcombine -dce -presyn-prepare -auto-rom-infer -interface-preproc -syn-check -check-rec-only -find-region -simplifycfg -func-extr -function-inline -globaldce -mem2reg -instcombine -dce -gvn -globaldce -adce -adse -constprop -instcombine -bit-constprop -instcombine -dce -simplifycfg -bitop-raise -simplifycfg -dce -loop-delete -reassociate -globalopt -global-privatize -mem2reg -dce -global-constprop -pointer-simplify -constprop -dce -func-inst -deadargelim -auto-shift-reg-idiom -promote-dbg-pointer -norm-name /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/a.g.0.bc -o /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/a.g.1.bc -f -phase std-opt 
-INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:22 ; elapsed = 00:00:11 . Memory (MB): peak = 438.172 ; gain = 0.305 ; free physical = 525 ; free virtual = 6710
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:22 ; elapsed = 00:00:14 . Memory (MB): peak = 438.172 ; gain = 0.305 ; free physical = 2875 ; free virtual = 11811
 INFO: [HLS 200-10] Checking synthesizability ...
 INFO-FLOW: Checking Synthesizability 1/2..
 Execute         transform -hls -syn-check -check-rec-only -disaggr -scalarrepl -norm-name -dce -mem2reg -instcombine -function-uniquify -directive-preproc -mem2reg -dse -dce -auto-rom-infer -dce -pag -array-normalize -instcombine -dce -warn-fifo-pointer -array-seg-normalize -instcombine -dce -array-flatten -instcombine -dce -array-burst -dce -deadargelim -promote-global-argument -simplifycfg -mem2reg -globaldce -resolve-double-ptr -dce -deadargelim -dce -instcombine -function-inline -globaldce -dce -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -dse -adse -instcombine -ptrLegalization -simplifycfg -dce -instcombine -pointer-simplify -ptrArgReplace -dce -instcombine -disaggr -scalarrepl -norm-name -dce -mem2reg -instcombine -ptrLegalization -simplifycfg -deadargelim -instcombine -dce -inst-simplify -function-uniquify -directive-preproc -mem2reg -dse -dce -globaldce -check-dspbuiltin /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/a.g.1.bc -o /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/a.g.2.prechk.bc -f 
 INFO-FLOW: Checking Synthesizability 2/2..
 Execute         transform -syn-check /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/a.g.2.prechk.bc -o /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/a.g.2.bc -f -phase syn-check 
-INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:22 ; elapsed = 00:00:11 . Memory (MB): peak = 438.172 ; gain = 0.305 ; free physical = 518 ; free virtual = 6704
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:22 ; elapsed = 00:00:14 . Memory (MB): peak = 565.867 ; gain = 128.000 ; free physical = 2869 ; free virtual = 11805
 INFO-FLOW: Compiler optimizing ...
 INFO-FLOW: Share syncheck's 1.bc for syn flow: copy /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/a.g.1.bc to /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/a.o.1.bc
 INFO-FLOW: Presyn 1...
 Execute         transform -hls -tmp /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db -interface-port-rename -type-info -function-uniquify -directive-preproc -mem2reg -dse -dce -disaggr -scalarrepl -norm-name -deadargelim -mem2reg -instcombine -dce -simplifycfg -auto-rom-infer -dce -function-uniquify -resource-proc -simplifycfg -mem2reg -globaldce -resolve-double-ptr -dce -deadargelim -dce -instcombine -clib-intrinsic-prepare -dce -func-buffer -dce -pag -array-normalize -func-legal -instcombine -gvn -constprop -dce -ptrArgReplace -mem2reg -instcombine -dce -array-seg-normalize -deadargelim -instcombine -dce -pointer-simplify -dce -port-alignment -dce -interface-preproc -data-pack -instcombine -dce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -loop-simplify -indvars -instcombine -gvn -loop-simplify -mem2reg -dce -find-region -instcombine -auto-loop-pipeline -inst-simplify -interface-preproc -cfgopt -instcombine -indvars -auto-loop-unroll -loop-simplify -loop-bound -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -clean-region -attach-range -gvn -inst-simplify -constprop -simplifycfg -dce -pointer-simplify -dce -globalopt -constprop -dce -array-promote -constprop -instcombine -dce -ptrArgReplace -mem2reg -instcombine -simplifycfg -dce -auto-par -instcombine -dce -array-transform-check -array-reshape -instcombine -simplifycfg -dce -ptrArgReplace -deadargelim -mem2reg -instcombine -simplifycfg -dce -indvars -loop-simplify -loop-bound -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -duplicate-dataflow-processes -globaldce -instcombine -array-partition -instcombine -simplifycfg -dce -ptrArgReplace -global-constprop -deadargelim -mem2reg -func-legal -instcombine -dce -global-constprop -deadargelim -mem2reg -instcombine -simplifycfg -dce -merge-param -deadargelim -globalopt -constprop -dce -array-promote -constprop -instcombine -dce -ptrArgReplace -mem2reg -instcombine -simplifycfg -dce -mem-intrinsic-preproc -dce -global-internalize -global-privatize -mem2reg -globaldce -promote-global-argument -ptrArgReplace -mem2reg -instcombine -dce -globalopt -mergereturn -simplify-global-access -mem2reg -dce -pointer-simplify -dce -functionattrs -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -inst-simplify -dce -norm-name -function-inline -globaldce -func-inst -constprop -instcombine -simplifycfg -dce -func-legal -dce -loop-bound -arraycheck -bitwidthmin -on-by-dataflow -loop-delete -instcombine -simplifycfg -globaldce -dce -gvn -deadargelim -dce -loop-simplify -clean-region -simplifycfg -propagate-stable-arguments -loop-stream -instcombine -simplifycfg -dce -globaldce -duplicate-dataflow-processes -stream-intrinsic-preproc -dce -check-ap-stream -loop-simplify -eliminate-keepreads -extract-dataflow-in-loop -loop-simplify -dce -gvn -deadargelim -dse -check-dataflow-syntax -legalize-stream-variable -legalize-global -extract-subproc -dce -dead-channel-elimination -canonicalize-gep -globaldce -dce -gvn -deadargelim -annotate-dataflow-channels -scalar-propagation -deadargelim -globaldce -mem2reg -check-dataflow-channels -function-stream -dce -globaldce -prop-fifo-spec -internal-stream-gen -canonicalize-gep -globaldce -dce -gvn -deadargelim -mergereturn -indvars -loop-simplify -instcombine -array-stream -array-seg-normalize -array-partition -func-legal -instcombine -simplifycfg -dce -bundle-memfifo-ops -deadargelim -function-uniquify -directive-preproc -mem2reg -dse -dce -group-axi-access -licm -simplifycfg -dce -loop-delete -norm-name /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/a.o.1.bc -o /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/a.o.1.tmp.bc -f 
 INFO-FLOW: Presyn 2...
 Execute         transform -hls -keep-callgraph -scalarrepl -mem2reg -port-alignment -attach-range -dce -pipe-mux-gen -indvars -loop-bound -inst-simplify -instcombine -dce -merge-array-access -mem2reg -dce -clean-region -mergereturn -if-conv -instcombine -dce -constprop -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -scalarrepl -mem2reg -global-constprop -deadargelim -deadargelim -instcombine -dce -simplifycfg -ptrArgReplace -mem2reg -function-inline -globaldce -mem2reg -instcombine -dce -expr-balance -instcombine -dce -bitwidthmin -interface-preproc -directive-preproc -inst-rectify -instcombine -dce -functionattrs -constprop -instcombine -bit-constprop -simplify-global-access -globalopt -globaldce -inst-simplify -instcombine -elimdeaddata -dce -loop-delete -simplifycfg -loop-simplify -auto-burst -norm-name /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/a.o.1.tmp.bc -o /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/a.o.2.bc -f -phase presyn 
-INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:22 ; elapsed = 00:00:12 . Memory (MB): peak = 566.133 ; gain = 128.266 ; free physical = 493 ; free virtual = 6680
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:22 ; elapsed = 00:00:14 . Memory (MB): peak = 566.133 ; gain = 128.266 ; free physical = 2843 ; free virtual = 11781
 INFO-FLOW: Building ssdm...
 Execute         transform -hls -function-uniquify -auto-function-inline -globaldce -ptrArgReplace -mem2reg -instcombine -dce -reset-lda -loop-simplify -indvars -licm -loop-dep -loop-bound -licm -loop-simplify -flattenloopnest -array-flatten -gvn -instcombine -dce -array-map -dce -func-legal -gvn -adce -instcombine -cfgopt -simplifycfg -loop-simplify -array-burst -promote-global-argument -dce -axi4-lower -array-seg-normalize -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -gvn -gvn -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -dse -adse -adce -licm -inst-simplify -dce -globaldce -instcombine -array-stream -eliminate-keepreads -instcombine -dce -deadargelim -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -mem2reg -disaggr -norm-name -mem2reg -instcombine -dse -adse -adce -ptrLegalization -dce -auto-rom-infer -array-flatten -dce -instcombine -check-doubleptr -loop-rot -constprop -cfgopt -simplifycfg -loop-simplify -indvars -pointer-simplify -dce -loop-bound -loop-simplify -loop-preproc -constprop -global-constprop -gvn -mem2reg -instcombine -dce -loop-bound -loop-merge -dce -bitwidthmin -deadargelim -dce -canonicalize-dataflow -dce -scalar-propagation -deadargelim -globaldce -mem2reg -read-loop-dep -interface-preproc -directive-preproc -interface-gen -bram-byte-enable -deadargelim -inst-simplify -dce -gvn -mem2reg -instcombine -dce -adse -loop-bound -instcombine -cfgopt -simplifycfg -loop-simplify -clean-region -io-protocol -find-region -mem2reg -bitop-raise -inst-simplify -inst-rectify -instcombine -adce -deadargelim -loop-simplify -phi-opt -bitop-raise -cfgopt -simplifycfg -strip-dead-prototypes -interface-lower -bitop-lower -intrinsic-lower -auto-function-inline -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -inst-simplify -simplifycfg -loop-simplify -mergereturn -inst-simplify -inst-rectify -dce -load-elim -bitop-lower -loop-rewind -pointer-simplify -dce -cfgopt -dce -bitwidth -loop-bound -loop-dep -read-loop-dep -dce -check-stream -norm-name -legalize -validate-dataflow -inst-clarity -cdfg-build /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/a.o.2.bc -o /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/a.o.3.bc -f -phase build-ssdm 
-INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:22 ; elapsed = 00:00:12 . Memory (MB): peak = 566.133 ; gain = 128.266 ; free physical = 491 ; free virtual = 6679
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:22 ; elapsed = 00:00:14 . Memory (MB): peak = 566.133 ; gain = 128.266 ; free physical = 2841 ; free virtual = 11780
 INFO-FLOW: Finish building internal data model.
-Command       opt_and_import_c done; 0.96 sec.
-Command     elaborate done; 11.26 sec.
+Command       opt_and_import_c done; 1.01 sec.
+Command     elaborate done; 13.35 sec.
 Execute     autosyn -from_csynth_design=1 
 INFO: [HLS 200-10] Starting hardware synthesis ...
 INFO-FLOW: Synthesizing C/C++ design ...
@@ -220,8 +229,8 @@ Execute       set_default_model llr
 Execute       schedule -model llr 
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-Command       schedule done; 0.18 sec.
-INFO: [HLS 200-111]  Elapsed time: 11.78 seconds; current allocated memory: 82.225 MB.
+Command       schedule done; 0.11 sec.
+INFO: [HLS 200-111]  Elapsed time: 14.21 seconds; current allocated memory: 82.277 MB.
 Execute       report -o /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/llr.verbose.sched.rpt -verbose -f 
 INFO: [HLS 200-434] Only 0 loops out of a total 1 loops have been pipelined in this design.
 Execute       db_write -o /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/llr.sched.adb -f 
@@ -236,7 +245,7 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111]  Elapsed time: 0.12 seconds; current allocated memory: 82.489 MB.
+INFO: [HLS 200-111]  Elapsed time: 0.06 seconds; current allocated memory: 82.557 MB.
 Execute       report -o /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/llr.verbose.bind.rpt -verbose -f 
 Execute       db_write -o /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/llr.bind.adb -f 
 INFO-FLOW: Finish binding llr.
@@ -261,7 +270,7 @@ INFO: [RTGEN 206-500] Setting interface mode on port 'llr/dout_words_V_data_V' t
 INFO: [RTGEN 206-500] Setting interface mode on port 'llr/dout_words_V_tlast' to 'axis' (register, both mode).
 INFO: [RTGEN 206-500] Setting interface mode on function 'llr' to 'ap_ctrl_hs'.
 INFO: [RTGEN 206-100] Finished creating RTL model for 'llr'.
-INFO: [HLS 200-111]  Elapsed time: 0.04 seconds; current allocated memory: 83.406 MB.
+INFO: [HLS 200-111]  Elapsed time: 0.02 seconds; current allocated memory: 83.522 MB.
 Execute       source /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/llr.rtl_wrap.cfg.tcl 
 Execute       gen_rtl llr -istop -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o /home/shubham/HLS_Exercises/LLRGen/solution1/syn/systemc/llr -synmodules llr 
 Execute       gen_rtl llr -istop -style xilinx -f -lang vhdl -o /home/shubham/HLS_Exercises/LLRGen/solution1/syn/vhdl/llr 
@@ -395,17 +404,17 @@ Execute       get_config_sdx -profile
 Execute       ::config_rtl 
 INFO-FLOW: DBG:CMD: add_json_sdx_info kernel file does not exist: /home/shubham/HLS_Exercises/LLRGen/solution1/.autopilot/db/kernel.internal.xml
 INFO-FLOW: DBG:CMD:       delete-temp-dirs (skipped for debug)
-INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:23 ; elapsed = 00:00:12 . Memory (MB): peak = 566.133 ; gain = 128.266 ; free physical = 482 ; free virtual = 6677
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:22 ; elapsed = 00:00:15 . Memory (MB): peak = 566.133 ; gain = 128.266 ; free physical = 2835 ; free virtual = 11779
 INFO: [SYSC 207-301] Generating SystemC RTL for llr.
 INFO: [VHDL 208-304] Generating VHDL RTL for llr.
 INFO: [VLOG 209-307] Generating Verilog RTL for llr.
-Command     autosyn done; 0.88 sec.
+Command     autosyn done; 0.7 sec.
 Execute     get_part 
 Execute     get_config_export -sdx_tcl 
-Command   csynth_design done; 12.14 sec.
-Command ap_source done; 12.3 sec.
+Command   csynth_design done; 14.06 sec.
+Command ap_source done; 14.62 sec.
 Execute cleanup_all 
-INFO-FLOW: Workspace /home/shubham/HLS_Exercises/LLRGen/solution1 opened at Fri Mar 06 16:44:06 IST 2020
+INFO-FLOW: Workspace /home/shubham/HLS_Exercises/LLRGen/solution1 opened at Mon Mar 09 11:27:01 IST 2020
 Execute     config_clock -quiet -name default -period 10 -default=false 
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
 Execute     open_platform DefaultPlatform 
@@ -484,6 +493,8 @@ Execute       get_default_platform
 Execute     get_default_platform 
 Execute     config_chip_info -quiet -resource  {SLICE 34260} {LUT 274080}   {FF 548160}  {DSP48E 2520}  {BRAM 1824} {URAM 0}  
 Execute     config_chip_info -quiet -speed medium 
+Execute     config_export -format=ip_catalog 
+Execute     config_export -rtl=verilog 
 Command   open_solution done; 0.14 sec.
 Execute   export_design -rtl verilog -format ip_catalog 
 Execute     get_config_export -acc 
@@ -660,6 +671,6 @@ Execute         source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technolog
 Execute     source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/zynquplus/zynquplus_fpv7.gen 
 Execute       source /home/shubham/Xilinx2018.3/Vivado/2018.3/common/technology/xilinx/common/xilinx_fpv6.gen 
 INFO-FLOW: DBG:CMD:     exec /home/shubham/HLS_Exercises/LLRGen/solution1/impl/ip/pack.sh
-Command   export_design done; 26.33 sec.
-Command ap_source done; 26.47 sec.
+Command   export_design done; 7.04 sec.
+Command ap_source done; 7.18 sec.
 Execute cleanup_all 

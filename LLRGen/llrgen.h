@@ -40,7 +40,7 @@ void llr(hls::stream<d_in> dt, hls::stream<d_in> din, hls::stream<int> control, 
 		d_out_words dwords;
 		dwords.data=0x05;
 		dwords.tlast=1;
-		control.write(0);
+		control.write(0xfc000004);
 		din_words.write(words);
 		dout_words.write(dwords);
 		ap_int<8> t;

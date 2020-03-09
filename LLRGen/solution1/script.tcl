@@ -9,6 +9,7 @@ add_files LLRGen/.settings/llrgen.cpp
 open_solution "solution1"
 set_part {xczu9eg-ffvb1156-2-i} -tool vivado
 create_clock -period 10 -name default
+config_export -format ip_catalog -rtl verilog
 #source "./LLRGen/solution1/directives.tcl"
 #csim_design
 csynth_design
