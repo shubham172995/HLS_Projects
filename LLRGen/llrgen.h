@@ -27,12 +27,13 @@ struct d_out_words{
 	bool tlast;
 };
 
-void llr(hls::stream<d_in> dt, hls::stream<d_in> din, hls::stream<int> control, hls::stream<d_in_words > din_words, hls::stream<d_out_words> dout_words){
+void llr(hls::stream<d_in> dt, hls::stream<int> ctrl, hls::stream<d_in> din, hls::stream<int> control, hls::stream<d_in_words > din_words, hls::stream<d_out_words> dout_words){
 #pragma HLS INTERFACE axis register both port=dout_words
 #pragma HLS INTERFACE axis register both port=din_words
 #pragma HLS INTERFACE axis register both port=control
 #pragma HLS INTERFACE axis register both port=din
 #pragma HLS INTERFACE axis register both port=dt
+#pragma HLS INTERFACE axis register both port=ctrl
 		d_in dat, temp;
 		d_in_words words;
 		words.tlast=1;
@@ -40,14 +41,19 @@ void llr(hls::stream<d_in> dt, hls::stream<d_in> din, hls::stream<int> control, 
 		d_out_words dwords;
 		dwords.data=0x05;
 		dwords.tlast=1;
-		control.write(0xfc000004);
+		control.write(ctrl.read());
 		din_words.write(words);
 		dout_words.write(dwords);
-		ap_int<8> t;
+		ap_int<128> t;
 		temp=dt.read();
 		while(temp.data){
-			t=(temp.data&1)?0x7F:0x81;
-			temp.data>>=1;
+			t=0;
+			for(int i=0;i<16;i++){
+				t+=(temp.data&1)?0x7F:0x81;
+				temp.data>>=1;
+				if(i<15)
+					t<<=8;
+			}
 			if(temp.data==0)
 				dat.tlast=1;
 			else dat.tlast=0;
